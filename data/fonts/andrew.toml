@@ -1,0 +1,16 @@
+
+# Font style metadata
+name = "andrew"
+
+# Optional Google font URL
+google_fonts = "Roboto+Regular:300,400,500|Biryani:400|Abril+Fatface|Cutive+Mono|Josefin+Slab:300,400,600,700|Open+Sans:400,600,700,800|Raleway:300,400,500,600"
+
+# Font families
+heading_font = "Roboto"
+body_font = "Biryani"
+nav_font = "Biryani"
+mono_font = "Roboto"
+
+# Font size
+font_size = "18"
+font_size_small = "15"

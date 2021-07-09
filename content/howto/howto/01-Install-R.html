@@ -1,0 +1,54 @@
+---
+title: Installing R and RStudio
+linktitle: Install R + RStudio
+menu:
+  howto:
+    parent: How To
+    weight: 2
+toc: true
+type: docs
+weight: 2
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+<div id="TOC">
+
+</div>
+
+<div id="downlad-r" class="section level2">
+<h2>Downlad R</h2>
+<p>R can be downloaded from the Comprehensive R Archive Network (CRAN), a network of mirrored servers throughout the world that host the R software as well as user-developed packages. Visit <a href="https://cloud.r-project.org">https://cloud.r-project.org</a> which will automatically direct you to the best download server.</p>
+<p>Once here, you can then download and install R using the version that matches your operating system:</p>
+<p><img src="/howto/howto/01-Install-R_files/02_RDownload.png" /></p>
+<p>Go ahead and download R and install following the installer defaults. After R is downloaded and installed, run R to confirm. You should see a single window that looks something like this:</p>
+<p><img src="/howto/howto/01-Install-R_files/03_ROpen.png" />
+That’s it for R. This should be the first and last time you’ll need to open the R console directly. We typically will not access R directly, but instead will use RStudio as our primary interface. Go ahead and close the R console and proceed by downloading and installing RStudio, which is the IDE we will use to interface and write code with R.</p>
+</div>
+<div id="downlad-rstudio" class="section level2">
+<h2>Downlad RStudio</h2>
+<p>Next up, let’s download RStudio. Go to <a href="https://rstudio.com/products/rstudio/download">https://rstudio.com/products/rstudio/download</a>. Click on “Download” under RStudio Desktop. The website will suggest the most appropriate current version of the software based upon the computer you are loading RStudio on. You may also choose from an alternate installer if you believe it is more appropriate for your operating system.</p>
+<p>Download and install RStudio, again using the default installation settings.</p>
+<p>Once you have RStudio installed, open RStudio. You should see something that looks like this (the information in your console window will likely describe a newer version of R than what is displayed here).</p>
+<p><img src="/howto/howto/01-Install-R_files/04_RStudioOpen.png" /></p>
+<p>You’ll note that what appears in the portion of the console to the left looks very similar to the R console window which you opened before you started your install of RStudio. This console functions in exactly the same way, however, you’ll also note that there are other areas which you have access to as well.</p>
+<p><img src="/howto/howto/01-Install-R_files/05_RStudioOpenAnnotate.png" />
+## Rtools error (PC users)</p>
+<p>Some PC users may encounter an error message regarding Rtools not being installed. This would come up with you first try to install a package such as <code>tidyverse</code> either using R’s package manager or using the <code>install.packages()</code> command. To remedy this error if it occurs, PC users need to close R, manually download a patch, install it, and restart your computer. This error should then be remedied.</p>
+<p>If you are a PC user who encounters this error, please do the following:
+1. Save any work and close your RStudio session
+2. Download Rtools (<a href="https://cran.rstudio.com/bin/windows/Rtools/">download link</a>)
++ the link above contains instructions for putting Rtools on the PATH - you should not need to do this.
+3. Run the downloaded executable file to install Rtools
+4. Restart your computer
+5. Re-open RStudio - the problem should be resolved</p>
+</div>
+<div id="the-rstudio-interface" class="section level2">
+<h2>The RStudio Interface</h2>
+<ul>
+<li><strong>The R Console</strong> is the place where code you write is executed. Typically we’ll write code in a <em>script</em> or <em>R Notebook</em> (more on those later) and active pieces of code will them be executed in the R console. You can also type code directly into the console and execute it by hitting the return or enter key.</li>
+<li><strong>The Environment Window</strong> provides information on variables, data tables, and other objects you create and define as you work.</li>
+<li><strong>The Auxiliary Window</strong> provides a range of information, and includes a file browser, plot visualization window, and access to help documentation.</li>
+</ul>
+<p>With those basics in mind, you can start to explore the basic functionality of R.</p>
+</div>

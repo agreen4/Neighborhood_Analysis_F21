@@ -1,0 +1,168 @@
+---
+title: "Syllabus"
+output:
+  blogdown::html_page:
+    toc: true
+    fig_caption: false
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library (pander)
+```
+
+# Course Overview and Objectives
+
+This course teaches techniques for analyzing the demographic, economic, physical, and social conditions that exist at the neighborhood and local government scale. While our focus will be on analyzing current conditions, we will also learn how to tell stories about neighborhood change, and will learn how to project and forecast future trends. We will learn how to describe community characteristics with small area census data, work with local administrative data, and will think about how our analysis of quantitative data fit with other forms of data and engagement to fill in gaps in knowledge.
+
+By the end of this course, we will:
+
+1. Become familiar with common sources of information used to describe neighborhoods and neighborhood characteristics;
+2. Learn how to use [R](https://www.r-project.org), [RStudio](https://rstudio.com), and [Github](https://github.com) to create reproducible analysis of
+neighborhood-level information;
+3. Learn how to use the information to tell compelling stories for deliberation and decision-making;
+
+# Course Format and Expectations
+
+We will learn together using a combination of direct instruction, lab sessions, and tutorials. We will use reading and reflection to help us contextualize our understanding of neighborhoods, however, our focus will be on learning by doing. Our class will typically meet in person twice per week - tuesdays will typically be devoted to introducing new information and to having discussion, and thursdays will typically be devoted to labs and collaborative work.
+
+Please plan on bringing to class a computer that will run R and RStudio (available for PC/Mac/Linux) and for which you have administrative privileges. 
+
+## What to Expect from Me
+
+- **Office Hours and Availability:** I am generally accessible 9am to 5pm Monday to Friday, however I have research and administrative commitments in addition to teaching and advising during the work week.Please make an appointment to speak one-on-one using my [Calendly page](https://calendly.com/agreen4/neighborhood-analysis?back=1&month=2021-03) link for our class.
+- **Communicating:** The easiest way to communicate with me outside of class is via [email](mailto:agreen4@illinois.edu). I try to respond to emails sent during the week within 24 hours. Emails sent over the weekend will receive a response within 48 hours. If you don't hear from me after that amount of time elapses, it is okay to nudge me to respond.
+- **Troubleshooting:** You should feel welcome to use email and office hours to get help with troubleshooting problems as they arise in your work. The [Resources](/resource/#learning-r) page provides thoughts and resources for troubleshooting errors as they occur. I also encourage you to work with others in the class to troubleshoot problems - it is highly likely that others in the class have encountered similar problems, and this also allows us to create a repository of our problems and responses.
+
+## What I Expect from You
+
+- **Be Present:** I expect that you'll engage fully in our course sessions and in our class community.
+- **Actively Support Each Other:** I expect that each of you will take on individual leadership roles within our class, that includes actively supporting our learning community over the course of the semester.
+- **Read with Care:** This course focuses on learning by doing, however, there are important details contained within the documentation on our course website and within reading selections. As you will soon learn, *details matter* in this class. Be intentional about reading carefully and completely important course documents (including this syllabus).
+- **Act with Integrity:** I expect that you will act with integrity in all that you do in this class. The class contract grading system places a lot of trust in you to not just meet the nominal standards contained within the contract, but to *push yourself* to produce your best work.
+- **Seek Balance:** I expect that you'll actively work to find balance between the many demands in your life. This means finding time for adequate rest and sleep, exercise, and other actions that support your mental and physical health. This also means budgeting adequate time to engage fully in our course.
+
+## Prerequisites
+
+UP 494-AG: Neighborhood Analysis has no prerequisites aside from upper-level undergraduate or graduate-level standing. 
+
+- Students will benefit from some prior knowledge of urban planning concepts, and analytic techniques, although these can be learned along the way. 
+- Students will also benefit from some prior knowledge working in R and RStudio, however, this is also not a course prerequisite. 
+- The first few weeks of our class incorporate an accelerated schedule for learning R and RStudio to support your deeper learning of neighborhood analysis. Please plan your time accordingly. 
+
+Please *talk with me* if you have any questions regarding whether this course is right for you.
+
+# Assignments 
+
+You will find detailed information on assignments in the [Assignments](/assignments) section. 
+
+| Assignment | Due Date | Description |
+|-|-|-|
+| [Grading Contract](/assignments/#your-grading-contract) | February 5, 2021 | You will propose an individual grading contract by which you will be assessed this semester. |
+| [R Learner's Permit](/assignments/#r-learners-permit) | February 19, 2021  | You will demonstrate a basic understanding of the R programming language by completing the description of a dataset. |
+| [Class Reflections](/assignments/#class-reflections) | Ongoing | On a weekly basis, you will reflect upon questions related to our class and your work. |
+| [Polished Lab Notebooks](/assignments/#lab-notebook-extensions) | March 19, 2021 <br>April 21, 2021 | We will introduce new course material and analysis strategies via a series of lab notebooks. You will extend the work you have done in two of these notebooks and submit them for assessment. |
+| [Final Project Proposal](/assignments/#project-proposal) | March 5, 2021  | As part of your final project, you will submit an initial proposal regarding the topic, scope, and strategy for your final analysis. |
+| [Final Project Background](/assignments/#project-background) | March 26, 2021  | As part of your final project, you will submit project background that helps to describe your final analysis. |
+| [Final Project Presentation](/assignments/#project-presentation) | April 25, 2021  | As part of your final project graduate students will present their final projects in a 10-15 minute presentation. Undergraduate students may include a final project presentation as part of their contract.  |
+| [Final Project](/assignments/#final-project) | May 7, 2021  | You will complete an independent policy analysis on a topic of your choice and will submit it along with a repository containing your code and supporting materials. |
+
+# Evaluation and Grading Contract
+
+Alongside our learning of techniques and perspectives on working with small area data, a primary goal of this class is to learn to think critically about the ways in which those data and our analysis embody *power* and exist within *power relationships*. One implicit goal of our learning this semester is to embody through our work alternative ways to *share power* and *create meaning*. We will share power and authority for the evaluation of learning by establishing individualized grading contracts which will allow you to set many of the terms upon which your work is evaluated this semester. You will be held accountable to the standards you propose and we agree upon.
+
+We are using this approach for several reasons:
+
+1.    Implementing a contract-based assessment approach mirrors  course goals regarding our understanding and practice around the power of data, particularly with regards to public deliberation, decision-making, and governance. Dealing differently with power around evaluation in our classroom mirrors how we might deal with power and power relationships in professional practice.
+2.    A unitary assessment of performance in a 400-level class is not likely to serve students well. This class is open to advanced undergraduate students, masters students, and doctoral students - some who are pursuing degrees in planning and others who are not. Contracts will allow us to assess your work against your own goals and expectations.
+3.    There is increasing evidence in higher education settings that unitary grading measures tend to hamper individual learning, and have the potential to be biased towards certain types of students. Put simply, obsessing about grades in advanced coursework is counter-productive to deep learning. This course adheres to the pedagogy that when given more control and ownership over the terms of evaluation, a student is more likely to embrace the challenges presented to them within the classroom, and are more likely to take ownership of their work (see, for instance [Elbow](https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=1002&context=eng_faculty_pubs) and [Inoue](https://wac.colostate.edu/books/perspectives/labor/)).
+4.    We are attempting to learn together through a set of *extremely challenging* times. The impact of COVID-19 on your lives and your learning should not be discounted. The impact is also very individualized to each of your situations. A unitary grading standard would typically be strained to account for your circumstances.
+
+## Baseline Standards
+
+Each of you is expected to meet the following baseline standards. By doing so, you will earn a grade of "B". 
+
+- **Attend class regularly:** Show up for course sessions before or on time, be absent from no more than three course sessions over the course of the semester. If you are unable to be present due to illness or other extenuating circumstances, please let me know *before* the course session in which you are absent, and I will consider excusing the absent.  
+- **Participate actively:** In addition to showing up to class sessions on time, you are expected to make thoughtful and informed contributions to our class community. This includes coming to class prepared and having completed readings, reflections and assignments. This also includes thoughtful engagement with course material, asking and responding to questions, and helping other students learn course concepts.
+- **Submit work on time:** Your assignments have due dates. You are responsible for submitting your work by this date. Work submitted within 48 hours of the due date will be counted as *late*. Work submitted more than 48 hours after the due date will be considered *ignored*.
+
+## Expectation Summary
+
+The baseline contract standard in the class is a "B". You may customize your grading contract to contract for a grade between A and C (C, C+, B-, B, B+, A-, A). The below table will help you to propose accountability expectations:
+
+```{r grade_expectations, results="asis", echo=FALSE}
+g_points <- tribble(
+  ~ grade, ~ absences, ~late_a, ~missed_a, ~ignored_a,
+  "A", 3, 1, 0, 0,
+  "B", 3, 1, 0, 0,
+  "C", 4, 2, 1, 1,
+  "D", 5, 3, 2, 1,
+  "F", 6, 4, 3, 1
+)
+
+g_points %>%
+  pandoc.table(justify = "lllll",
+               col.names = c("Grade", "Absences", "Late", "Missed", "Ignored"))
+```
+
+- **Absences** indicate the number of times you are absent from class. Additional excused absences may be allowed due to documented extenuating circumstances.
+- **Late Assignments** are assignments submitted after a due date but within 48 hours of the due date.
+- **Missed Assignments** are assignments submitted more than 48 hours after the due date.
+- **Ignored Assignments** are assignments that are not submitted by the last day of class (excluding your final assignment). Ignored assignments are a more serious breach of contract than missed assignments as they reflect contracted work which you have not completed.
+
+Please note that assessment of these contracted standards are based upon *what you do*. The default contracted "B" grade does not include any direct assessment of the *quality* of your work.  As you design your personalized learning contract, you can use the above table to help you propose expectations in line with the final grade you wish to contract to receive.
+
+## Preparing your Contract
+
+Our grading system this semester focuses on capturing the consistent application of your labor towards our course goals. If you consistently submit your work as contracted, you'll receive a "B" at the end of the semester. Consequently, to contract for a higher (or lower) grade, you may commit yourself to applying more (or less) labor in support of course goals when you design your contract.
+
+{{% callout note %}}
+Please use the following [contract template](documents/UP494 S21 Learning Contract.docx) to construct your proposed learning contract for the semester.
+{{% /callout %}}
+
+# Honor Code
+
+The [Illinois Student Code](https://studentcode.illinois.edu) states: “It is the responsibility of the student to refrain from infractions of academic integrity, from conduct that may lead to suspicion of such infractions, and from conduct that aids others in such infractions.” Note that you are subject to the Honor Code, as well as procedures for addressing violations to the Code, regardless of whether you have read it and understand it. According to the Code, “ignorance is no excuse.”
+
+To meet this standard in this course, note the following: in written work, all ideas (as well as data or other information) that are not your own must be cited. Note that ideas that require citation may not have been published or written down anywhere. While you are free—and indeed encouraged—to discuss assignments with your peers, all of your analysis, and writing should be your own. The consequence for violating these expectations may include receiving no credit for the assignment in question, and may include automatic failure of the course.
+
+{{% callout warning %}}
+Put simply, don't cheat and give credit where credit is due.
+{{% /callout %}}
+
+
+# Learning Environment and Support
+
+**Learning Environment:** The [Department of Urban and Regional Planning](https://urban.illinois.edu) is committed to maintaining a learning environment that is rooted in the goals and responsibilities of professional planners. By enrolling in a class offered by the Department of Urban and Regional Planning, students agree to be responsible for maintaining an atmosphere of mutual respect in all activities, including lectures, discussions, labs, projects, and extracurricular opportunities. See [Student Code Article 1-Student Rights and Responsibilities, Part 1](https://studentcode.illinois.edu/article1/part1/1-101/). Student Rights: §1-102.
+
+**Counseling Center and Student Support:** Throughout the semester, you may need assistance coping with emotional, interpersonal, or academic concerns. The [Counseling Center](http://www.counselingcenter.illinois.edu) provides both short-term and longer-term counseling to students who may need assistance. Please do not hesitate to reach out or request assistance.
+
+# Your Wellness
+
+## Learning R and your Wellness
+
+Whether you have prior experience working in R or not, you *will* face challenges related to working with the software this semester. That's a given, and is an expected part of learning in this class. Part of the goal is to teach you how to understand the intentionality behind the software so that you can anticipate where errors are likely to occur.
+
+{{% callout note %}}
+The only way to do this, is to encounter errors -  and there will be many!
+{{% /callout %}}
+
+You are learning a new language, it's grammar, and its application. While this will be frustrating at times, there is a major payoff in the capacity you will gain in analytic skills and problem-solving. This payoff will come slowly over time - do not expect it to come easily.
+
+```{r echo=FALSE}
+blogdown::shortcode("figure", src = "images/debugging.jpg", caption = "Image by [Allison Horst](https://github.com/allisonhorst/stats-illustrations)", type="Markdown")
+```
+
+You are not alone in this struggle. In addition to your classmates and others who are going through the same thing, there is a large R user community, and lots of existing documentation and troubleshooting on sites like [Stack Overflow](https://stackoverflow.com) and [RStudio Community](https://community.rstudio.com). Any problem you will encounter has likely been encountered and addressed before. 
+
+{{% callout note %}}
+When I run into an error, after an initial check for simple issues like closing parentheses and spelling errors, I copy and paste error codes directly into a web search to see how others have dealt with similar problems. I encourage you to do the same.
+{{% /callout %}}
+
+You got this, and there will be a payoff, so long as you use the tools consistently - I *promise*!
+
+## Covid and your Wellness
+
+We've been living in particularly abnormal times for the last year and a half - while for many, things are improving substantially, it would be irresponsible to expect that teaching and learning would occur "normally" even at this stage of recovery. We continue to teach and learn under emergency circumstances amidst a global pandemic.
+
+As you face challenges this semester (and beyond) I need you to *communicate with me*, either during our course sessions or individually. You can schedule an appointment with me at your convenience via my [Calendly page](https://calendly.com/agreen4/neighborhood-analysis). I promise to listen, to be a resource, and to help in any way that I can - if I can't help you, I will find someone who can.

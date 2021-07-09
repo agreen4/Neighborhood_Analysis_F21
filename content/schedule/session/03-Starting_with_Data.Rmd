@@ -1,0 +1,78 @@
+---
+linktitle: "3 Starting With Data"
+menu:
+  session:
+    parent: Course Sessions
+    weight: 3
+title: 'Session 3: Starting With Data'
+toc: true
+type: docs
+weight: 3
+---
+
+## Session Description
+
+In this session, we'll take our first foray into the R and RStudio ecosystem. We'll begin to explore data types, how to describe data, and how R can help us manipulate data.
+
+```{r echo=FALSE}
+blogdown::shortcode("figure", src = "/schedule/session/03-Starting_with_Data_files/r_first_then.png", caption = "Image by [Allison Horst](https://github.com/allisonhorst/stats-illustrations)", type="Markdown")
+```
+
+
+## This Week's Reflection Prompt
+
+- What are the challenges associated with representing neighborhoods quantitatively?
+- What are the benefits of using quantitative data to represent neighborhoods?
+- What can we learn? What is likely to be missed?
+
+## Before Class
+
+Please make sure you have R, RStudio, and GitHub Desktop installed on your computer, and that you have set up and registered the GitHub repository in which you will store your work this semester. Instructions are available in the [How To](/howto) section.
+
+Healy, Kieran. (2019). Data Visualization: A Practical Introduction. Princeton: Princeton University Press. ([Preface](https://uofi.box.com/s/o2vk802ig5bqggdz3iks21cqo5jv0hsk) and [Chapter 2](https://uofi.box.com/s/3ex015jd082iyza1z9su2a6yysnihg8n))
+ 
+Data Carpentry ([Before We Start](https://datacarpentry.org/R-ecology-lesson/00-before-we-start.html), [Intro to R](https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html), [Starting with Data](https://datacarpentry.org/R-ecology-lesson/02-starting-with-data.html))
+
+## Slides
+
+## Other Resources
+
+This lab will serve as your initial introduction to the R programming language and RStudio development environment. There are two lab notebooks for this week - today's, which introduces a few general principles of the R programming language and interface, and one for Session 4 which introduces more advanced data manipulation tools contained in the `dplyr` package. We will adjust the speed at which we work based upon your feedback and how things go this week. After that, most labs will be introduced on Tuesdays and we will continue working in the same lab notebook on Thursday.
+
+### Lab Download
+
+1. Please [download the lab files](/schedule/session/03-Starting_with_Data_files/Session 3 Lab.zip).
+2. Once downloaded and decompressed, click on the "Session 3 Lab.Rproj" file. R will open, but nothing will (seem to) happen.
+3. In the R file browser (lower right quadrant), open the "Session 3 Workbook Blank.Rmd" file. You can start following the instructions contained within the file. (To make things easier to read, you may want to hit the "Knit: button, which will produce an html file you can open in any browser.)
+4. When you're done, have a look at the "Session 3 Workbook Solutions.Rmd" file, which shows you my answers to the work in this lab. Note - I encourage you to take a look when you need to, but there is NO good reason to rush to answers as opposed to learning through doing and thinking through the problems you are presented with.
+
+### Lab Goals
+
+ By the end of this lab, you should be familiar with:
+ 
+ - The RStudio console and R language
+ - R data types and structures
+ - Basic data manipulation and querying
+
+### Lab Description
+For new users, R can be an intimidating programming language to learn, especially compared to other popular data analysis tools:
+
+```{r Learning_Curve, echo=FALSE}
+blogdown::shortcode("figure", src = "/schedule/session/03-Starting_with_Data_files/1_LearningCurve.png", caption = "Learning Curves for Popular Data Analysis Tools, [Leah A. Wasser](https://nceas.github.io/oss-lessons/spatial-data-gis-law/1-mon-spatial-data-intro.html)", type="Markdown")
+```
+
+At the same time, there are some really good reasons to gain familiarity with R and RStudio, particularly within the context of urban planning analysis.
+
+- R and RStudio are open source tools, and are therefore available to be downloaded and used without cost (this does not negate questions regarding *accessibility* of the language, given its steep learning curve)
+- R and RStudio are supported by a wide range of users who develop packages for specific use cases, including those that are useful for urban planning analysis (we will spend more time learning about packages later in this lab)
+- R and RStudio provide a framework for reproducible data manipulation and analysis - rather than sharing output with others, we can share raw data and code and they can reproduce our output
+- Principles of reproducible analysis make it easy to modify previous code for new data or use cases
+
+Thinking about the type of analysis we will do in this class, there are some additional rationales for learning and working in R and RStudio:
+
+- R has a powerful set of functions for aggregating and manipulating many data records into a smaller number of summary records - we use these types of functions frequently to summarize neighborhood characteristics
+- R can natively read from and write to many types of data sources - this allows us to perform most or all of our analysis within a single applcation rather than passing data between applications for different types of manipulation or analysis
+- R can help us to automate elements of data visualization, which can be useful when we need to reproduce forms of analysis for different places or other data categories
+- Looking beyond the reasons to use R and RStudio as a platform for analysis, these tools represent one of several programming languages frequently used for data science (the other main language being Python) - learning these langugages prepares you for future interface with other data science tools and strategies
+
+With the basic rationale laid out, let's start exploring the logic behind the R language.
