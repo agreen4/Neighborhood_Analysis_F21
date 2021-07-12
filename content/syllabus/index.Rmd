@@ -20,11 +20,11 @@ By the end of this course, we will:
 1. Become familiar with common sources of information used to describe neighborhoods and neighborhood characteristics;
 2. Learn how to use [R](https://www.r-project.org), [RStudio](https://rstudio.com), and [Github](https://github.com) to create reproducible analysis of
 neighborhood-level information;
-3. Learn how to use the information to tell compelling stories for deliberation and decision-making;
+3. Learn how to work collaboratively to tell compelling stories for deliberation and decision-making;
 
 # Course Format and Expectations
 
-We will learn together using a combination of direct instruction, lab sessions, and tutorials. We will use reading and reflection to help us contextualize our understanding of neighborhoods, however, our focus will be on learning by doing. Our class will meet in person twice per week - Tuesdays will typically be devoted to introducing and discussing new information, and Thursdays will typically be devoted to labs and collaborative work.
+We will learn together using a combination of direct instruction, lab sessions, and tutorials. We will use reading and reflection to help us contextualize our understanding of neighborhoods, however, our focus will be on *learning by doing.* Our class will meet in person twice per week - Tuesdays will typically be devoted to introducing and discussing new information, and Thursdays will typically be devoted to labs and collaborative work.
 
 Please plan on bringing to class a computer that will run R and RStudio (available for PC/Mac/Linux) and for which you have administrative privileges. 
 
@@ -37,7 +37,7 @@ Please plan on bringing to class a computer that will run R and RStudio (availab
 ## What I Expect from You
 
 - **Be Present:** I expect that you'll engage fully in our course sessions and in our class community.
-- **Actively Support Each Other:** I expect that each of you will take on individual leadership roles within our class, that includes actively supporting our learning community over the course of the semester.
+- **Actively Support Each Other:** I expect that each of you will take on individual leadership roles within our class, that includes actively supporting our learning community over the course of the semester. This class assumes collaboration and sharing as part of our learning model.
 - **Read with Care:** This course focuses on learning by doing, however, there are important details contained within the documentation on our course website and within reading selections. *Details matter* in this class - be intentional about reading carefully and completely important course documents (including this syllabus).
 - **Act with Integrity:** I expect that you will act with integrity in all that you do in this class. The class contract grading system places trust in you to not just meet the nominal standards contained within the contract, but to *push yourself* to produce your best work.
 - **Seek Balance:** I expect that you'll actively work to find balance between the many demands in your life. This means budgeting adequate time to engage fully in our course but also budgeting time for adequate rest and sleep, exercise, and other actions that support your mental and physical health.
@@ -119,7 +119,7 @@ Please note that assessment of these contracted standards are based upon *what y
 Our grading system this semester focuses on capturing the consistent application of your labor towards our course goals. If you consistently submit your work as contracted, you'll receive a "B" at the end of the semester. Consequently, to contract for a higher (or lower) grade, you may commit yourself to applying more (or less) labor in support of course goals when you design your contract.
 
 {{% callout note %}}
-Please use the following [contract template](documents/UP494 S21 Learning Contract.docx) to construct your proposed learning contract for the semester.
+Please use the following [contract template](documents/UP494 F21 Learning Contract.docx) to construct your proposed learning contract for the semester.
 {{% /callout %}}
 
 # Honor Code
