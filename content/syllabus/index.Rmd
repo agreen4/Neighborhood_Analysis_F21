@@ -24,23 +24,23 @@ neighborhood-level information;
 
 # Course Format and Expectations
 
-We will learn together using a combination of direct instruction, lab sessions, and tutorials. We will use reading and reflection to help us contextualize our understanding of neighborhoods, however, our focus will be on learning by doing. Our class will typically meet in person twice per week - tuesdays will typically be devoted to introducing new information and to having discussion, and thursdays will typically be devoted to labs and collaborative work.
+We will learn together using a combination of direct instruction, lab sessions, and tutorials. We will use reading and reflection to help us contextualize our understanding of neighborhoods, however, our focus will be on learning by doing. Our class will meet in person twice per week - Tuesdays will typically be devoted to introducing and discussing new information, and Thursdays will typically be devoted to labs and collaborative work.
 
 Please plan on bringing to class a computer that will run R and RStudio (available for PC/Mac/Linux) and for which you have administrative privileges. 
 
 ## What to Expect from Me
 
-- **Office Hours and Availability:** I am generally accessible 9am to 5pm Monday to Friday, however I have research and administrative commitments in addition to teaching and advising during the work week.Please make an appointment to speak one-on-one using my [Calendly page](https://calendly.com/agreen4/neighborhood-analysis?back=1&month=2021-03) link for our class.
+- **Office Hours and Availability:** Please make an appointment to speak one-on-one using my [Calendly page](https://calendly.com/agreen4/neighborhood-analysis?back=1&month=2021-03) link for our class. Of course, I'm also happy to chat either before or after our class.
 - **Communicating:** The easiest way to communicate with me outside of class is via [email](mailto:agreen4@illinois.edu). I try to respond to emails sent during the week within 24 hours. Emails sent over the weekend will receive a response within 48 hours. If you don't hear from me after that amount of time elapses, it is okay to nudge me to respond.
-- **Troubleshooting:** You should feel welcome to use email and office hours to get help with troubleshooting problems as they arise in your work. The [Resources](/resource/#learning-r) page provides thoughts and resources for troubleshooting errors as they occur. I also encourage you to work with others in the class to troubleshoot problems - it is highly likely that others in the class have encountered similar problems, and this also allows us to create a repository of our problems and responses.
+- **Troubleshooting:** You should feel welcome to use email and office hours to get help with troubleshooting problems as they arise in your work. The [Resources](/resource/#learning-r) page provides thoughts and resources for troubleshooting. I also encourage you to work with others in the class to troubleshoot problems - it is highly likely that others in the class have encountered similar problems, and this also allows us to create a repository of our problems and responses.
 
 ## What I Expect from You
 
 - **Be Present:** I expect that you'll engage fully in our course sessions and in our class community.
 - **Actively Support Each Other:** I expect that each of you will take on individual leadership roles within our class, that includes actively supporting our learning community over the course of the semester.
-- **Read with Care:** This course focuses on learning by doing, however, there are important details contained within the documentation on our course website and within reading selections. As you will soon learn, *details matter* in this class. Be intentional about reading carefully and completely important course documents (including this syllabus).
-- **Act with Integrity:** I expect that you will act with integrity in all that you do in this class. The class contract grading system places a lot of trust in you to not just meet the nominal standards contained within the contract, but to *push yourself* to produce your best work.
-- **Seek Balance:** I expect that you'll actively work to find balance between the many demands in your life. This means finding time for adequate rest and sleep, exercise, and other actions that support your mental and physical health. This also means budgeting adequate time to engage fully in our course.
+- **Read with Care:** This course focuses on learning by doing, however, there are important details contained within the documentation on our course website and within reading selections. *Details matter* in this class - be intentional about reading carefully and completely important course documents (including this syllabus).
+- **Act with Integrity:** I expect that you will act with integrity in all that you do in this class. The class contract grading system places trust in you to not just meet the nominal standards contained within the contract, but to *push yourself* to produce your best work.
+- **Seek Balance:** I expect that you'll actively work to find balance between the many demands in your life. This means budgeting adequate time to engage fully in our course but also budgeting time for adequate rest and sleep, exercise, and other actions that support your mental and physical health.
 
 ## Prerequisites
 
@@ -56,16 +56,18 @@ Please *talk with me* if you have any questions regarding whether this course is
 
 You will find detailed information on assignments in the [Assignments](/assignments) section. 
 
+
 | Assignment | Due Date | Description |
 |-|-|-|
-| [Grading Contract](/assignments/#your-grading-contract) | February 5, 2021 | You will propose an individual grading contract by which you will be assessed this semester. |
-| [R Learner's Permit](/assignments/#r-learners-permit) | February 19, 2021  | You will demonstrate a basic understanding of the R programming language by completing the description of a dataset. |
-| [Class Reflections](/assignments/#class-reflections) | Ongoing | On a weekly basis, you will reflect upon questions related to our class and your work. |
-| [Polished Lab Notebooks](/assignments/#lab-notebook-extensions) | March 19, 2021 <br>April 21, 2021 | We will introduce new course material and analysis strategies via a series of lab notebooks. You will extend the work you have done in two of these notebooks and submit them for assessment. |
-| [Final Project Proposal](/assignments/#project-proposal) | March 5, 2021  | As part of your final project, you will submit an initial proposal regarding the topic, scope, and strategy for your final analysis. |
-| [Final Project Background](/assignments/#project-background) | March 26, 2021  | As part of your final project, you will submit project background that helps to describe your final analysis. |
-| [Final Project Presentation](/assignments/#project-presentation) | April 25, 2021  | As part of your final project graduate students will present their final projects in a 10-15 minute presentation. Undergraduate students may include a final project presentation as part of their contract.  |
-| [Final Project](/assignments/#final-project) | May 7, 2021  | You will complete an independent policy analysis on a topic of your choice and will submit it along with a repository containing your code and supporting materials. |
+| [Grading Contract](assignments/01_grading_contract/) | | You will propose an individual grading contract by which you will be assessed this semester. |
+| [Concept Check-Ins]() | Ongoing |On a weekly basis, you will complete an interactive concept check-in that will provide you feedback on your understanding of new course concepts.|
+| [Lab Notebooks](assignments/04_lab_notebooks/) | Ongoing | On a weekly basis, you will complete short notebooks in class that are designed to help you learn new analytical concepts, approaches, and datasets. |
+| [Place Selection Memorandum]() | | You will select a place which your analysis will focus on over the course of the semester. In this memo, you will describe the basic characteristics of your place, and provide some initial thoughts on avenues for further analysis and exploration. |
+| [Place Background Memorandum]() || You will develop a deeper background study on your place by looking at existing analyses and policy questions in your place. Using these, you will develop a preliminary storyboard that will guide your subsequent analysis. |
+| [Population Memorandum]() || You will analyze population characteristics and distribution and prepare a memorandum that summarizes your analysis. |
+| [Policy Analysis Memorandum]() || You will analyze the impact of an existing or proposed policy on the neighborhoods present in your place, and will prepare a memorandum that summarizes your analysis. |
+| [Final Analysis]() || You will combine elements of your population memorandum and policy memorandum to produce a final place analysis. |
+
 
 # Evaluation and Grading Contract
 
