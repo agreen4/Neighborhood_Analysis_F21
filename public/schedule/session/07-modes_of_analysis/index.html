@@ -1,0 +1,1088 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.2.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Nelson Bighetti" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Session Description In this session, we’ll take a step back from the nuts and bolts of our R training and will examine modes of neighborhood analysis.
+ This Week’s Reflection Prompt  What types of questions do you have about the structure and function of neighborhoods?" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="/schedule/session/07-modes_of_analysis/" />
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+
+    
+    
+
+    
+    
+    
+      
+    
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Regular:300,400,500%7CBiryani:400%7CAbril+Fatface%7CCutive+Mono%7CJosefin+Slab:300,400,600,700%7COpen+Sans:400,600,700,800%7CRaleway:300,400,500,600&display=swap">
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.7543bf421dc036ae8fbee9a5b74f4658.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/index.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_2.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_2.png" />
+
+  <link rel="canonical" href="/schedule/session/07-modes_of_analysis/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary" />
+  
+    <meta property="twitter:site" content="@@urbprof" />
+    <meta property="twitter:creator" content="@@urbprof" />
+  
+  <meta property="og:site_name" content="Neighborhood Analysis" />
+  <meta property="og:url" content="/schedule/session/07-modes_of_analysis/" />
+  <meta property="og:title" content="Session 7: Modes of Neighborhood Analysis | Neighborhood Analysis" />
+  <meta property="og:description" content="Session Description In this session, we’ll take a step back from the nuts and bolts of our R training and will examine modes of neighborhood analysis.
+ This Week’s Reflection Prompt  What types of questions do you have about the structure and function of neighborhoods?" /><meta property="og:image" content="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png" />
+    <meta property="twitter:image" content="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="en-us" />
+  
+    
+    
+  
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Session 7: Modes of Neighborhood Analysis | Neighborhood Analysis</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="831e701991286b58022099992cf41566" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Neighborhood Analysis</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Neighborhood Analysis</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/syllabus"><span>Syllabus</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/schedule"><span>Schedule</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/assignments"><span>Assignments</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/howto"><span>How To</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/resource"><span>Resources</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+  
+    
+  
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Search..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+
+  
+  
+  
+    
+  
+
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/schedule/">Overview</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/schedule/session/01-course_introduction/">Course Sessions</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/schedule/session/01-course_introduction/">1 Course Introduction</a>
+      </li>
+
+      
+      <li >
+        <a href="/schedule/session/02-what_is_a_neighborhood/">2 What is a Neighborhood?</a>
+      </li>
+
+      
+      <li >
+        <a href="/schedule/session/03-starting_with_data/">3 Starting With Data</a>
+      </li>
+
+      
+      <li >
+        <a href="/schedule/session/04-manipulating_data/">4 Manipulating Data</a>
+      </li>
+
+      
+      <li >
+        <a href="/schedule/session/05-visualizing_data_pt1/">5 Visualizing Data 1</a>
+      </li>
+
+      
+      <li >
+        <a href="/schedule/session/06-visualizing_data_pt2/">6 Visualizing Data 2</a>
+      </li>
+
+      
+      <li class="active">
+        <a href="/schedule/session/07-modes_of_analysis/">7 Modes of Analysis</a>
+      </li>
+
+      
+      <li >
+        <a href="/schedule/session/08-modes_of_analysis_pt2/">8 Modes of Analysis 2</a>
+      </li>
+
+      
+      <li >
+        <a href="/schedule/session/09-population_pt1/">9 Population 1</a>
+      </li>
+
+      
+      <li >
+        <a href="/schedule/session/10-population_pt2/">10 Population 2</a>
+      </li>
+
+      
+      <li >
+        <a href="/schedule/session/11-population_projection_pt1/">11 Forecasting 1</a>
+      </li>
+
+      
+      <li >
+        <a href="/schedule/session/12-population_projection_pt2/">12 Forecasting 2</a>
+      </li>
+
+      
+      <li >
+        <a href="/schedule/session/13-population_segregation_pt1/">13 Segregation 1</a>
+      </li>
+
+      
+      <li >
+        <a href="/schedule/session/14-population_segregation_pt2/">14 Segregation 2</a>
+      </li>
+
+      
+      <li >
+        <a href="/schedule/session/15-individual_advising_pt1/">15 Individual Advising</a>
+      </li>
+
+      
+      <li >
+        <a href="/schedule/session/16-individual_advising_pt2/">16 Individual Advising</a>
+      </li>
+
+      
+      <li >
+        <a href="/schedule/session/17-place_opportunity_pt1/">17 Place Opportunity 1</a>
+      </li>
+
+      
+      <li >
+        <a href="/schedule/session/18-place_opportunity_pt2/">18 Place Opportunity 2</a>
+      </li>
+
+      
+      <li >
+        <a href="/schedule/session/19-crime_incarceration_pt1/">19 Crime 1</a>
+      </li>
+
+      
+      <li >
+        <a href="/schedule/session/20-crime_incarceration_pt2/">20 Crime 2</a>
+      </li>
+
+      
+      <li >
+        <a href="/schedule/session/21-covid_cases_pt1/">21 Eviction 1</a>
+      </li>
+
+      
+      <li >
+        <a href="/schedule/session/22-covid_cases_pt2/">22 Eviction 2</a>
+      </li>
+
+      
+      <li >
+        <a href="/schedule/session/23-independent_work/">23 Independent Work</a>
+      </li>
+
+      
+      <li >
+        <a href="/schedule/session/24-covid_cases_pt3/">24 Eviction 3</a>
+      </li>
+
+      
+      <li >
+        <a href="/schedule/session/25-individual_advising_pt1/">25 Independent Work</a>
+      </li>
+
+      
+      <li >
+        <a href="/schedule/session/26-individual_advising_pt2/">26 Independent Work</a>
+      </li>
+
+      
+      <li >
+        <a href="/schedule/session/27-final_presentations_pt1/">27 Final Presentations</a>
+      </li>
+
+      
+      <li >
+        <a href="/schedule/session/28-final_presentations_pt2/">28 Final Presentations</a>
+      </li>
+
+      
+      <li >
+        <a href="/schedule/session/29-final_presentations_pt3/">29 Course Wrap-Up</a>
+      </li>
+
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      
+
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article">
+
+        <div class="docs-article-container">
+          <h1>Session 7: Modes of Neighborhood Analysis</h1>
+
+          <div class="article-style">
+            
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+<div id="TOC">
+
+</div>
+
+<div id="session-description" class="section level2">
+<h2>Session Description</h2>
+<p>In this session, we’ll take a step back from the nuts and bolts of our R training and will examine modes of neighborhood analysis.</p>
+</div>
+<div id="this-weeks-reflection-prompt" class="section level2">
+<h2>This Week’s Reflection Prompt</h2>
+<ul>
+<li>What types of questions do you have about the structure and function of neighborhoods?</li>
+<li>What forms of analysis do you see as being useful to your own work?</li>
+<li>What types of analytic approaches do you see as being useful to your own work?</li>
+</ul>
+</div>
+<div id="before-class" class="section level2">
+<h2>Before Class</h2>
+<p>Hopkins <a href="https://uofi.box.com/s/cdx047l4xxte8xrjhhlp0iv88fe9nz4p">Chapter 1</a> and <a href="https://uofi.box.com/s/9fl1i4z0hmh7m9x9ngbdp2a8irstjtbu">Chapter 4</a></p>
+<p>Lynch, Kevin (1960). The Image of the City. <a href="https://uofi.box.com/s/j26a825opr1hgfi84b7ag27hy83r358p">Chapter 3</a></p>
+<p><a href="https://uofi.box.com/s/2vo0si7jk24kqylkxgmy8vv44fksifl2">Denver Far Northeast Area Plan</a></p>
+<p><a href="https://uofi.box.com/s/onyvjulnuzarsq8yfha7jjeb9mkh7p7z">E. 38th Street Urban Design Assessment</a></p>
+</div>
+<div id="slides" class="section level2">
+<h2>Slides</h2>
+</div>
+<div id="other-resources" class="section level2">
+<h2>Other Resources</h2>
+<div id="activity-prompt" class="section level3">
+<h3>Activity Prompt</h3>
+<p>Early in the class, we spent time talking about some ways to describe the essential characteristics of neighborhoods. We now also have some foundational data manipulation skills in hand. It’s time to start thinking about how we might bring together our conceptual understanding of neighborhoods with some of our increased knowledge about data and types of description.</p>
+<p>For today’s class session, you also read a diverse range of materials designed to help you think through some of the different ways we use information to tell stories about neighborhoods and within planning more generally.</p>
+<p>Let’s try to bring these things together in a collaborative exercise.</p>
+<p>As you’ll recall, last week, we took a look at a series of maps for Chicago zip codes that described who is dying from SARS-CoV19 and who is vaccinated:</p>
+<p><blockquote class="twitter-tweet"><p lang="en" dir="ltr">As of February 15, 2021, Chicago is reporting 91,999 people fully vaccinated: 3.3% of the population.<br><br>Who is dying:           Who is vaccinated: <a href="https://t.co/fEM00ZSZir">pic.twitter.com/fEM00ZSZir</a></p>&mdash; ChiVaxBot (@ChiVaxBot) <a href="https://twitter.com/ChiVaxBot/status/1361495870416580608?ref_src=twsrc%5Etfw">February 16, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</p>
+<p>As this information circulates amongst groups throughout the city and region, many groups seek to respond and to produce information that will help their constituents.</p>
+<p>You will divide into four groups (breakout rooms) who have a vested interest in understanding better the implications of SARS-CoV-19 vaccinations and death rates for their constituents:</p>
+<p><em>Austin Neighbors United</em> - a (fictitious) Neighborhood Group in Chicago’s Austin neighborhood focused on improving the quality of life for local residents:</p>
+<p><em>City of Chicago</em> - a task force assembled by the Mayor to focus on neighborhood health and wellbeing during the SARS-CoV19 Pandemic.</p>
+<p><em>Chicago Council of Small Business Owners</em> - a (fictitious) advocacy group focused on the needs of home-based businesses and businesses with fewer than 20 employees throughout the city.</p>
+<p><em>Metropolitan Planning Council</em> - an independent regional organization focused on shaping a more equitable, sustainable, and prosperous Chicago region through research and policy development.</p>
+<p>Working together, prepare a short (5 minute) presentation that engages with the following prompts:</p>
+<ol style="list-style-type: decimal">
+<li><p><em>Interest</em>: Articulate why your organization or group is interested in the relationship between COVID deaths and vaccinations. Aside from there being potential major equity issues (as we’ve talked about in the past), why specifically would your constituents be concerned? How would this influence the work of your organization?</p></li>
+<li><p><em>Questions</em>: Articulate 2 to 4 specific questions which build upon your knowledge of what these maps show and that help to engage your organization’s interest.</p></li>
+<li><p><em>Scale</em>: What is the geographic and temporal scale at which these questions need to be answered? What are the trade-offs involved with engaging at this scale versus alternatives?</p></li>
+<li><p><em>Key Measures</em>: Describe 2-3 key measures which will be important for your work. Research where the information will come from that constitutes these measures, their availability at the scale you wish to work at, and identify tradeoffs between these measures and alternatives. What’s the precedent for the use of these measures?</p></li>
+<li><p><em>Key Analyses</em>: Describe 2-3 key analyses which you will perform in order to engage with the questions you have identified.</p></li>
+<li><p><em>Visual Outputs</em>: Describe at least one visual output associated with each of your analyses. If you have time, prepare a rough sketch of what each output might look like conceptually, and prepare to share it.</p></li>
+<li><p><em>Overall Outputs and Communications Plan</em>: How will you share the information from your analyses with your constituents? How do you anticipate they will make use of it? How will you ensure that it is accessible and reproducible for others?</p></li>
+</ol>
+<p>As a group, spend around 30 minute thinking through these aspects of your analysis. We will then return to plenary, and each group will spend 5 minutes presenting and will also have 5 minutes for discussion and conversation.</p>
+</div>
+</div>
+
+          </div>
+
+          
+
+
+
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Last updated on Jan 1, 0001</p>
+
+          
+
+
+
+          
+
+
+
+
+          
+
+
+
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Made with <a href="https://github.com/agreen4/Neighborhood_Analysis_S21" target="_blank" rel="noopener"><i class="fas fa-code-branch"></i></a>, the <a href="https://cran.r-project.org/" target="_blank" rel="noopener"><i class="fab fa-r-project"></i> </a><a href="https://github.com/rstudio/blogdown" target="_blank" rel="noopener">blogdown</a> package, and the 
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+    </main>
+  </div>
+</div>
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js" integrity="sha512-I7w3ZdSFzw5j3jU3ZkNikBNeIrl3i+hEuEdwNmqUJvwNcaBUNcijnP2gd9DtGlgVYDplfjGoD8vTNsID+lCjqg==" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    <script src="/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.7a65735fc5b6f46dc5d485305a645519.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>
