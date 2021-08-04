@@ -26,25 +26,19 @@ In our first course session, we will introduce ourselves and discuss some of the
 
 Please read the [course syllabus](/syllabus) and bring questions with you.
 
-If you haven't already, please complete the [course introductory survey](https://forms.illinois.edu/sec/1174889502).
+If you haven't already, please complete the [course introductory survey](https://forms.illinois.edu/sec/1008112120).
 
 ## Slides
 
-```{r embed-xaringan, echo=FALSE}
-xaringanExtra::embed_xaringan(url = "/slides/Session_1/Session-1.html", ratio = "16:9")
+```{r, echo=FALSE}
+knitr::include_url("/schedule/01_Course_Introduction/Session-1.html")
 ```
 
 ## Other Resources and Actions
 
 #### Download and Install R and RStudio
 
-We will begin working in R and RStudio starting next week. If you have not already done so, download and install R on the computer you will work on.
+We will begin working in R and RStudio starting next week. If you have not already done so, [download and install R]("/howto/howto/01-Install-R.html) on the computer you will work on.
 
-#### Introduction to R for Planners
 
-Register for the optional but highly recommended [Introduction to R for Urban Planners virtual workshop](https://urban.illinois.edu/about-us/events/introduction-to-r-for-planners-2-day-workshop/) (January 30th and February 6th) - registration closes on Wednesday 1/28.
 
-```{r intro_r, echo=FALSE, fig.align="left", out.width="95%"}
-knitr::include_graphics("https://web.faa.illinois.edu/app/uploads/sites/2/2021/01/Intro-to-R-for-Planners-2021-1600x918.51851851852-c-default.jpg")
-
-```
