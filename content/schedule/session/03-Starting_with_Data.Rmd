@@ -27,7 +27,7 @@ blogdown::shortcode("figure", src = "/schedule/session/03-Starting_with_Data_fil
 
 ## Before Class
 
-Please make sure you have R, RStudio, and GitHub Desktop installed on your computer, and that you have set up and registered the GitHub repository in which you will store your work this semester. Instructions are available in the [How To](/howto) section.
+Please make sure you have R, RStudio, and GitHub Desktop installed on your computer. Instructions are available in the [How To](/howto) section.
 
 Healy, Kieran. (2019). Data Visualization: A Practical Introduction. Princeton: Princeton University Press. ([Preface](https://uofi.box.com/s/o2vk802ig5bqggdz3iks21cqo5jv0hsk) and [Chapter 2](https://uofi.box.com/s/3ex015jd082iyza1z9su2a6yysnihg8n))
  
@@ -44,7 +44,7 @@ This lab will serve as your initial introduction to the R programming language a
 1. Please [download the lab files](/schedule/session/03-Starting_with_Data_files/Session 3 Lab.zip).
 2. Once downloaded and decompressed, click on the "Session 3 Lab.Rproj" file. R will open, but nothing will (seem to) happen.
 3. In the R file browser (lower right quadrant), open the "Session 3 Workbook Blank.Rmd" file. You can start following the instructions contained within the file. (To make things easier to read, you may want to hit the "Knit: button, which will produce an html file you can open in any browser.)
-4. When you're done, have a look at the "Session 3 Workbook Solutions.Rmd" file, which shows you my answers to the work in this lab. Note - I encourage you to take a look when you need to, but there is NO good reason to rush to answers as opposed to learning through doing and thinking through the problems you are presented with.
+4. When you're done, have a look at the "Session 3 Workbook Solutions.Rmd" file, which shows you my answers to the work in this lab. Note - I encourage you to take a look when you need to, but there is **NO** good reason to rush to answers as opposed to learning through doing and thinking through the problems you are presented with.
 
 ### Lab Goals
 
