@@ -20,8 +20,6 @@ knitr::opts_chunk$set(echo = TRUE)
 | Assignment | Due Date | Submit Via |
 |-|-|-|
 | [Grading Contract](assignments/01_grading_contract/) | | Upload to Github |
-| [Concept Check-Ins]() ||Automatically Graded Online|
-| [Lab Notebooks](assignments/04_lab_notebooks/) | Ongoing | Upload to Github |
 | [Place Selection Memorandum]() | | Upload to Github |
 | [Place Background Memorandum]() || Upload to Github |
 | [Population Memorandum]() || Upload to Github |

@@ -11,6 +11,13 @@ library(tidyverse)
 library (pander)
 ```
 
+# Instructional Team
+
+Welcome to Neighborhood Analysis! We are excited to teach and learn with you this semester.
+
+Professor Andrew J. Greenlee &nbsp;&nbsp;&nbsp;[<i class="fas fa-globe"></i>](https://urban.illinois.edu/people/profiles/andrew-greenlee/) &nbsp;[<i class="far fa-envelope"></i>](mailto:agreen4@illinois.edu) &nbsp;[<i class="fab fa-twitter"></i>](https://twitter.com/urbprof) &nbsp;[<i class="fab fa-github"></i>](https://www.github.com/agreen4)<br>
+TA: Arpita Banerjee &nbsp;&nbsp;&nbsp;[<i class="far fa-envelope"></i>](mailto:arpitab2@illinois.edu)&nbsp;[<i class="fab fa-github"></i>](https://www.github.com/arpitabanerjee1996)
+
 # Course Overview and Objectives
 
 This course teaches techniques for analyzing the demographic, economic, physical, and social conditions that exist at the neighborhood and local government scale. While our focus will be on analyzing current conditions, we will also learn how to tell stories about neighborhood change, and will learn how to project and forecast future trends. We will learn how to describe community characteristics with small area census data, work with local administrative data, and will think about how our analysis of quantitative data fit with other forms of data and engagement to fill in gaps in knowledge.
@@ -18,21 +25,20 @@ This course teaches techniques for analyzing the demographic, economic, physical
 By the end of this course, we will:
 
 1. Become familiar with common sources of information used to describe neighborhoods and neighborhood characteristics;
-2. Learn how to use [R](https://www.r-project.org), [RStudio](https://rstudio.com), and [Github](https://github.com) to create reproducible analysis of
-neighborhood-level information;
-3. Learn how to work collaboratively to tell compelling stories for deliberation and decision-making;
+2. Learn how to use [R](https://www.r-project.org), [RStudio](https://rstudio.com), and; [Github](https://github.com) to create reproducible analysis;
+3. Learn how to work collaboratively to tell compelling stories for deliberation and decision-making.
 
 # Course Format and Expectations
 
-We will learn together using a combination of direct instruction, lab sessions, and tutorials. We will use reading and reflection to help us contextualize our understanding of neighborhoods, however, our focus will be on *learning by doing.* Our class will meet in person twice per week - Tuesdays will typically be devoted to introducing and discussing new information, and Thursdays will typically be devoted to labs and collaborative work.
+We will learn together using a combination of direct instruction, lab sessions, and tutorials. We will use reading and reflection to help us contextualize our understanding of neighborhoods, however, our focus will be on *learning by doing.* Our class will meet in person twice per week - Tuesdays will typically be devoted to introducing and discussing new information, and Thursdays will typically be devoted to labs and independent work.
 
-Please plan on bringing to class a computer that will run R and RStudio (available for PC/Mac/Linux) and for which you have administrative privileges. 
+Unless otherwise noted, please plan on bringing to class a computer that will run R and RStudio (available for PC/Mac/Linux) and for which you have administrative privileges. 
 
 ## What to Expect from Me
 
 - **Office Hours and Availability:** Please make an appointment to speak one-on-one using my [Calendly page](https://calendly.com/agreen4/neighborhood-analysis?back=1&month=2021-03) link for our class. Of course, I'm also happy to chat either before or after our class.
-- **Communicating:** The easiest way to communicate with me outside of class is via [email](mailto:agreen4@illinois.edu). I try to respond to emails sent during the week within 24 hours. Emails sent over the weekend will receive a response within 48 hours. If you don't hear from me after that amount of time elapses, it is okay to nudge me to respond.
-- **Troubleshooting:** You should feel welcome to use email and office hours to get help with troubleshooting problems as they arise in your work. The [Resources](/resource/#learning-r) page provides thoughts and resources for troubleshooting. I also encourage you to work with others in the class to troubleshoot problems - it is highly likely that others in the class have encountered similar problems, and this also allows us to create a repository of our problems and responses.
+- **Communicating:** The easiest way to communicate with me outside of class is via [email](mailto:agreen4@illinois.edu). I try to respond to emails sent during the week within 24 hours. Emails sent over the weekend will receive a response within 48 hours. If you don't hear from me after that amount of time, it's okay to nudge me to respond.
+- **Troubleshooting:** Plan on using our class [Slack channel](https://join.slack.com/t/neighborhooda-6eu6526/shared_invite/zt-uhdy7na9-UfBeTw5R5Z4yE~ZiwdEWbA), email, and office hours to get help with troubleshooting problems as they arise in your work. The [Resources](/resource/#learning-r) page provides thoughts and resources for troubleshooting. I also encourage you to work with others in the class to troubleshoot problems - it is highly likely that others in the class have encountered similar problems, and this also allows us to create a repository of our problems and responses.
 
 ## What I Expect from You
 
@@ -44,7 +50,7 @@ Please plan on bringing to class a computer that will run R and RStudio (availab
 
 ## Prerequisites
 
-UP 494-AG: Neighborhood Analysis has no prerequisites aside from upper-level undergraduate or graduate-level standing. 
+UP 494-AG: Neighborhood Analysis has **no prerequisites** aside from upper-level undergraduate or graduate-level standing. 
 
 - Students will benefit from some prior knowledge of urban planning concepts, and analytic techniques, although these can be learned along the way. 
 - Students will also benefit from some prior knowledge working in R and RStudio, however, this is also not a course prerequisite. 
@@ -52,24 +58,7 @@ UP 494-AG: Neighborhood Analysis has no prerequisites aside from upper-level und
 
 Please *talk with me* if you have any questions regarding whether this course is right for you.
 
-# Assignments 
-
-You will find detailed information on assignments in the [Assignments](/assignments) section. 
-
-
-| Assignment | Due Date | Description |
-|-|-|-|
-| [Grading Contract](assignments/01_grading_contract/) | | You will propose an individual grading contract by which you will be assessed this semester. |
-| [Concept Check-Ins]() | Ongoing |On a weekly basis, you will complete an interactive concept check-in that will provide you feedback on your understanding of new course concepts.|
-| [Lab Notebooks](assignments/04_lab_notebooks/) | Ongoing | On a weekly basis, you will complete short notebooks in class that are designed to help you learn new analytical concepts, approaches, and datasets. |
-| [Place Selection Memorandum]() | | You will select a place which your analysis will focus on over the course of the semester. In this memo, you will describe the basic characteristics of your place, and provide some initial thoughts on avenues for further analysis and exploration. |
-| [Place Background Memorandum]() || You will develop a deeper background study on your place by looking at existing analyses and policy questions in your place. Using these, you will develop a preliminary storyboard that will guide your subsequent analysis. |
-| [Population Memorandum]() || You will analyze population characteristics and distribution and prepare a memorandum that summarizes your analysis. |
-| [Policy Analysis Memorandum]() || You will analyze the impact of an existing or proposed policy on the neighborhoods present in your place, and will prepare a memorandum that summarizes your analysis. |
-| [Final Analysis]() || You will combine elements of your population memorandum and policy memorandum to produce a final place analysis. |
-
-
-# Evaluation and Grading Contract
+# Assignments, Evaluation and Grading Contract
 
 Alongside our learning of techniques and perspectives on working with small area data, a primary goal of this class is to learn to think critically about the ways in which those data and our analysis embody *power* and exist within *power relationships*. One implicit goal of our learning this semester is to embody through our work alternative ways to *share power* and *create meaning*. We will share power and authority for the evaluation of learning by establishing individualized grading contracts which will allow you to set many of the terms upon which your work is evaluated this semester. You will be held accountable to the standards you propose and we agree upon.
 
@@ -114,6 +103,25 @@ g_points %>%
 
 Please note that assessment of these contracted standards are based upon *what you do*. The default contracted "B" grade does not include any direct assessment of the *quality* of your work.  As you design your personalized learning contract, you can use the above table to help you propose expectations in line with the final grade you wish to contract to receive.
 
+## Assignments 
+
+You will find detailed information on assignments in the [Assignments](/assignments) section. 
+
+Our contract-based approach to the class means that all of you will complete several common assignments in order to earn a minimum grade of "B". Some of you may add additional assignments to your contract in order to work towards a higher grade in class.
+
+Here are the baseline items which all Neighborhood Analysis students will work towards:
+
+| Assignment | Due Date | Description |
+|-|-|-|
+| [Grading Contract](assignments/01_grading_contract/) | | You will propose an individual grading contract by which you will be assessed this semester. |
+| [Place Selection Memorandum]() | | You will select a place which your analysis will focus on over the course of the semester. In this memo, you will describe the basic characteristics of your place, and provide some initial thoughts on avenues for further analysis and exploration. |
+| [Place Background Memorandum]() || You will develop a deeper background study on your place by looking at existing analyses and policy questions in your place. Using these, you will develop a preliminary storyboard that will guide your subsequent analysis. |
+| [Population Memorandum]() || You will analyze population characteristics and distribution and prepare a memorandum that summarizes your analysis. |
+| [Policy Analysis Memorandum]() || You will analyze the impact of an existing or proposed policy on the neighborhoods present in your place, and will prepare a memorandum that summarizes your analysis. |
+| [Final Analysis]() || You will combine elements of your population memorandum and policy memorandum to produce a final place analysis. |
+
+Please refer to the [Assignments](/assignments) area for more information on extensions or other suggested items you may wish to contract for.
+
 ## Preparing your Contract
 
 Our grading system this semester focuses on capturing the consistent application of your labor towards our course goals. If you consistently submit your work as contracted, you'll receive a "B" at the end of the semester. Consequently, to contract for a higher (or lower) grade, you may commit yourself to applying more (or less) labor in support of course goals when you design your contract.
@@ -137,9 +145,9 @@ Put simply, don't cheat and give credit where credit is due.
 
 **Learning Environment:** The [Department of Urban and Regional Planning](https://urban.illinois.edu) is committed to maintaining a learning environment that is rooted in the goals and responsibilities of professional planners. By enrolling in a class offered by the Department of Urban and Regional Planning, students agree to be responsible for maintaining an atmosphere of mutual respect in all activities, including lectures, discussions, labs, projects, and extracurricular opportunities. See [Student Code Article 1-Student Rights and Responsibilities, Part 1](https://studentcode.illinois.edu/article1/part1/1-101/). Student Rights: §1-102.
 
-**Counseling Center and Student Support:** Throughout the semester, you may need assistance coping with emotional, interpersonal, or academic concerns. The [Counseling Center](http://www.counselingcenter.illinois.edu) provides both short-term and longer-term counseling to students who may need assistance. Please do not hesitate to reach out or request assistance.
-
 # Your Wellness
+
+**Wellness at Illinois:** Throughout the semester, you may need assistance coping with emotional, interpersonal, or academic concerns. [wellness.illinois.edu](https://wellness.illinois.edu) is a good resource to identify help for yourself or others who may need assistance. Please do not hesitate to reach out or request assistance.
 
 ## Learning R and your Wellness
 
@@ -165,6 +173,6 @@ You got this, and there will be a payoff, so long as you use the tools consisten
 
 ## Covid and your Wellness
 
-We've been living in particularly abnormal times for the last year and a half - while for many, things are improving, it would be irresponsible to expect that teaching and learning would occur "normally" even at this stage of recovery. We continue to teach and learn under emergency circumstances amidst an evolving global pandemic.
+We've been living in particularly abnormal times for the last year and a half - while for many, things are improving, it would be irresponsible to expect that teaching and learning would occur "normally" right now. We continue to teach and learn under emergency circumstances amidst an evolving global pandemic.
 
-As you face challenges this semester (and beyond) I need you to *communicate with me*, either during our course sessions or individually. You can schedule an appointment with me at your convenience via my [Calendly page](https://calendly.com/agreen4/neighborhood-analysis). I promise to listen, to be a resource, and to help in any way that I can - if I can't help you, I will find someone who can. [wellness.illinois.edu](https://wellness.illinois.edu/) is a one-stop resource which you should also consult.
+As you face challenges this semester (and beyond) I need you to *communicate with me*, either during our course sessions or individually. You can schedule an appointment with me at your convenience via my [Calendly page](https://calendly.com/agreen4/neighborhood-analysis). I promise to listen, to be a resource, and to help in any way that I can - if I can't help you, I will find someone who can.

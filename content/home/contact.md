@@ -17,6 +17,6 @@ design:
 advanced:
   css_class: fullscreen
 ---
-Professor Andrew J. Greenlee &nbsp;&nbsp;&nbsp;[<i class="fas fa-globe"></i>](https://urban.illinois.edu) &nbsp;[<i class="far fa-envelope"></i>](mailto:agreen4@illinois.edu) &nbsp;[<i class="fab fa-twitter"></i>](https://twitter.com/urbprof) &nbsp;[<i class="fab fa-github"></i>](https://www.github.com/agreen4)<br>
+Professor Andrew J. Greenlee &nbsp;&nbsp;&nbsp;[<i class="fas fa-globe"></i>](https://urban.illinois.edu/people/profiles/andrew-greenlee/) &nbsp;[<i class="far fa-envelope"></i>](mailto:agreen4@illinois.edu) &nbsp;[<i class="fab fa-twitter"></i>](https://twitter.com/urbprof) &nbsp;[<i class="fab fa-github"></i>](https://www.github.com/agreen4)<br>
 TA: Arpita Banerjee &nbsp;&nbsp;&nbsp;[<i class="far fa-envelope"></i>](mailto:arpitab2@illinois.edu)&nbsp;[<i class="fab fa-github"></i>](https://www.github.com/arpitabanerjee1996)<br><br><br>
 Department of Urban and Regional Planning
