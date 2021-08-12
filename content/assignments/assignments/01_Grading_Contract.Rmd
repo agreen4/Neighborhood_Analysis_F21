@@ -10,14 +10,14 @@ type: docs
 weight: 2
 ---
 
-**Due Date:** DATE, 2021 | **Submit Via:** Upload to Github
+**Due Date:** September 3, 2021 | **Submit Via:** Upload to Github
 
 Our course syllabus outlines the approach to contract grading that we'll be using this semester. During the first two weeks of the class, you will develop your grading contact, which outlines the grade you are contracting for in the class as well as the agreed upon expectations for attaining that grade.
 
 The grade you receive at the end of the class will be based on whether you did the work which you contracted for. Separately from this assessment, you will receive feedback on the qualities of your work.
 
 {{% callout warning %}}
-Please use the following [contract template](/documents/UP494 S21 Learning Contract.docx) to construct your proposed learning contract for the semester. 
+Please use the following [contract template](/documents/UP494 F21 Learning Contract.docx) to construct your proposed learning contract for the semester. 
 {{% /callout %}}
 
 A few guidelines for constructing your contract:
@@ -29,12 +29,10 @@ A few guidelines for constructing your contract:
       - *Be Visible:* Due to necessary COVID-19 safety precautions, most of our synchronous course sessions will be offered via Zoom. Active participation in the discussion portions of our course ask that you engage with your camera on. If there are reasons you cannot meet this expectation, you may propose omitting or modifying this component of your contract.
       - *Submit Work On Time:* There will be three grade reconciliation periods in the semester. Each assignment will be due within a reconciliation period. Each assignment will also list a recommended due date. You are responsible for submitting your work by the end of the grade reconciliation period. Work due within a reconciliation period that is submitted within 48 hours of the conclusion of that period will be counted as late. Work due within a reconciliation period submitted more than 48 hours will be considered ignored.
   - Assignments  
-      - *Weekly Concept Check-Ins:* On a weekly basis, you will complete an interactive concept check-in that will provide you feedback on your understanding of new course concepts.
-      - *Weekly Lab Notebooks:* On a weekly basis, you will complete short notebooks in class that are designed to help you learn new analytical concepts, approaches, and datasets. You will submit your notebooks for review on a weekly basis.
       - *Place Selection Memorandum:* You will select a place which your analysis will focus on over the course of the semester. In this memo, you will describe the basic characteristics of your place, and provide some initial thoughts on avenues for further analysis and exploration.
       - *Place Background Memorandum:* You will develop a deeper background study on your place by looking at existing analyses and policy questions in your place. Using these, you will develop a preliminary storyboard that will guide your subsequent analysis.
       - *Population Memorandum:* You will analyze population characteristics and distribution and prepare a memorandum that summarizes your analysis.
-      - *Policy Memorandum:* You will analyze the impact of an existing or proposed policy on the neighborhoods present in your place, and will prepare a memodandum that summarizes your analysis.
+      - *Policy Memorandum:* You will analyze the impact of an existing or proposed policy on the neighborhoods present in your place, and will prepare a memorandum that summarizes your analysis.
       - *Final Analysis:* You will combine elements of your population memorandum and policy memorandum to produce a final place analysis.
 - Contract Extensions and Deletions
     - You may propose contract extensions in order to contract for a higher grade. 
