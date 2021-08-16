@@ -13,15 +13,9 @@ weight: 2
 **Due Date:** September 10, 2021 | **Submit Via:** Upload to Github
 
 ## Introduction
-
 A very important early task in Neighborhood Analysis is to select the place that you will spend time examining in depth this semester. The place you select will be the location that you focus your social, economic, and demographic analysis on. Given the structure of this class, you need to choose a location in the United States. 
 
 Your work will include thinking about how that place fits within its larger “region.” What do we mean by “place”? It might be a city or town—the City of Champaign—or even twin cities—the cities of Champaign and Urbana. It could also be a county. For our purposes, it is not an entire metropolitan area or a larger macro region (such as the Great Plains or Mississippi Delta). 
-
-## Goals
-
-- Identify a particular place that you will focus your analytic work on over the course of the semester
-- Think critically about place, geography, and audience
 
 ## Place Selection Considerations
 
