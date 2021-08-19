@@ -114,12 +114,12 @@ Here are the baseline items which all Neighborhood Analysis students will work t
 
 | Assignment | Due Date | Description |
 |-|-|-|
-| [Grading Contract](/assignments/01_grading_contract/) |September 3, 2021 | You will propose an individual grading contract by which you will be assessed this semester. |
-| [Place Selection Memorandum](/assignments/02_place_selection/) |September 10, 2021 | You will select a place which your analysis will focus on over the course of the semester. In this memo, you will describe the basic characteristics of your place, and provide some initial thoughts on avenues for further analysis and exploration. |
-| [Place Background Memorandum](/assignments/03_place_background/) |October 1, 2021| You will develop a deeper background study on your place by looking at existing analyses and policy questions in your place. Using these, you will develop a preliminary storyboard that will guide your subsequent analysis. |
-| [Population Memorandum](/assignments/04_population/) |October 22, 2021| You will analyze population characteristics and distribution and prepare a memorandum that summarizes your analysis. |
-| [Policy Analysis Memorandum](/assignments/05_policy/) |November 12, 2021| You will analyze the impact of an existing or proposed policy on the neighborhoods present in your place, and will prepare a memorandum that summarizes your analysis. |
-| [Final Analysis](/assignments/06_term_assignment/) |December 10, 2021| You will combine elements of your population memorandum and policy memorandum to produce a final place analysis. |
+| [Grading Contract](/assignments/assignments/01_grading_contract/) |September 3, 2021 | You will propose an individual grading contract by which you will be assessed this semester. |
+| [Place Selection Memorandum](/assignments/assignments/02_place_selection/) |September 10, 2021 | You will select a place which your analysis will focus on over the course of the semester. In this memo, you will describe the basic characteristics of your place, and provide some initial thoughts on avenues for further analysis and exploration. |
+| [Place Background Memorandum](/assignments/assignments/03_place_background/) |October 1, 2021| You will develop a deeper background study on your place by looking at existing analyses and policy questions in your place. Using these, you will develop a preliminary storyboard that will guide your subsequent analysis. |
+| [Population Memorandum](/assignments/assignments/04_population/) |October 22, 2021| You will analyze population characteristics and distribution and prepare a memorandum that summarizes your analysis. |
+| [Policy Analysis Memorandum](/assignments/assignments/05_policy/) |November 12, 2021| You will analyze the impact of an existing or proposed policy on the neighborhoods present in your place, and will prepare a memorandum that summarizes your analysis. |
+| [Final Analysis](/assignments/assignments/06_term_assignment/) |December 10, 2021| You will combine elements of your population memorandum and policy memorandum to produce a final place analysis. |
 
 Please refer to the [Assignments](/assignments) area for more information on extensions or other suggested items you may wish to contract for.
 

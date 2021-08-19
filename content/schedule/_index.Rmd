@@ -16,9 +16,9 @@ Please find descriptions of each of our course sessions here - you will also fin
 
 | Session | Date | Topic |
 |-|-|-|
-| [Session 1](session/01-course_introduction/) | August 24 | Course Introduction |
-| [Session 2](session/02-what_is_a_neighborhood/) | August 26 | What is a Neighborhood? |
-| [Session 3](session/03-starting_with_data/) | August 31 | Introduction to R: Starting with Data |
+| [Session 1](/session/01-course_introduction/) | August 24 | Course Introduction |
+| [Session 2](/session/02-what_is_a_neighborhood/) | August 26 | What is a Neighborhood? |
+| [Session 3](/session/03-starting_with_data/) | August 31 | Introduction to R: Starting with Data |
 | [Session 4](session/04-manipulating_data) | September 2 | Introduction to R: Manipulating Data |
 | [Session 5](session/05-describing_places_1) | September 7 | Introduction to R: Describing Places |
 | [Session 6](session/06-describing_places_2) | September 9 | Introduction to R: Describing Places |
