@@ -1,5 +1,5 @@
 ---
-linktitle: "17 Segregation 1"
+linktitle: "17 Segregation (Part 1)"
 menu:
   session:
     parent: Course Sessions
