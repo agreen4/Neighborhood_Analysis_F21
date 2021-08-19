@@ -1,0 +1,19 @@
+---
+linktitle: "26 Eviction (Part 2)"
+menu:
+  session:
+    parent: Course Sessions
+    weight: 26
+title: 'Session 26: The Geography of Eviction (Part 2)'
+toc: true
+type: docs
+weight: 26
+---
+
+## Session Description
+
+## Before Class
+
+## Slides
+
+## Other Resources

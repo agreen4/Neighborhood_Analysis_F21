@@ -1,0 +1,19 @@
+---
+linktitle: "27 Final Report Peer Review (Part 1)"
+menu:
+  session:
+    parent: Course Sessions
+    weight: 27
+title: 'Session 27: Final Report Peer Review (Part 1)'
+toc: true
+type: docs
+weight: 27
+---
+
+## Session Description
+
+## Before Class
+
+## Slides
+
+## Other Resources
