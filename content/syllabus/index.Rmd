@@ -114,12 +114,12 @@ Here are the baseline items which all Neighborhood Analysis students will work t
 
 | Assignment | Due Date | Description |
 |-|-|-|
-| [Grading Contract](assignments/01_grading_contract/) | | You will propose an individual grading contract by which you will be assessed this semester. |
-| [Place Selection Memorandum]() | | You will select a place which your analysis will focus on over the course of the semester. In this memo, you will describe the basic characteristics of your place, and provide some initial thoughts on avenues for further analysis and exploration. |
-| [Place Background Memorandum]() || You will develop a deeper background study on your place by looking at existing analyses and policy questions in your place. Using these, you will develop a preliminary storyboard that will guide your subsequent analysis. |
-| [Population Memorandum]() || You will analyze population characteristics and distribution and prepare a memorandum that summarizes your analysis. |
-| [Policy Analysis Memorandum]() || You will analyze the impact of an existing or proposed policy on the neighborhoods present in your place, and will prepare a memorandum that summarizes your analysis. |
-| [Final Analysis]() || You will combine elements of your population memorandum and policy memorandum to produce a final place analysis. |
+| [Grading Contract](assignments/01_grading_contract/) |September 3, 2021 | You will propose an individual grading contract by which you will be assessed this semester. |
+| [Place Selection Memorandum](assignments/02_place_selection/) |September 10, 2021 | You will select a place which your analysis will focus on over the course of the semester. In this memo, you will describe the basic characteristics of your place, and provide some initial thoughts on avenues for further analysis and exploration. |
+| [Place Background Memorandum](assignments/03_place_background/) |October 1, 2021| You will develop a deeper background study on your place by looking at existing analyses and policy questions in your place. Using these, you will develop a preliminary storyboard that will guide your subsequent analysis. |
+| [Population Memorandum](assignments/04_population/) |October 22, 2021| You will analyze population characteristics and distribution and prepare a memorandum that summarizes your analysis. |
+| [Policy Analysis Memorandum](assignments/05_policy/) |November 12, 2021| You will analyze the impact of an existing or proposed policy on the neighborhoods present in your place, and will prepare a memorandum that summarizes your analysis. |
+| [Final Analysis](assignments/06_term_assignment/) |December 10, 2021| You will combine elements of your population memorandum and policy memorandum to produce a final place analysis. |
 
 Please refer to the [Assignments](/assignments) area for more information on extensions or other suggested items you may wish to contract for.
 
@@ -145,6 +145,13 @@ Put simply, don't cheat and give credit where credit is due.
 # Learning Environment and Support
 
 **Learning Environment:** The [Department of Urban and Regional Planning](https://urban.illinois.edu) is committed to maintaining a learning environment that is rooted in the goals and responsibilities of professional planners. By enrolling in a class offered by the Department of Urban and Regional Planning, students agree to be responsible for maintaining an atmosphere of mutual respect in all activities, including lectures, discussions, labs, projects, and extracurricular opportunities. See [Student Code Article 1-Student Rights and Responsibilities, Part 1](https://studentcode.illinois.edu/article1/part1/1-101/). Student Rights: §1-102.
+
+## Our Class Environment
+As part of our classroom and university community, you have an obligation to do the following:
+
+- If you feel ill, do not come to class. If you test positive or have an exposure that requires testing or quarantine, do not come to class.  
+- Wear face coverings in classrooms and indoor university spaces, per CDC guidance.
+- Be willing and prepared to show your Safer Illinois building access status when requested.
 
 # Your Wellness
 
