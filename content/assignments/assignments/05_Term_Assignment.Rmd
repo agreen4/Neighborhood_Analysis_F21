@@ -1,0 +1,80 @@
+---
+title: Term Assignment
+linktitle: Term Assignment
+menu:
+  assignments:
+    parent: Assignments
+    weight: 6
+toc: true
+type: docs
+weight: 6
+---
+
+You will independently apply the skills and principles of data analysis we learn  to produce a policy-relevant analysis. Your term assignment will have several deliverables which are spread throughout the semester:
+
+## Project Proposal
+**Due Date:** March 5, 2021 | **Submit Via:** Upload to Github
+
+#### Assignment
+You will develop a proposal that describes the analysis which you contract to complete by the end of the semester. Your proposal will include a statement regarding the motivation for your analysis, the information you plan to use, your analytical strategy, your anticipated outcomes, and information on the format of your final outputs.
+
+By the end of this assignment you will:
+
+1.	Articulate a question or problem which you will analyze over the course of the term project
+2. Describe the context within which the question exists
+3. Propose a strategy for how you will approach the problem - including the data you will use, the methods by which you will analyze that information, and the outputs which you will produce
+4. Identify how the answers to this question are relevant for general knowledge, policy, or decision-making
+
+#### Deliverable
+Please prepare a 3-4 page (single-spaced) proposal. Your proposal should address the following:
+
+1. **Outline the question or problem** which your analysis will examine. You should provide a clear and succinct description of the question or problem, and also discuss its relevance - who will the answer to this question be relevant to? How might your analysis guide their actions?
+2. **Describe the context within which the question or problem exists** in such a way that it is clear why answering this question is of value. What's the geographic location and scale you are examining? Why is this question of importance here? Who is impacted by the phenomena you seek to explore? What do we already know, and what information is missing? How will you engage both the known and the unknown through exploration of your question?
+3. **Propose a strategy for how you will approach the problem** that is clear, connected to the question and context, and that is appropriate for the information you plan to use. What specific data source(s) will you use for your analysis? What methods will you use to engage your question? What's the precedent for using these methods to answer similar questions? Why is this an appropriate approach given your answers to (1) and (2) above?
+4. **Identify the target audience for your work** by telling us who has a stake in learning from your answers to the questions you pose. What contribution will this make, and how might it be useful for advocacy, deliberation, and decision-making?
+5. **Identify any limitations or assistance you will need** to successfully complete your analysis. You may not yet completely know the answer to this, but please spend some time thinking about how I (and we as a class) can help to support you in your work, or can help you identify ways to access those resources that will help. If you can, also articulate the limitations of your work - your answers will likely have some important limitations that we should have in mind, even before you jump into your actual analysis.
+
+#### Tips for a Successful Assignment
+- Your proposal should be 3-4 single-spaced pages in length. 
+- Write clearly and succinctly, paying attention to spelling, grammar, and the organization of information.
+- Provide a clear and logical structure to your proposal, using descriptive section titles to organize information.
+- The judicious use of maps, photographs, charts, tables, and diagrams should be considered as a valuable means of effectively conveying information. These do not count against your proposal page limit.
+
+## Project Background
+**Due Date:** March 26, 2021 **(Extended to April 2, 2021)** | **Submit Via:** Upload to Github
+
+The project background deliverable is designed to get you working independently on your final project. For this deliverable, you should be able to share an early version of your analysis. To meet the expectations for this deliverable, you should have identified the data sources you plan to work with, identified the methods you are using the analyze the data, and you should have implemented some aspects of your analysis. It is expected that your analysis will not yet be complete, but that you will be far enough along that you can articulate a pathway and future steps towards your final analysis and deliverable at the end of the semester. 
+
+Your project background should include the following:
+
+- **Context and Background:** Provide a brief update on context and background for your analysis. This should be high-level and just enough information to provide context for the remaining portions of your project background.
+- **Methods and Approach:** Describe your approach to analysis - how are you analyzing the data? What precedents or work that others have done is helping to inform your approach?
+- **Data Sources:** Describe the data source(s) that you are using for your analysis. Where are these data coming from? What are each contributing? What are the specific indicators you are using from these data?
+- **Data Description, Preliminary Analysis and Interpretation:** Please share the preliminary analysis which you've done with the data, as well as your written interpretation based upon your analysis.
+- **Directions for the Future:** Provide a summary of how you plan to expand upon your preliminary analysis moving forward to your final project.
+
+Please submit your project background document as a R Notebook with all accompanying files necessary to knit it.
+
+## Final Project
+**Due Date:** May 7, 2021 | **Submit Via:** Upload to Github
+
+Building upon your project proposal and project background, you will produce a final project which includes your analysis and interpretation.
+
+Please upload your final project as a R Notebook (or other format as specified in your learning contract) and all files necessary to replicate it to GitHub.
+
+## Project Presentation
+**Due Date:** April 25, 2021 | **Submit Via:** Upload to Github
+
+Graduate students are required to include a 10-minute presentation on their final project which will be given during one of our final course sessions as part of their grading contract. Undergraduate students are not required to complete a final project presentation, but may contract to do so for a higher grade.
+
+### Session 27 (Tuesday April 27, 2021)
+
+### Session 28 (Thursday April 29, 2021)
+
+### Session 29 (Tuesday May 4, 2021)
+
+Please be prepared to share your screen with your final presentation.
+
+## Submission Instructions
+
+Upload your final project components to the appropriate folder in your class GitHub repository.

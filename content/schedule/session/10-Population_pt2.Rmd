@@ -1,0 +1,31 @@
+---
+linktitle: "10 Population 2"
+menu:
+  session:
+    parent: Course Sessions
+    weight: 10
+title: 'Session 10: Population and Population Change (Session 2)'
+toc: true
+type: docs
+weight: 10
+---
+
+## Session Description
+
+In this lab session, you will continue working on the Population lab notebook. We'll start with independent work time, and then reconvene for the final 15 minutes of class to debrief.
+
+## Before Class
+
+Natalie P. Voorhees Center. (2014). [The Socioeconomic Change of Chicago’s Community Areas (1970-2010)](https://uofi.box.com/s/dueb33gc3em48y39ku9twhl5e8ja45pp)
+
+## Slides
+
+## Other Resources
+
+- The basic functions and use of the `tidycensus` package, including ways to download whole tables, specific variables, and options for shaping how data is downloaded.
+- The use of several elements from the `stringr` package that help us to search, find, and replace string values
+- `case_when()` To conditionally change values in character vectors
+- `rename()` and `select()` to rename columns
+- `bind_rows()` and `bind_columns()` to bind together rows or columns
+- The use of `arrange()` to sort data
+- More advanced features of the `select()` command, including renaming variables

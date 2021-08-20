@@ -39,4 +39,4 @@ Assuming you've already got R and RStudio installed on your system and have alre
 6. [Get Started](https://happygitwithr.com/usage-intro.html) using GitHub integrated with R (we'll talk more about this in class).
 
 ![](https://octodex.github.com/images/femalecodertocat.png){width=30%}
-We will ease our way into using Github, and will also devote some time to troubleshooting in class. I promise, it's going to make sense soon!
+We will ease our way into using Git, and will also devote some time to troubleshooting in class. I promise, it's going to make sense soon!

@@ -19,6 +19,3 @@ main:
   - name: Resources
     url: resource
     weight: 60
-  - name: "<i class='fab fa-slack'></i>"
-    url: "https://neighborhooda-6eu6526.slack.com"
-    weight: 70
