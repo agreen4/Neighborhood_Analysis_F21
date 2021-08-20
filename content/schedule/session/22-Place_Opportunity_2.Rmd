@@ -1,0 +1,19 @@
+---
+linktitle: "22 Place Opportunity (Part 2)"
+menu:
+  session:
+    parent: Course Sessions
+    weight: 22
+title: 'Session 22: Measuring Place Opportunity (Part 2)'
+toc: true
+type: docs
+weight: 22
+---
+
+## Session Description
+
+## Before Class
+
+## Slides
+
+## Other Resources

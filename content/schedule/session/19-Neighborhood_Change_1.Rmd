@@ -1,0 +1,21 @@
+---
+linktitle: "19 Neighborhood Change (Part 1)"
+menu:
+  session:
+    parent: Course Sessions
+    weight: 19
+title: 'Session 19: Neighborhood Change (Part 1)'
+toc: true
+type: docs
+weight: 19
+---
+
+## Session Description
+
+## This Week's Reflection Prompt
+
+## Before Class
+
+## Slides
+
+## Other Resources
