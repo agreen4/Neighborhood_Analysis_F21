@@ -27,3 +27,7 @@ Rohe, William. (2009). [From Local to Global: One Hundred Years of Neighborhood 
 #### Download and Install R and RStudio
 
 We will begin working in R and RStudio starting next week. If you have not already done so, [download and install R](/howto/howto/01-Install-R.html) on the computer you will work on.
+
+If you have not already done so, complete the [course introductory survey](https://forms.illinois.edu/sec/1008112120).
+
+If you have not already done so, [create and register](/howto/howto/02-github/) a Github account.
