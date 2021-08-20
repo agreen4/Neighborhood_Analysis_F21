@@ -12,7 +12,9 @@ weight: 1
 
 ## Session Description
 
-Welcome to Neighborhood Analysis! In our first course session, we will introduce ourselves and discuss some of the basic tenets and expectations of our learning together. We'll also think through two foundational questions:
+Welcome to Neighborhood Analysis! 
+
+In our first course session, we will introduce ourselves and discuss how we will lear together this semester. We'll also think through two foundational questions:
 
 1. What's a neighborhood?
 2. Why do neighborhoods matter?
