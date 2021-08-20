@@ -26,9 +26,9 @@ In our first course session, we will introduce ourselves and discuss how we will
 
 ## Before Class
 
-Please read the [course syllabus](/syllabus) and bring questions with you.
-
-Complete the [course introductory survey](https://forms.illinois.edu/sec/1008112120).
+- Please read the [course syllabus](/syllabus) and bring questions with you.
+- Complete the [course introductory survey](https://forms.illinois.edu/sec/1008112120).
+- [Create and register](/howto/howto/02-github/) a Github account
 
 ## Slides
 
