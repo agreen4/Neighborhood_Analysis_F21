@@ -12,7 +12,7 @@ weight: 1
 
 ## Session Description
 
-In our first course session, we will introduce ourselves and discuss some of the basic tenets and expectations of our learning together. We'll also think through two foundational questions:
+Welcome to Neighborhood Analysis! In our first course session, we will introduce ourselves and discuss some of the basic tenets and expectations of our learning together. We'll also think through two foundational questions:
 
 1. What's a neighborhood?
 2. Why do neighborhoods matter?
@@ -26,7 +26,7 @@ In our first course session, we will introduce ourselves and discuss some of the
 
 Please read the [course syllabus](/syllabus) and bring questions with you.
 
-If you haven't already, please complete the [course introductory survey](https://forms.illinois.edu/sec/1008112120).
+Complete the [course introductory survey](https://forms.illinois.edu/sec/1008112120).
 
 ## Slides
 

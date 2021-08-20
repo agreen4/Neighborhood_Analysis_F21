@@ -29,7 +29,7 @@ blogdown::shortcode("figure", src = "/schedule/session/03-Starting_with_Data_fil
 
 Please make sure you have R, RStudio, and GitHub Desktop installed on your computer. Instructions are available in the [How To](/howto) section.
 
-Healy, Kieran. (2019). Data Visualization: A Practical Introduction. Princeton: Princeton University Press. ([Preface](https://uofi.box.com/s/o2vk802ig5bqggdz3iks21cqo5jv0hsk) and [Chapter 2](https://uofi.box.com/s/3ex015jd082iyza1z9su2a6yysnihg8n))
+Healy, Kieran. (2019). Data Visualization: A Practical Introduction. Princeton: Princeton University Press. ([Preface](https://uofi.box.com/s/xk1z2pnqtkbktg5dj0c44na1wuoiabgc) and [Chapter 2](https://uofi.box.com/s/a1q6cbxtnj7swn3xtpz6cj04vvqwskuv))
  
 Data Carpentry ([Before We Start](https://datacarpentry.org/R-ecology-lesson/00-before-we-start.html), [Intro to R](https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html), [Starting with Data](https://datacarpentry.org/R-ecology-lesson/02-starting-with-data.html))
 
