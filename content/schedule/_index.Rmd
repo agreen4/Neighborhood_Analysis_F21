@@ -17,33 +17,33 @@ Please find descriptions for our course sessions here - you will also find resou
 | Session | Date | Topic |
 |-|-|-|
 | [Session 1](session/01-course_introduction/) | August 24 | Course Introduction |
-| [Session 2](/session/02-what_is_a_neighborhood/) | August 26 | What is a Neighborhood? |
-| [Session 3](/session/03-starting_with_data/) | August 31 | Introduction to R: Starting with Data |
-| [Session 4](/session/04-manipulating_data) | September 2 | Introduction to R: Manipulating Data |
-| [Session 5](/session/05-describing_places_1) | September 7 | Introduction to R: Describing Places |
-| [Session 6](/session/06-describing_places_2) | September 9 | Introduction to R: Describing Places |
-| [Session 7](/session/07-visualizing_Places_1.Rmd) | September 14 | Visualizing Places |
-| [Session 8](/session/08-visualizing_places_22) | September 16 | Visualizing Places |
-| [Session 9](/session/09-data_to_places_1) | September 21 | From Data to Places |
-| [Session 10](/session/10-data_to_places_2) | September 23 | From Data to Places |
-| [Session 11](/session/11-numbers_and_data) | September 28 | Reasoning With and Writing About Numbers and Data |
-| [Session 12](/session/12-finding_the_story) | September 30 | Finding the Story in Data |
-| [Session 13](/session/13-population_projection_1) | October 5 | Population Projections and Forecasts |
-| [Session 14](/session/14-population_projection_2) | October 7 | Population Projections and Forecasts |
-| [Session 15](/session/15-individual_advising_1) | October 12 | Individual Advising and Independent Work |
-| [Session 16](/session/16-individual_advising_2) | October 14 | Individual Advising and Independent Work |
-| [Session 17](/session/17-population_segregation_1) | October 19 | Population Distributions and Segregation |
-| [Session 18](/session/18-population_segregation_2) | October 21 | Population Distributions and Segregation |
-| [Session 19](/session/19-neighborhood_change_1) | October 26 | Neighborhood Change |
-| [Session 20](/session/20-neighborhood_change_2) | October 28 | Neighborhood Change |
-| [Session 21](/session/21-place_opportunity_1) | November 2 | Measuring Place Opportunity |
-| [Session 22](/session/22-place_opportunity_2) | November 4 | Measuring Place Opportunity |
-| [Session 23](/session/23-crime_incarceration_1) | November 9 | Crime and Incarceration |
-| [Session 24](/session/24-crime_incarceration_2) | November 11 | Crime and Incarceration |
-| [Session 25](/session/25-eviction_1) | November 16 | The Geography of Eviction |
-| [Session 26](/session/26-eviction_2) | November 18 | The Geography of Eviction |
+| [Session 2](session/02-what_is_a_neighborhood/) | August 26 | What is a Neighborhood? |
+| [Session 3](session/03-starting_with_data/) | August 31 | Introduction to R: Starting with Data |
+| [Session 4](session/04-manipulating_data) | September 2 | Introduction to R: Manipulating Data |
+| [Session 5](session/05-describing_places_1) | September 7 | Introduction to R: Describing Places |
+| [Session 6](session/06-describing_places_2) | September 9 | Introduction to R: Describing Places |
+| [Session 7](session/07-visualizing_Places_1.Rmd) | September 14 | Visualizing Places |
+| [Session 8](session/08-visualizing_places_22) | September 16 | Visualizing Places |
+| [Session 9](session/09-data_to_places_1) | September 21 | From Data to Places |
+| [Session 10](session/10-data_to_places_2) | September 23 | From Data to Places |
+| [Session 11](session/11-numbers_and_data) | September 28 | Reasoning With and Writing About Numbers and Data |
+| [Session 12](session/12-finding_the_story) | September 30 | Finding the Story in Data |
+| [Session 13](session/13-population_projection_1) | October 5 | Population Projections and Forecasts |
+| [Session 14](session/14-population_projection_2) | October 7 | Population Projections and Forecasts |
+| [Session 15](session/15-individual_advising_1) | October 12 | Individual Advising and Independent Work |
+| [Session 16](session/16-individual_advising_2) | October 14 | Individual Advising and Independent Work |
+| [Session 17](session/17-population_segregation_1) | October 19 | Population Distributions and Segregation |
+| [Session 18](session/18-population_segregation_2) | October 21 | Population Distributions and Segregation |
+| [Session 19](session/19-neighborhood_change_1) | October 26 | Neighborhood Change |
+| [Session 20](session/20-neighborhood_change_2) | October 28 | Neighborhood Change |
+| [Session 21](session/21-place_opportunity_1) | November 2 | Measuring Place Opportunity |
+| [Session 22](session/22-place_opportunity_2) | November 4 | Measuring Place Opportunity |
+| [Session 23](session/23-crime_incarceration_1) | November 9 | Crime and Incarceration |
+| [Session 24](session/24-crime_incarceration_2) | November 11 | Crime and Incarceration |
+| [Session 25](session/25-eviction_1) | November 16 | The Geography of Eviction |
+| [Session 26](session/26-eviction_2) | November 18 | The Geography of Eviction |
 ||November 23|Fall Break|
 ||November 25|Fall Break|
-| [Session 27](/session/27-peer_review_1) | November 30 | Peer Review and Reflection |
-| [Session 28](/session/28-peer_review_2) | December 2 | Peer Review and Reflection |
-| [Session 29](/session/29-course_wrap_up) | December 7    | Course Wrap-Up |
+| [Session 27](session/27-peer_review_1) | November 30 | Peer Review and Reflection |
+| [Session 28](session/28-peer_review_2) | December 2 | Peer Review and Reflection |
+| [Session 29](session/29-course_wrap_up) | December 7    | Course Wrap-Up |
