@@ -14,6 +14,8 @@ weight: 3
 
 In this session, we'll take our first foray into the R and RStudio ecosystem. We'll begin to explore data types, how to describe data, and how R can help us manipulate data.
 
+Please be prepared to open and work with the lab files in RStudio today. This means that you should have R and RStudio installed on your computer.
+
 ```{r echo=FALSE}
 blogdown::shortcode("figure", src = "/schedule/session/03-Starting_with_Data_files/r_first_then.png", caption = "Image by [Allison Horst](https://github.com/allisonhorst/stats-illustrations)", type="Markdown")
 ```
