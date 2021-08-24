@@ -32,7 +32,7 @@ In our first course session, we will introduce ourselves and discuss how we will
 
 ## Slides
 
-<embed src="/schedule/session/01-Course_Introduction_files/S1_Course_Introduction.pdf" type="application/pdf" width="100%" height="600px" toolbar=1 navpanes=1 />
+<embed src="/schedule/session/01-Course_Introduction_files/S1_Course_Introduction.pdf" type="application/pdf" width="100%" height="100%" toolbar=1 navpanes=1 />
 
 ```{r, eval = FALSE, echo=FALSE}
 knitr::include_url("/schedule/01_Course_Introduction/Session-1.html")
