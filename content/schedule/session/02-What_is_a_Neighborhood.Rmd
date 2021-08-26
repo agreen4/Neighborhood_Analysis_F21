@@ -28,8 +28,6 @@ Rohe, William. (2009). [From Local to Global: One Hundred Years of Neighborhood 
 
 [Download Here](/schedule/session/02-What_is_a_Neighborhood_files/S2_What_is_a_neighborhood.pdf)
 
-<embed src="/schedule/session/02-What_is_a_Neighborhood_files/S2_What_is_a_neighborhood.pdf" type="application/pdf" width="100%" height="500px" view=Fit zoom=scale />
-
 ## Other Resources and Actions
 
 #### Download and Install R and RStudio
