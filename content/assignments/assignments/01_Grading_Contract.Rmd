@@ -17,7 +17,7 @@ Our course syllabus outlines the approach to contract grading that we'll be usin
 The grade you receive at the end of the class will be based on whether you did the work which you contracted for. Separately from this assessment, you will receive feedback on the qualities of your work.
 
 {{% callout warning %}}
-Please use the following [contract template](documents/UP494 F21 Learning Contract.docx) to construct your proposed learning contract for the semester. 
+Please use the following [contract template](/syllabus/documents/UP494 F21 Learning Contract.docx) to construct your proposed learning contract for the semester. 
 {{% /callout %}}
 
 A few guidelines for constructing your contract:
