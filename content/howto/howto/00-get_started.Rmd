@@ -20,10 +20,6 @@ It's fair to equate learning R with learning to drive a manual car. Increasingly
 
 So why learn on a manual? For many car enthusiasts, manuals are both more efficient and more engaging to drive - they offer additional control, and come with a heightened awareness of what the car is doing. Of course, they also come with a steep learning curve. 
 
-Some of the same attributes apply to our use of R as a tool for analysis. 
-
-- First, a manual approach forces you to explicitly understand more of the **requirements and assumptions** that go into the analysis that you're doing. 
-- Second, you have to **know your data** (and its strengths and limitations) well in order to get it set up for analysis and to produce useful output. 
-- Third, this approach emphasizes **reproducible analysis**, meaning that you will develop workflows that can be repeated over and over again producing the same results - important for sharing your work with others and for accountability, especially within contexts related to public deliberation of the strengths and weaknesses of policy arguments.
+Some of the same attributes apply to our use of R as a tool for analysis. First, a manual approach forces you to explicitly understand more of the requirements and assumptions that go into the analysis that you're doing. Second, you have to know your data (and its strengths and limitations) well in order to get it set up for analysis and to produce useful output. Third, this approach emphasizes *reproducible* analysis, meaning that you will develop workflows that can be repeated over and over again producing the same results - important for sharing your work with others and for accountability, especially within contexts related to public deliberation of the strengths and weaknesses of policy arguments.
 
 Keeping these three benefits in mind, we'll be using the R software coupled with the RStudio *Integrated Development Environment* (IDE) to counter some of the downsides of a purely manual approach. RStudio will help us implement R code more effectively and efficiently. Hopefully at this point, this prospect leaves you excited rather than daunted!

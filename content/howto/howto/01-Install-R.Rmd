@@ -23,15 +23,11 @@ Go ahead and download R and install following the installer defaults. After R is
 ![](/howto/howto/01-Install-R_files/03_ROpen.png)
 That's it for R. This should be the first and last time you'll need to open the R console directly. We typically will not access R directly, but instead will use RStudio as our primary interface. Go ahead and close the R console and proceed by downloading and installing RStudio, which is the IDE we will use to interface and write code with R.
 
-<div style="max-width:720px"><div style="position:relative;padding-bottom:60.972222222222%"><iframe id="kmsembed-1_90p92h7n" width="720" height="439" src="https://mediaspace.illinois.edu/embed/secure/iframe/entryId/1_90p92h7n/uiConfId/26883701" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" referrerPolicy="no-referrer-when-downgrade" sandbox="allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="Kaltura Player" style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe></div></div>
-
 ## Downlad RStudio
 
 Next up, let's download RStudio. Go to [https://rstudio.com/products/rstudio/download](https://rstudio.com/products/rstudio/download). Click on "Download" under RStudio Desktop. The website will suggest the most appropriate current version of the software based upon the computer you are loading RStudio on. You may also choose from an alternate installer if you believe it is more appropriate for your operating system.
 
 Download and install RStudio, again using the default installation settings.
-
-<div style="max-width:720px"><div style="position:relative;padding-bottom:60.972222222222%"><iframe id="kmsembed-1_n1iixn50" width="720" height="439" src="https://mediaspace.illinois.edu/embed/secure/iframe/entryId/1_n1iixn50/uiConfId/26883701" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" referrerPolicy="no-referrer-when-downgrade" sandbox="allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="Kaltura Player" style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe></div></div>
 
 Once you have RStudio installed, open RStudio. You should see something that looks like this (the information in your console window will likely describe a newer version of R than what is displayed here).
 

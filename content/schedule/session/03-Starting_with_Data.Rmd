@@ -14,8 +14,6 @@ weight: 3
 
 In this session, we'll take our first foray into the R and RStudio ecosystem. We'll begin to explore data types, how to describe data, and how R can help us manipulate data.
 
-Please be prepared to open and work with the lab files in RStudio today. This means that you should have R and RStudio installed on your computer.
-
 ```{r echo=FALSE}
 blogdown::shortcode("figure", src = "/schedule/session/03-Starting_with_Data_files/r_first_then.png", caption = "Image by [Allison Horst](https://github.com/allisonhorst/stats-illustrations)", type="Markdown")
 ```
@@ -31,13 +29,11 @@ blogdown::shortcode("figure", src = "/schedule/session/03-Starting_with_Data_fil
 
 Please make sure you have R, RStudio, and GitHub Desktop installed on your computer. Instructions are available in the [How To](/howto) section.
 
-Healy, Kieran. (2019). Data Visualization: A Practical Introduction. Princeton: Princeton University Press. ([Preface](https://uofi.box.com/s/p23eznmw855h05kcpq7rxunsng28l6lj) and [Chapter 2](https://uofi.box.com/s/6uxp7s4q6rg3zrhmvis1ez5nrzc67di7))
+Healy, Kieran. (2019). Data Visualization: A Practical Introduction. Princeton: Princeton University Press. ([Preface](https://uofi.box.com/s/xk1z2pnqtkbktg5dj0c44na1wuoiabgc) and [Chapter 2](https://uofi.box.com/s/a1q6cbxtnj7swn3xtpz6cj04vvqwskuv))
  
-You may also want to consult Data Carpentry's ([Before We Start](https://datacarpentry.org/R-ecology-lesson/00-before-we-start.html), [Intro to R](https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html), [Starting with Data](https://datacarpentry.org/R-ecology-lesson/02-starting-with-data.html))
+Data Carpentry ([Before We Start](https://datacarpentry.org/R-ecology-lesson/00-before-we-start.html), [Intro to R](https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html), [Starting with Data](https://datacarpentry.org/R-ecology-lesson/02-starting-with-data.html))
 
 ## Slides
-
-[Download Here](/schedule/session/03-Starting_with_Data_files/S3_Slides.pdf)
 
 ## Other Resources
 
