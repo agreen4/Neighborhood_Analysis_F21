@@ -12,6 +12,8 @@ weight: 6
 
 ## Session Description
 
+This session is a continuation of the Session 5 work. Please come with questions and be prepared to work independently or in small groups.
+
 ## Before Class
 
 ## Slides
