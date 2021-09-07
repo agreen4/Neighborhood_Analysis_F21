@@ -23,10 +23,8 @@ In this session, we'll spend time talking about how to describe places, as well 
 
 Have a restful long weekend.
 
-Please [download the lab files](/schedule/session/03-Starting_with_Data_files/03_Lab.zip).
+Please [download the lab files](/schedule/session/05-Describing_Places_files/05_Describing_Places.zip)
 
 ## Slides
-
-[Download Here](/schedule/session/03-Starting_with_Data_files/S3_Slides.pdf)
 
 ## Other Resources
