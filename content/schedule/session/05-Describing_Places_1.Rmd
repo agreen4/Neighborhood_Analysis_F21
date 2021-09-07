@@ -23,7 +23,7 @@ In this session, we'll spend time talking about how to describe places, as well 
 
 Have a restful long weekend.
 
-Please [download the lab files](/schedule/session/05-Describing_Places_files/05_Describing_Places.zip)
+Please [download the lab files](/schedule/session/05-Describing_Places_1_files/05_Describing_Places.zip)
 
 ## Slides
 
