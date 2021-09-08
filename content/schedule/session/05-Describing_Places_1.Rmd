@@ -12,9 +12,21 @@ weight: 5
 
 ## Session Description
 
+In this session, we'll spend time talking about how to describe places, as well as some frameworks for making place comparisons. We'll also spend time debriefing on your lab work from last week, and will start to talk about some of the components of this week's lab, which integrates techniques for *joining* datasets together and which provides an initial opportunity to begin working with census data.
 
+## This Week's Reflection Prompt
+
+- We intuitively tell lots of stories about places. What are some of the most evocative tropes you can think of that could apply to places? What makes for a good story about place?
+- What are some of the benefits and challenges of making place comparisons? How does this feel from the perspective of an analyst? What dangers or challenges does the analyst face when telling comparative stories to others?
+ 
 ## Before Class
 
+Have a restful long weekend.
+
+Please [download the lab files](/schedule/session/05-Describing_Places_1_files/05_Describing_Places.zip)
+
 ## Slides
+
+[Download Here](/schedule/session/05-Describing_Places_1_files/S5_Describing_Places.pdf)
 
 ## Other Resources
