@@ -27,7 +27,7 @@ Most memos include fewer citations than other academic writing, but when you cho
 
 # Memo Writing Resources
 
-[Annotated Example Memorandum](/howto/howto/08-write_memo_files/Greenlee_Memo_Example.pdf)
-[Professional Writing By the Numbers - Ed Feser](/howto/howto/08-write_memo_files/PWBTN_4.pdf)
+- [Annotated Example Memorandum](/howto/howto/08-write_memo_files/Greenlee_Memo_Example.pdf)
+- [Professional Writing By the Numbers - Ed Feser](/howto/howto/08-write_memo_files/PWBTN_4.pdf)
 
 
