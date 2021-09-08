@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>How To | Neighborhood Analysis</title>
+    <link>/howto/</link>
+      <atom:link href="/howto/index.xml" rel="self" type="application/rss+xml" />
+    <description>How To</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>How To</title>
+      <link>/howto/</link>
+    </image>
+    
+    <item>
+      <title>Your First Commands</title>
+      <link>/howto/howto/04-basic_commands/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/howto/howto/04-basic_commands/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;With those basics in mind, you can start to explore the basic functionality of R.&lt;/p&gt;
+&lt;div id=&#34;starting-simple---math-and-basic-operators&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Starting Simple - Math and Basic Operators&lt;/h3&gt;
+&lt;p&gt;Now that you have a basic lay of the land for the RStudio console, we can start to explore some logic and functionality. Let’s start simple - with some basic math operators. Try doing some basic math by typing in the console window and hitting return / enter to execute:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;2+2&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 4&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Note that you type in code, R executes it, and immediately below what you’ve typed in, it has returned an answer. Here are some of the most common mathematical operators which you’ll take advantage of:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;+&lt;/code&gt; Addition&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-&lt;/code&gt; Subtraction&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;*&lt;/code&gt; Multiplication&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/&lt;/code&gt; Division&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;^&lt;/code&gt; Exponent (e.g. &lt;code&gt;2^3 = 8&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;()&lt;/code&gt; parentheses (to enforce a desired order of operations - r automatically follows the typical order of operation rules)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There are also some built in mathematical constants:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;pi&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 3.141593&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Which makes it really easy to figure out things, like the area of a circle with a radius of 5 (recall &lt;span class=&#34;math inline&#34;&gt;\(A = \pi r^2\)&lt;/span&gt;):&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;pi*5^2&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 78.53982&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;While we won’t be doing much (if any) math this way, it’s important to become familiar with how this works, and what the expected response is from R.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;assigning-values-to-objects&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Assigning values to objects&lt;/h3&gt;
+&lt;p&gt;One of the useful things about R is that it is an &lt;em&gt;object oriented&lt;/em&gt; programming language. This means that we can easily assign values to objects and then use those objects in calculations later on. We can assign values using the &lt;code&gt;&amp;lt;-&lt;/code&gt; assignment operator.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;r &amp;lt;- 5&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Hmm - what did we do here? We assigned the value 5 to a variable named &lt;code&gt;r&lt;/code&gt;. That variable could have just about any name - the name isn’t really important - it’s just a place holder. Notice in our environment window that we have a new row that shows a variable named r with a value of 5. We can easily retrieve this value by typing the name of the variable in our console:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;r&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 5&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This means we can use it in place of a value anywhere in our code:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;pi*r^2&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 78.53982&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If we assigned a new value to r, the value would change:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;r&amp;lt;-10
+pi*r^2&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 314.1593&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Instead of returning a value from an operation to our console, we could also store that in a variable:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;circle_area&amp;lt;-pi*r^2&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And now we could retrieve that:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;circle_area&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 314.1593&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This will become more intuitive the more you use R. Now’s a good time to start to internalize some conventions around variable naming.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Variables are case sensitive, so &lt;code&gt;variable&lt;/code&gt; and &lt;code&gt;Variable&lt;/code&gt; are different things.&lt;/li&gt;
+&lt;li&gt;Variables cannot start with numerals, they must start with a letter&lt;/li&gt;
+&lt;li&gt;Variables cannot contain spaces. Convention is to use an underscore or period (e.g. variable_one or variable.one) if you want to denote spaces in a variable name.&lt;/li&gt;
+&lt;li&gt;If you define a variable with the same name as an R constant (such as &lt;code&gt;pi&lt;/code&gt;), your variable will supersede R’s value:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;pi&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 3.141593&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;pi&amp;lt;-2000
+pi&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 2000&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You will start to develop your own naming conventions for variables as you learn R. Keeping variable names short and descriptive becomes important, particularly as you add objects to your workspace.&lt;/p&gt;
+&lt;p&gt;As we learn more about other R features, you’ll also want to avoid naming variables in ways that are similar to R functions. No need to worry about those details just yet, but keep this in mind as we move along.&lt;/p&gt;
+&lt;p&gt;Finally, keep in mind that you can remove existing variables from your workspace using the &lt;code&gt;rm()&lt;/code&gt; command. &lt;code&gt;rm()&lt;/code&gt; will accept in the bracket the name of the object you’d like to remove (be careful is this is permanent):&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;rm(pi)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Even more finally, if you want to clear your entire workspace, you can do so as follows (remember that this is a permanent clearing):&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;rm(list=ls())&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Get Started</title>
+      <link>/howto/howto/00-get_started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/howto/howto/00-get_started/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;R is an open source programming language that is a common tool used for data analysis across a range of disciplines. This means that in addition to being free and available for a range of operating systems and environments, R is also directly supported by a diverse user community who continually develop approaches for specialized applications or data. Need to download U.S. Census Data? There’s an &lt;a href=&#34;https://walker-data.com/tidycensus/&#34;&gt;R package&lt;/a&gt; for that. Need to perform common data cleaning tasks? There’s an R package for that too. We’ll be exploring a range of these specialized applications over the course of the semester.&lt;/p&gt;
+&lt;p&gt;Of course there are alternate languages which we could employ in service of neighborhood analysis. &lt;a href=&#34;https://www.python.org&#34;&gt;Python&lt;/a&gt;, for example, is an even more ubiquitous programming language with its own set of tools for data science. R was originally built as a &lt;em&gt;statistical computing&lt;/em&gt; language, and that brings some important benefits for the types of data science we’ll be learning this semester. R is also fairly prevalent among the user community working in public policy analysis and urban data science - this is the user community which you will be joining. Finally, R has a high learning curve, but also a very active user community, meaning that abundant documentation of problems and their solutions is available.&lt;/p&gt;
+&lt;p&gt;As we get started, let’s be clear - you are going to experience some frustration and challenges as you learn the R programming language. This class assumes no prior background in R or any other programming language for that matter, and we’ll work to quickly build your “vocabulary” and the ability to get results. We will spend some time picking up basics, and will then use our exploration of specific analysis approaches to reinforce our use of the grammar and structure of the language and to build more complex scripts over time.&lt;/p&gt;
+&lt;p&gt;It’s fair to equate learning R with learning to drive a manual car. Increasingly, people learn how to drive in automatic cars - essentially allowing the car to handle the function of switching gears - you put the car into drive, press the accelerator pedal and the car moves forward. Your past exposure to computer-based analytic tools has probably followed a similar strategy - you likely learned using software that had graphical user interfaces that allow them to call up and run programs and then spit out results. Most of us learn to point and click in order to accomplish a particular set of analytic tasks, meaning that if we want to generate the same results in the future, we would have to repeat all of those same steps over again.&lt;/p&gt;
+&lt;p&gt;So why learn on a manual? For many car enthusiasts, manuals are both more efficient and more engaging to drive - they offer additional control, and come with a heightened awareness of what the car is doing. Of course, they also come with a steep learning curve.&lt;/p&gt;
+&lt;p&gt;Some of the same attributes apply to our use of R as a tool for analysis. First, a manual approach forces you to explicitly understand more of the requirements and assumptions that go into the analysis that you’re doing. Second, you have to know your data (and its strengths and limitations) well in order to get it set up for analysis and to produce useful output. Third, this approach emphasizes &lt;em&gt;reproducible&lt;/em&gt; analysis, meaning that you will develop workflows that can be repeated over and over again producing the same results - important for sharing your work with others and for accountability, especially within contexts related to public deliberation of the strengths and weaknesses of policy arguments.&lt;/p&gt;
+&lt;p&gt;Keeping these three benefits in mind, we’ll be using the R software coupled with the RStudio &lt;em&gt;Integrated Development Environment&lt;/em&gt; (IDE) to counter some of the downsides of a purely manual approach. RStudio will help us implement R code more effectively and efficiently. Hopefully at this point, this prospect leaves you excited rather than daunted!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Customize Code Chunks</title>
+      <link>/howto/howto/07-customize_chunks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/howto/howto/07-customize_chunks/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;In this class, you’ve learned how to use R Notebooks to “knit” together plain text and code. By default R Notebooks are quite &lt;em&gt;verbose&lt;/em&gt; - you get a lot of output including many things that are useful for you when you are conducting analysis. As you work to polish notebooks for dissemination, however, you will want more control over exactly what is displayed or output into your knitted notebooks.&lt;/p&gt;
+&lt;p&gt;R notebooks allow you to specify chunk options that can help you control what output makes it into your knitted output document.&lt;/p&gt;
+&lt;p&gt;A default code chunk containing R code starts like this &lt;code&gt;```{r}&lt;/code&gt; and ends like this &lt;code&gt;```&lt;/code&gt;. You can add additional chunk options to the beginning of your code chunk in order to control what aspects are evaluated and included in your notebook’s output.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf?_ga=2.238342339.2134531226.1615989320-918520336.1615989320&#34;&gt;R Markdown Reference Guide&lt;/a&gt; contains a list of many code chunk options. For a more detailed description, please see &lt;a href=&#34;https://yihui.org/knitr/options/&#34;&gt;knitr’s documentation&lt;/a&gt;. Some of the common chunk options you can use to control what is evaluated and what is included in your rendered output are the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;include = FALSE&lt;/code&gt;: Run the code chunk but do not include the chunk in the rendered document&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;echo = FALSE&lt;/code&gt;: Do not display the code chunk in the rendered document, but show the output from the code&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;eval = FALSE&lt;/code&gt;: Display the code chunk but do not evaluate the code contained within the chunk&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;error = FALSE&lt;/code&gt;: Do not display any error messages generated by the code in your rendered document&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;message = FALSE&lt;/code&gt;: Do not display any messages generated by the code in your rendered document&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;results = FALSE&lt;/code&gt;: Do not display the code results in your rendered document&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;warning = FALSE&lt;/code&gt;: Do not display any warnings generated by the code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It is likely that you will have to play with these options in order to identify the correct one to produce the output you want in your rendered document.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Develop an Analysis</title>
+      <link>/howto/howto/06-build_analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/howto/howto/06-build_analysis/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;This brief tutorial takes you through the basics of a “real world” analytic workflow. In this case, the workflow is built around conducting an independent analysis of the &lt;a href=&#34;https://www.chicago.gov/city/en/sites/covid-19/home/protect-chicago.html&#34;&gt;Protect Chicago Plus&lt;/a&gt; program that enhances SARS-CoV-19 Vaccination availability and outreach in communities in which uptake is low and infections and deaths are high.&lt;/p&gt;
+&lt;p&gt;We’ve examined maps that help to visualize the disparities in where COVID cases are and where vaccinations are more prevalent:&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;As of February 17, 2021, Chicago is reporting 95,321 people fully vaccinated: 3.4% of the population.&lt;br&gt;&lt;br&gt;Who is dying:           Who is vaccinated: &lt;a href=&#34;https://t.co/LZt6OPYgiN&#34;&gt;pic.twitter.com/LZt6OPYgiN&lt;/a&gt;&lt;/p&gt;&amp;mdash; ChiVaxBot (@ChiVaxBot) &lt;a href=&#34;https://twitter.com/ChiVaxBot/status/1362220407189864450?ref_src=twsrc%5Etfw&#34;&gt;February 18, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;The initial goal of our analysis will be to verify that the City has designated those community areas for Protect Chicago Plus with high levels of need. From there, we will also explore some of the demographic correlates associated with these neighborhoods to think about further questions that may emerge.&lt;/p&gt;
+&lt;p&gt;What we’re doing here is loosely a validation of existing policy targeting. From there we can think about how we might use questions that emerge from our validation for further exploration and explanation.&lt;/p&gt;
+&lt;div id=&#34;getting-set-up&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Getting Set Up&lt;/h1&gt;
+&lt;p&gt;As usual, we’ll start by loading some packages.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)
+library(tidyverse)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.0 ──&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## ✓ tibble  3.0.4     ✓ dplyr   1.0.2
+## ✓ tidyr   1.1.2     ✓ stringr 1.4.0
+## ✓ readr   1.4.0     ✓ forcats 0.5.0
+## ✓ purrr   0.3.4&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(RSocrata)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We’ve spent time with &lt;code&gt;ggplot2&lt;/code&gt; and &lt;code&gt;tidyverse&lt;/code&gt; prior but not &lt;code&gt;RSocrata&lt;/code&gt;. &lt;code&gt;RSocrata&lt;/code&gt; is an R interface for &lt;a href=&#34;https://www.tylertech.com/products/socrata&#34;&gt;Socrata&lt;/a&gt;, which is a data platform designed to host public-facing open data (and which is used by many local governments).&lt;/p&gt;
+&lt;p&gt;In this case, we’ll use RSocrata to load data for City of Chicago’s datasets on &lt;a href=&#34;https://data.cityofchicago.org/Health-Human-Services/COVID-19-Cases-Tests-and-Deaths-by-ZIP-Code/yhhz-zm2v&#34;&gt;COVID Cases and Deaths&lt;/a&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cdph&amp;lt;-RSocrata::read.socrata(&amp;quot;https://data.cityofchicago.org/resource/yhhz-zm2v.json&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;exploratory-plotting&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Exploratory Plotting&lt;/h1&gt;
+&lt;p&gt;The data on COVID case positivity contain multiple observations for each ZIP code (one per week). We can use &lt;code&gt;geom_path()&lt;/code&gt; to create line charts that chart the positivity rate over time:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cdph %&amp;gt;% 
+  ggplot(aes(x=week_end, y=as.numeric(case_rate_weekly), group = zip_code))+geom_path()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: Removed 187 row(s) containing missing values (geom_path).&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/howto/howto/06-build_analysis_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Who - a little messy, but we can already see some general trends regarding case positivity. THere are two main “humps” where overall case rates go up, one in summer, and one in fall. At the same time, we can see that there’s some spread - some ZIP codes have much higher peaks and do not see rates return as low as others.&lt;/p&gt;
+&lt;p&gt;The primary question at this point is, do those ZIP codes with higher peaks and continued elevated rates correspond with the Protect Chicago Plus designation?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;identify-protect-chicago-plus-zip-codes&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Identify Protect Chicago Plus ZIP Codes&lt;/h1&gt;
+&lt;p&gt;Documentation from Protect Chicago Plus lists the specific Chicago community areas where enhanced outreach and vaccinations will take place. Here’s a Community Area map for reference with Protect Chicago Plus areas highlighted in blue:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.chicago.gov/content/dam/city/sites/covid-19-vaccine/images/ProtectChicagoPlus_Map.png&#34; /&gt;
+Community Areas are a Chicago-specific geography. The data we downloaded on case positivity is at the ZIP code level. How do we reconcile these two things? We could be fancy and use some spatial methods to find the overlap between the selcted community areas and zip codes, but let’s do this manually for now using visual inspection.&lt;/p&gt;
+&lt;p&gt;Here’s a &lt;a href=&#34;https://www.chicago.gov/content/dam/city/sites/covid/reports/2020-04-24/ChicagoCommunityAreaandZipcodeMap.pdf&#34;&gt;map from City of Chicago&lt;/a&gt; that overlays Community Areas and ZIP Codes.&lt;/p&gt;
+&lt;p&gt;We can start eyeballing which ZIP codes overlap which Community Areas. Here’s a rough list of the overlap:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Austin - 60707, 60639, 60644, 60651&lt;/li&gt;
+&lt;li&gt;Archer Heights - 60632&lt;/li&gt;
+&lt;li&gt;Back of the Yards (New City) - 60609&lt;/li&gt;
+&lt;li&gt;Belmont Cragin - 60634, 60639, 60641&lt;/li&gt;
+&lt;li&gt;Chicago Lawn - 60629&lt;/li&gt;
+&lt;li&gt;Englewood - 60621&lt;/li&gt;
+&lt;li&gt;Gage Park - 60629, 60632&lt;/li&gt;
+&lt;li&gt;Humboldt Park - 60612, 60624, 60651&lt;/li&gt;
+&lt;li&gt;Little Village - 60608&lt;/li&gt;
+&lt;li&gt;North Lawndale - 60623&lt;/li&gt;
+&lt;li&gt;Montclare - 60707, 60634&lt;/li&gt;
+&lt;li&gt;Roseland - 60628&lt;/li&gt;
+&lt;li&gt;South Deering - 60617&lt;/li&gt;
+&lt;li&gt;Washington Heights - 60620, 60643&lt;/li&gt;
+&lt;li&gt;West Englewood - 60636&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Our visual inspection leaves us with a list of the ZIP codes which are (roughly) targeted for Protect Chicago. There is not perfect correspondence, and some of the residents of the ZIP codes will not be targeted. However, the rough correspondence should help us understand some general patterns that allow us to compare case positivity between designated and undesignated ZIP codes.&lt;/p&gt;
+&lt;p&gt;Let’s create a new categorical variable in our CDPH data called Targeted, and label those ZIP codes that are part of our list “Protect Chicago” and all other ZIP codes “Other ZIP Code”:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cdph&amp;lt;-cdph %&amp;gt;% mutate(Targeted = case_when(zip_code %in% c(
+  &amp;quot;60608&amp;quot;, 
+  &amp;quot;60609&amp;quot;, 
+  &amp;quot;60612&amp;quot;, 
+  &amp;quot;60617&amp;quot;, 
+  &amp;quot;60620&amp;quot;, 
+  &amp;quot;60621&amp;quot;, 
+  &amp;quot;60623&amp;quot;, 
+  &amp;quot;60624&amp;quot;, 
+  &amp;quot;60628&amp;quot;, 
+  &amp;quot;60629&amp;quot;, 
+  &amp;quot;60632&amp;quot;, 
+  &amp;quot;60634&amp;quot;, 
+  &amp;quot;60636&amp;quot;, 
+  &amp;quot;60639&amp;quot;, 
+  &amp;quot;60641&amp;quot;, 
+  &amp;quot;60643&amp;quot;, 
+  &amp;quot;60644&amp;quot;, 
+  &amp;quot;60651&amp;quot;, 
+  &amp;quot;60707&amp;quot;) ~ &amp;quot;Protect Chicago&amp;quot;,
+  TRUE ~ &amp;quot;Other ZIP Code&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;case_when()&lt;/code&gt; is a useful tool for conditionally recoding values. Here we are telling it when a value in the zip_code column corresponds to the list of ZIP codes given, we’ll label those rows “Protect Chicago”. All other rows will be labelled “Other ZIP Code”. As a reminder, we use a &lt;code&gt;mutate()&lt;/code&gt; statement to create a new variable.&lt;/p&gt;
+&lt;p&gt;Now we can re-visit the previous plot, but this time, let’s color each of the zip codes by whether they are targeted under Protect Chicago or not:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cdph %&amp;gt;% 
+  filter(population &amp;gt; 0) %&amp;gt;% 
+  ggplot(aes(x=week_end, y=as.numeric(case_rate_weekly), colour = Targeted))+geom_path()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: Removed 4 row(s) containing missing values (geom_path).&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/howto/howto/06-build_analysis_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;It looks like there may be a pattern, but it can be a bit hard to see due to &lt;em&gt;overplotting&lt;/em&gt;. Let’s change the alpha (transparency) on our plot geometry to see what’s going on under all those lines:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cdph %&amp;gt;% 
+  filter(population &amp;gt; 0) %&amp;gt;% 
+  ggplot(aes(x=week_end, y=as.numeric(case_rate_weekly), colour = Targeted))+geom_path(alpha=.2)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: Removed 4 row(s) containing missing values (geom_path).&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/howto/howto/06-build_analysis_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;And let’s also add a statistical summary line for each series. By default GGPlot uses a &lt;a href=&#34;http://r-statistics.co/Loess-Regression-With-R.html&#34;&gt;loess smoothed&lt;/a&gt; line:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cdph %&amp;gt;% 
+  filter(population &amp;gt; 0) %&amp;gt;% 
+  ggplot(aes(x=week_end, y=as.numeric(case_rate_weekly), colour = Targeted))+
+  geom_path(alpha=.2)+
+  stat_smooth(se=FALSE)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## `geom_smooth()` using method = &amp;#39;gam&amp;#39; and formula &amp;#39;y ~ s(x, bs = &amp;quot;cs&amp;quot;)&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: Removed 133 rows containing non-finite values (stat_smooth).&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: Removed 4 row(s) containing missing values (geom_path).&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/howto/howto/06-build_analysis_files/figure-html/unnamed-chunk-8-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;In the above code, I also removed the removed the error shading (&lt;code&gt;se=FALSE&lt;/code&gt;) for visual simplicity.&lt;/p&gt;
+&lt;p&gt;This is looking pretty good - we can see some substantial differences in case positivity rates for Protect Chicago ZIP codes versus those that are not targeted. This gives us some confidence that the program’s targeting is appropriate.&lt;/p&gt;
+&lt;p&gt;We now have results that at face value make sense and help us to feel fairly confident that the program is targeting communities with the highest need. Given that, let’s invest in a clean up our plot by adding sensible labels and scale formats:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cdph %&amp;gt;% 
+  filter(population &amp;gt; 0) %&amp;gt;% 
+  ggplot(aes(x=week_end, y=as.numeric(case_rate_weekly), colour = Targeted))+
+  geom_path(alpha=.2)+
+  stat_smooth(se=FALSE)+
+  labs(x=&amp;quot;Date&amp;quot;, y=&amp;quot;COVID Case Rate (per 100,000)&amp;quot;, colour = &amp;quot;Type&amp;quot;)+
+  scale_y_continuous(labels = scales::comma_format())+
+  theme_classic()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## `geom_smooth()` using method = &amp;#39;gam&amp;#39; and formula &amp;#39;y ~ s(x, bs = &amp;quot;cs&amp;quot;)&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: Removed 133 rows containing non-finite values (stat_smooth).&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: Removed 4 row(s) containing missing values (geom_path).&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/howto/howto/06-build_analysis_files/figure-html/unnamed-chunk-9-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;At this point, we might also consider a plot that does not include the data series but which just visualizes the statistical summaries of the data:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cdph %&amp;gt;% 
+  filter(population &amp;gt; 0) %&amp;gt;% 
+  ggplot(aes(x=week_end, y=as.numeric(case_rate_weekly), colour = Targeted))+
+  stat_smooth(se=FALSE)+
+  labs(x=&amp;quot;Date&amp;quot;, y=&amp;quot;COVID Case Rate (per 100,000)&amp;quot;, colour = &amp;quot;Type&amp;quot;)+
+  scale_y_continuous(labels = scales::comma_format())+
+  theme_classic()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## `geom_smooth()` using method = &amp;#39;gam&amp;#39; and formula &amp;#39;y ~ s(x, bs = &amp;quot;cs&amp;quot;)&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: Removed 133 rows containing non-finite values (stat_smooth).&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/howto/howto/06-build_analysis_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;covid-deaths&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;COVID Deaths&lt;/h1&gt;
+&lt;p&gt;We have focused on plotting case positivity. In the past we’ve looked at COVID deaths as another important measure of need. Do the Protect Chicago Plus ZIP codes also have elevated rates of deaths per capita due to COVID? Let’s repeat the same plot for COVID deaths:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cdph %&amp;gt;% 
+  filter(population &amp;gt; 0) %&amp;gt;% 
+  ggplot(aes(x=week_end, y=as.numeric(death_rate_weekly), colour = Targeted))+
+  geom_path(alpha=.2)+
+  stat_smooth(se=FALSE)+
+  labs(x=&amp;quot;Date&amp;quot;, y=&amp;quot;COVID Death Rate (per 100,000)&amp;quot;, colour = &amp;quot;Type&amp;quot;)+
+  scale_y_continuous(labels = scales::comma_format())+
+  theme_classic()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## `geom_smooth()` using method = &amp;#39;gam&amp;#39; and formula &amp;#39;y ~ s(x, bs = &amp;quot;cs&amp;quot;)&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/howto/howto/06-build_analysis_files/figure-html/unnamed-chunk-11-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;And the plot of the statistical summaries:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cdph %&amp;gt;% 
+  filter(population &amp;gt; 0) %&amp;gt;% 
+  ggplot(aes(x=week_end, y=as.numeric(death_rate_weekly), colour = Targeted))+
+  stat_smooth(se=FALSE)+
+  labs(x=&amp;quot;Date&amp;quot;, y=&amp;quot;COVID Death Rate (per 100,000)&amp;quot;, colour = &amp;quot;Type&amp;quot;)+
+  scale_y_continuous(labels = scales::comma_format())+
+  theme_classic()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## `geom_smooth()` using method = &amp;#39;gam&amp;#39; and formula &amp;#39;y ~ s(x, bs = &amp;quot;cs&amp;quot;)&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/howto/howto/06-build_analysis_files/figure-html/unnamed-chunk-12-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Much quicker now that we have a general plot format developed. We now have a good sense of one portion of the rationale for Protect Chicago Plus targeting - We know the program is targeting neighborhoods that tend to have elevated case positivity rates and death rates. But what about the vaccine situation in these same places?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;covid-vaccination-data&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;COVID Vaccination Data&lt;/h1&gt;
+&lt;p&gt;Let’s now load City of Chicago data on &lt;a href=&#34;https://data.cityofchicago.org/Health-Human-Services/COVID-19-Vaccinations-by-ZIP-Code/553k-3xzc&#34;&gt;COVID Vaccination Rates&lt;/a&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cdph_vacc&amp;lt;-RSocrata::read.socrata(&amp;quot;https://data.cityofchicago.org/resource/553k-3xzc.json&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now that we’ve downloaded vaccination data, we can create the same Targeted variable in these data:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cdph_vacc&amp;lt;-cdph_vacc %&amp;gt;% mutate(Targeted = case_when(zip_code %in% c(
+  &amp;quot;60608&amp;quot;, 
+  &amp;quot;60609&amp;quot;, 
+  &amp;quot;60612&amp;quot;, 
+  &amp;quot;60617&amp;quot;, 
+  &amp;quot;60620&amp;quot;, 
+  &amp;quot;60621&amp;quot;, 
+  &amp;quot;60623&amp;quot;, 
+  &amp;quot;60624&amp;quot;, 
+  &amp;quot;60628&amp;quot;, 
+  &amp;quot;60629&amp;quot;, 
+  &amp;quot;60632&amp;quot;, 
+  &amp;quot;60634&amp;quot;, 
+  &amp;quot;60636&amp;quot;, 
+  &amp;quot;60639&amp;quot;, 
+  &amp;quot;60641&amp;quot;, 
+  &amp;quot;60643&amp;quot;, 
+  &amp;quot;60644&amp;quot;, 
+  &amp;quot;60651&amp;quot;, 
+  &amp;quot;60707&amp;quot;) ~ &amp;quot;Protect Chicago&amp;quot;,
+  TRUE ~ &amp;quot;Other ZIP Code&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now that we’ve added the Targeted variable, let’s make an initial plot similar to our final plots for COVID cases and deaths&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cdph_vacc %&amp;gt;% 
+  filter(population &amp;gt; 0) %&amp;gt;% 
+  ggplot(aes(x=date, y=as.numeric(vaccine_series_completed_percent_population), colour = Targeted))+
+  geom_path(alpha=.2)+
+  stat_smooth(se=FALSE)+
+  labs(x=&amp;quot;Date&amp;quot;, y=&amp;quot;COVID Vaccination Rate&amp;quot;, colour = &amp;quot;Type&amp;quot;)+
+  scale_y_continuous(labels = scales::percent_format())+
+  theme_classic()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## `geom_smooth()` using method = &amp;#39;gam&amp;#39; and formula &amp;#39;y ~ s(x, bs = &amp;quot;cs&amp;quot;)&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/howto/howto/06-build_analysis_files/figure-html/unnamed-chunk-15-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Ok, probably some clean up or noise in the data - it looks like we’re probably missing data for some zip codes (the straight lines). We could remove, but let’s proceed for now.&lt;/p&gt;
+&lt;p&gt;Let’s add a summary smoothed line as we’ve done before&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cdph_vacc %&amp;gt;% 
+  filter(population &amp;gt; 0) %&amp;gt;% 
+  ggplot(aes(x=date, y=as.numeric(vaccine_series_completed_percent_population), colour = Targeted))+
+  geom_path(alpha=.2)+
+  stat_smooth(se=FALSE)+
+  labs(x=&amp;quot;Date&amp;quot;, y=&amp;quot;COVID Vaccination Rate&amp;quot;, colour = &amp;quot;Type&amp;quot;)+
+  scale_y_continuous(labels = scales::percent_format())+
+  theme_classic()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## `geom_smooth()` using method = &amp;#39;gam&amp;#39; and formula &amp;#39;y ~ s(x, bs = &amp;quot;cs&amp;quot;)&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/howto/howto/06-build_analysis_files/figure-html/unnamed-chunk-16-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;And let’s plot the summary without the data series:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cdph_vacc %&amp;gt;% 
+  filter(population &amp;gt; 0) %&amp;gt;% 
+  ggplot(aes(x=date, y=as.numeric(vaccine_series_completed_percent_population), colour = Targeted))+
+  #geom_path(alpha=.2)+
+  stat_smooth(se=FALSE)+
+  labs(x=&amp;quot;Date&amp;quot;, y=&amp;quot;COVID Vaccination Rate&amp;quot;, colour = &amp;quot;Type&amp;quot;)+
+  scale_y_continuous(labels = scales::percent_format())+
+  theme_classic()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## `geom_smooth()` using method = &amp;#39;gam&amp;#39; and formula &amp;#39;y ~ s(x, bs = &amp;quot;cs&amp;quot;)&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/howto/howto/06-build_analysis_files/figure-html/unnamed-chunk-17-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;If we stop here, we could affirm that Protect Chicago seems to be targeting some of the most acutely impacted zip codes in the city, which is good, since that’s a major targeting principle of the policy!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;neighborhood-demographics&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Neighborhood Demographics&lt;/h1&gt;
+&lt;p&gt;Let’s go a little further. Our list of targeted zip codes might lead us to be curious about the demographics of targeted and not targeted zip codes. I’ve downloaded some American Community Survey data which we can now load (downloading Census data is another tutorial):&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;chi_zcta&amp;lt;-read_rds(&amp;quot;06_build_analysis/chi_zcta.rds&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We’ve loaded data on ZIP Code Tabulation Areas (ZCTAs) which are the Census Bureau’s proxy for US Postal Service ZIP codes.&lt;/p&gt;
+&lt;p&gt;Let’s add a new column with our Targeted designations:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;chi_zcta &amp;lt;-chi_zcta %&amp;gt;% mutate(Targeted = case_when(GEOID10 %in% c(
+  &amp;quot;60608&amp;quot;, 
+  &amp;quot;60609&amp;quot;, 
+  &amp;quot;60612&amp;quot;, 
+  &amp;quot;60617&amp;quot;, 
+  &amp;quot;60620&amp;quot;, 
+  &amp;quot;60621&amp;quot;, 
+  &amp;quot;60623&amp;quot;, 
+  &amp;quot;60624&amp;quot;, 
+  &amp;quot;60628&amp;quot;, 
+  &amp;quot;60629&amp;quot;, 
+  &amp;quot;60632&amp;quot;, 
+  &amp;quot;60634&amp;quot;, 
+  &amp;quot;60636&amp;quot;, 
+  &amp;quot;60639&amp;quot;, 
+  &amp;quot;60641&amp;quot;, 
+  &amp;quot;60643&amp;quot;, 
+  &amp;quot;60644&amp;quot;, 
+  &amp;quot;60651&amp;quot;, 
+  &amp;quot;60707&amp;quot;) ~ &amp;quot;Protect Chicago&amp;quot;,
+  TRUE ~ &amp;quot;Other ZIP Code&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;For these data, we could start by plotting, but in this case, let’s produce a summary table. We take the data, group it by whether a ZIP code was targeted or not, and then produce a summary table with the average values for ZIP codes (&lt;code&gt;summarise_at&lt;/code&gt; allows you to select the specific variables you wish to summarize and then applies the same summary function to all of them).&lt;/p&gt;
+&lt;p&gt;Let’s start by summarizing a few race variables:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;chi_zcta %&amp;gt;% group_by(Targeted) %&amp;gt;% summarise_at(vars(PWhite:PForeignborn), mean, na.rm=TRUE)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 2 x 8
+##   Targeted        PWhite PBlack   PAIAN PAsian PNonwhite PLatino PForeignborn
+##   &amp;lt;chr&amp;gt;            &amp;lt;dbl&amp;gt;  &amp;lt;dbl&amp;gt;   &amp;lt;dbl&amp;gt;  &amp;lt;dbl&amp;gt;     &amp;lt;dbl&amp;gt;   &amp;lt;dbl&amp;gt;        &amp;lt;dbl&amp;gt;
+## 1 Other ZIP Code   0.602  0.210 0.00346 0.114      0.398   0.150        0.200
+## 2 Protect Chicago  0.321  0.484 0.00332 0.0250     0.679   0.346        0.177&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Next up, a few income variables:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;chi_zcta %&amp;gt;% group_by(Targeted) %&amp;gt;% summarise_at(vars(Pov, PCI, MHHI, ServOccup, Commute), mean, na.rm=TRUE)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 2 x 6
+##   Targeted          Pov    PCI   MHHI ServOccup Commute
+##   &amp;lt;chr&amp;gt;           &amp;lt;dbl&amp;gt;  &amp;lt;dbl&amp;gt;  &amp;lt;dbl&amp;gt;     &amp;lt;dbl&amp;gt;   &amp;lt;dbl&amp;gt;
+## 1 Other ZIP Code  0.157 55445. 78254.     0.153   0.144
+## 2 Protect Chicago 0.253 20524. 41210.     0.262   0.206&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And finally, let’s summarize some housing characteristics:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;chi_zcta %&amp;gt;% group_by(Targeted) %&amp;gt;% summarise_at(vars(MHV, OCB, RCB, MGR), mean, na.rm=TRUE)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 2 x 5
+##   Targeted            MHV   OCB   RCB   MGR
+##   &amp;lt;chr&amp;gt;             &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt;
+## 1 Other ZIP Code  337439. 0.284 0.417 1398.
+## 2 Protect Chicago 181895. 0.367 0.545  935.&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now might be a good time for some more exploratory plotting, starting with some selected univariate descriptions:&lt;/p&gt;
+&lt;div id=&#34;exploratory-plots-income&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Exploratory Plots: Income&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;chi_zcta %&amp;gt;% ggplot(aes(x=MHHI, fill = Targeted))+geom_histogram()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/howto/howto/06-build_analysis_files/figure-html/unnamed-chunk-23-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;chi_zcta %&amp;gt;% ggplot(aes(x=MHHI, colour = Targeted))+geom_boxplot()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/howto/howto/06-build_analysis_files/figure-html/unnamed-chunk-24-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;exploratory-plots-poverty&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Exploratory Plots: Poverty&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;chi_zcta %&amp;gt;% ggplot(aes(x=Pov, fill = Targeted))+geom_histogram()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/howto/howto/06-build_analysis_files/figure-html/unnamed-chunk-25-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;chi_zcta %&amp;gt;% ggplot(aes(x=Pov, colour = Targeted))+geom_boxplot()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/howto/howto/06-build_analysis_files/figure-html/unnamed-chunk-26-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;exploratory-plots-nonwhite-population&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Exploratory Plots: Nonwhite Population&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;chi_zcta %&amp;gt;% ggplot(aes(x=PNonwhite, fill = Targeted))+geom_histogram()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/howto/howto/06-build_analysis_files/figure-html/unnamed-chunk-27-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;chi_zcta %&amp;gt;% ggplot(aes(x=PNonwhite, colour = Targeted))+geom_density()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/howto/howto/06-build_analysis_files/figure-html/unnamed-chunk-28-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;chi_zcta %&amp;gt;% ggplot(aes(x=PNonwhite, colour = Targeted))+geom_boxplot()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/howto/howto/06-build_analysis_files/figure-html/unnamed-chunk-29-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;exploratory-plots-workers-in-service-occupation&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Exploratory Plots Workers in Service Occupation&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;chi_zcta %&amp;gt;% ggplot(aes(x=ServOccup, fill = Targeted))+geom_histogram()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/howto/howto/06-build_analysis_files/figure-html/unnamed-chunk-30-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;chi_zcta %&amp;gt;% ggplot(aes(x=ServOccup, colour = Targeted))+geom_density()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/howto/howto/06-build_analysis_files/figure-html/unnamed-chunk-31-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;chi_zcta %&amp;gt;% ggplot(aes(x=ServOccup, colour = Targeted))+geom_boxplot()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/howto/howto/06-build_analysis_files/figure-html/unnamed-chunk-32-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;questions&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Questions&lt;/h1&gt;
+&lt;p&gt;What questions do these exploratory plots and tables bring to mind? What other types of information would you want to overlay next in order to explore further?&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Installing R and RStudio</title>
+      <link>/howto/howto/01-install-r/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/howto/howto/01-install-r/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&#34;downlad-r&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Downlad R&lt;/h2&gt;
+&lt;p&gt;R can be downloaded from the Comprehensive R Archive Network (CRAN), a network of mirrored servers throughout the world that host the R software as well as user-developed packages. Visit &lt;a href=&#34;https://cloud.r-project.org&#34;&gt;https://cloud.r-project.org&lt;/a&gt; which will automatically direct you to the best download server.&lt;/p&gt;
+&lt;p&gt;Once here, you can then download and install R using the version that matches your operating system:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/howto/howto/01-Install-R_files/02_RDownload.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Go ahead and download R and install following the installer defaults. After R is downloaded and installed, run R to confirm. You should see a single window that looks something like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/howto/howto/01-Install-R_files/03_ROpen.png&#34; /&gt;
+That’s it for R. This should be the first and last time you’ll need to open the R console directly. We typically will not access R directly, but instead will use RStudio as our primary interface. Go ahead and close the R console and proceed by downloading and installing RStudio, which is the IDE we will use to interface and write code with R.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;downlad-rstudio&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Downlad RStudio&lt;/h2&gt;
+&lt;p&gt;Next up, let’s download RStudio. Go to &lt;a href=&#34;https://rstudio.com/products/rstudio/download&#34;&gt;https://rstudio.com/products/rstudio/download&lt;/a&gt;. Click on “Download” under RStudio Desktop. The website will suggest the most appropriate current version of the software based upon the computer you are loading RStudio on. You may also choose from an alternate installer if you believe it is more appropriate for your operating system.&lt;/p&gt;
+&lt;p&gt;Download and install RStudio, again using the default installation settings.&lt;/p&gt;
+&lt;p&gt;Once you have RStudio installed, open RStudio. You should see something that looks like this (the information in your console window will likely describe a newer version of R than what is displayed here).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/howto/howto/01-Install-R_files/04_RStudioOpen.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;You’ll note that what appears in the portion of the console to the left looks very similar to the R console window which you opened before you started your install of RStudio. This console functions in exactly the same way, however, you’ll also note that there are other areas which you have access to as well.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/howto/howto/01-Install-R_files/05_RStudioOpenAnnotate.png&#34; /&gt;
+## Rtools error (PC users)&lt;/p&gt;
+&lt;p&gt;Some PC users may encounter an error message regarding Rtools not being installed. This would come up with you first try to install a package such as &lt;code&gt;tidyverse&lt;/code&gt; either using R’s package manager or using the &lt;code&gt;install.packages()&lt;/code&gt; command. To remedy this error if it occurs, PC users need to close R, manually download a patch, install it, and restart your computer. This error should then be remedied.&lt;/p&gt;
+&lt;p&gt;If you are a PC user who encounters this error, please do the following:
+1. Save any work and close your RStudio session
+2. Download Rtools (&lt;a href=&#34;https://cran.rstudio.com/bin/windows/Rtools/&#34;&gt;download link&lt;/a&gt;)
++ the link above contains instructions for putting Rtools on the PATH - you should not need to do this.
+3. Run the downloaded executable file to install Rtools
+4. Restart your computer
+5. Re-open RStudio - the problem should be resolved&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-rstudio-interface&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;The RStudio Interface&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;The R Console&lt;/strong&gt; is the place where code you write is executed. Typically we’ll write code in a &lt;em&gt;script&lt;/em&gt; or &lt;em&gt;R Notebook&lt;/em&gt; (more on those later) and active pieces of code will them be executed in the R console. You can also type code directly into the console and execute it by hitting the return or enter key.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The Environment Window&lt;/strong&gt; provides information on variables, data tables, and other objects you create and define as you work.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The Auxiliary Window&lt;/strong&gt; provides a range of information, and includes a file browser, plot visualization window, and access to help documentation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With those basics in mind, you can start to explore the basic functionality of R.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Set Up a GitHub Repository</title>
+      <link>/howto/howto/02-github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/howto/howto/02-github/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;The majority of the work you produce this semester will be submitted via a &lt;a href=&#34;https://github.com&#34;&gt;GitHub&lt;/a&gt; repository which you will create.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://octodex.github.com/images/codercat.jpg&#34; style=&#34;width:30.0%&#34; /&gt;
+Github is an implementation of Git, which is a version control system designed to help you keep track of files (especially code) which are likely to be updated often. GitHub has some features similar to Dropbox or Box, but with far more emphasis on versioning your work and tracking changes.&lt;/p&gt;
+&lt;p&gt;Within our class, we’ll use GitHub as a location where you’ll store work outputs which you will receive feedback on. Early on in the class, you’ll manually push files to your GitHub repository. As we move forward in class, you’ll learn how GitHub is integrated with R, and you can learn how to use R to interact directly with GitHub.&lt;/p&gt;
+&lt;p&gt;GitHub offers some services for free, however, as a student at an educational institution, you can register via &lt;a href=&#34;https://education.github.com&#34;&gt;GitHub for Education&lt;/a&gt; to recieve enhanced benefits and services.&lt;/p&gt;
+&lt;p&gt;Let’s get this set up:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;If you do not already have a GitHub account, go to &lt;a href=&#34;https://github.com&#34;&gt;GitHub.com&lt;/a&gt; and then click on Sign Up to create a new account. You will make a username (see some &lt;a href=&#34;https://happygitwithr.com/big-picture.html#is-it-going-to-hurt&#34;&gt;sage username advice here&lt;/a&gt;), enter your email address, and password, and then hit create account. I recommend using your UIUC email address for this step if you’re creating a new account (for my rationale, see the next step).&lt;/li&gt;
+&lt;li&gt;GitHub offers some services for free which you can access with your basic account, however, as a student at an educational institution, you can register with &lt;a href=&#34;https://education.github.com&#34;&gt;GitHub Education&lt;/a&gt; to receive enhanced benefits and services. You will be asked to verify your association with an academic institution, which you can do by entering your [netid]&lt;span class=&#34;citation&#34;&gt;@illinois.edu&lt;/span&gt; email address and taking a picture of your &lt;a href=&#34;https://www.icardnet.uillinois.edu/public/&#34;&gt;I-Card&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;While you’re logged into your GitHub account, visit the &lt;a href=&#34;https://github.com/agreen4/Neighborhood_Analysis_S21_Assignments&#34;&gt;Neighborhood Analysis Assignment Repository Template&lt;/a&gt;. You will use this repository as a template for your own assignments repository. Within the repository, you’ll see a readme file that you can modify to track your work as you upload it. You’ll also see folders into which you can upload your assignments. To use the template to create your own assignment repository, click on the green button that says &lt;code&gt;Use This Template&lt;/code&gt;. On the next screen choose a name for this repository (you can name it whatever you like). You can choose to make the repository &lt;strong&gt;public&lt;/strong&gt; or &lt;strong&gt;private&lt;/strong&gt;. Public repositories can be seen by anyone. Private repositories can only be seen by those you give permission to (if you make your repository private, you will have to grant me permission to be able to view it for the purposes or grading). To grant access to a private repository, go to settings -&amp;gt; manage access -&amp;gt; Invite a collaborator, then invite user agreen4.&lt;/li&gt;
+&lt;li&gt;From the main folder in your new repository, make note of your username, the repository name, and the URL (for example…)
+&lt;ul&gt;
+&lt;li&gt;Github Username: agreen4&lt;/li&gt;
+&lt;li&gt;Repository Name: Neighborhood_Analysis_S21&lt;/li&gt;
+&lt;li&gt;Repository URL: &lt;a href=&#34;https://github.com/agreen4/Neighborhood_Analysis_S21&#34; class=&#34;uri&#34;&gt;https://github.com/agreen4/Neighborhood_Analysis_S21&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Use the above information to &lt;a href=&#34;https://forms.illinois.edu/sec/421969060&#34;&gt;register your GitHub repository&lt;/a&gt; for our class.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://octodex.github.com/images/bouncercat.png&#34; style=&#34;width:30.0%&#34; /&gt;&lt;/p&gt;
+&lt;div id=&#34;video-tutorial---creating-a-work-repository&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Video Tutorial - Creating a Work Repository&lt;/h2&gt;
+&lt;p&gt;The below tutorial will take you step by step with how to create a work repository on GitHub, how to clone it to your desktop, and how to push and pull work between your desktop and GitHub’s servers.&lt;/p&gt;
+&lt;div style=&#34;max-width:720px&#34;&gt;
+&lt;div style=&#34;position:relative;padding-bottom:60.972222222222%&#34;&gt;
+&lt;iframe id=&#34;kmsembed-1_26rplxqy&#34; width=&#34;720&#34; height=&#34;439&#34; src=&#34;https://mediaspace.illinois.edu/embed/secure/iframe/entryId/1_26rplxqy/uiConfId/26883701&#34; class=&#34;kmsembed&#34; allowfullscreen webkitallowfullscreen mozAllowFullScreen allow=&#34;autoplay *; fullscreen *; encrypted-media *&#34; referrerPolicy=&#34;no-referrer-when-downgrade&#34; sandbox=&#34;allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation&#34; frameborder=&#34;0&#34; title=&#34;Kaltura Player&#34; style=&#34;position:absolute;top:0;left:0;width:100%;height:100%&#34;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Cool. You’re all set to use this repository for us to track your work this semester.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Linking GitHub and R</title>
+      <link>/howto/howto/03-link_github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/howto/howto/03-link_github/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;You can upload files directly to a GitHub repository in the GitHub web interface, but as you create more complex files and file structures, that’s not going to be a feasible way to manage your work. That strategy also overlooks most of the features of what GitHub is at its core - a version control system.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://octodex.github.com/images/collabocats.jpg&#34; style=&#34;width:50.0%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;We might want to version our work for several reasons:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To keep track of changes we’ve made, so that we can track when code works and when we’ve broken it&lt;/li&gt;
+&lt;li&gt;To be able to share code with collaborators and work on the same files at the same time and then reconcile and combine work all together&lt;/li&gt;
+&lt;li&gt;To be able to share code and data publicly with others&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All three of these rationales are important motivations within the context of our class. There are two strategies which you may want to try to integrate GitHub into your R workflow.&lt;/p&gt;
+&lt;div id=&#34;using-the-github-desktop-client&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Using the GitHub Desktop Client&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://desktop.github.com&#34;&gt;GitHub Desktop&lt;/a&gt; is an application that allows you to upload, download, and reconcile github repositories stored on your computer with your GitHub account. From GitHub desktop, you can create new repositories, download previously created repositories, and upload new versions of repository contents to the cloud.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;using-rstudios-integrated-github-functionality&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Using RStudio’s integrated Github Functionality&lt;/h2&gt;
+&lt;p&gt;RStudio has GitHub functionality built right in, which is very handy for integrating version control into your R workflow. Getting RStudio set up to work with GitHub can be a bit tedious, but once it is set up, it is straightforward to use. An outstanding resource to help you get GitHub integrated with R is &lt;a href=&#34;https://happygitwithr.com&#34;&gt;Happy Git and GitHub for the useR&lt;/a&gt;. As the authors mention in a section titled appropriately &lt;a href=&#34;https://happygitwithr.com/big-picture.html#is-it-going-to-hurt&#34;&gt;&lt;em&gt;Is It Going to Hurt?&lt;/em&gt;&lt;/a&gt;, integrating Git changes your workflow. However, since many of you are just starting to learn R, making this part of your typical workflow early on will be challenging, but less of a change from other ways of doing things.&lt;/p&gt;
+&lt;p&gt;Assuming you’ve already got R and RStudio installed on your system and have already set up a GitHub account, you can start here:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;https://happygitwithr.com/install-git.html#git-already-installed&#34;&gt;Check&lt;/a&gt; to see if Git is installed on your computer, and if it isnt, &lt;a href=&#34;https://happygitwithr.com/install-git.html#install-git&#34;&gt;Install Git&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://happygitwithr.com/hello-git.html&#34;&gt;Associate&lt;/a&gt; git on your computer with your GitHub account.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://happygitwithr.com/git-client.html#recommended-git-clients&#34;&gt;Install a Git client&lt;/a&gt; like GitHub Desktop.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://happygitwithr.com/push-pull-github.html&#34;&gt;Connect to GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://happygitwithr.com/rstudio-git-github.html&#34;&gt;Connect RStudio to GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://happygitwithr.com/usage-intro.html&#34;&gt;Get Started&lt;/a&gt; using GitHub integrated with R (we’ll talk more about this in class).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://octodex.github.com/images/femalecodertocat.png&#34; style=&#34;width:30.0%&#34; /&gt;
+We will ease our way into using Git, and will also devote some time to troubleshooting in class. I promise, it’s going to make sense soon!&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Build a Website</title>
+      <link>/howto/howto/05-build_website/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/howto/howto/05-build_website/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;The ability to integrate R Markdown into websites and virtual portfolios makes for a very powerful communications platform. This website, for instance, is all written using the &lt;code&gt;blogdown&lt;/code&gt; packaged and it’s integration with &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;, &lt;a href=&#34;https://github.com&#34;&gt;GitHub&lt;/a&gt;, and &lt;a href=&#34;https://www.netlify.com&#34;&gt;Netlify&lt;/a&gt;, which allow for seamless site rendering and hosting. It’s possible for you to learn how to build your own site using the same strategy, but there are also simpler methods which you can employ.&lt;/p&gt;
+&lt;div id=&#34;web-building-resources&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Web Building Resources&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34;&gt;Blogdown Book&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Alison Hill and Desiree De Leon’s presentation &lt;a href=&#34;https://rstudio.com/resources/webinars/sharing-on-short-notice-how-to-get-your-materials-online-with-r-markdown/&#34;&gt;Sharing on Short Notice&lt;/a&gt; provides a great overview for three different website workflows.&lt;/p&gt;
+&lt;p&gt;Alison Hill’s &lt;a href=&#34;https://alison.rbind.io/post/new-year-new-blogdown/&#34;&gt;Up and Running with Blogdown in 2021&lt;/a&gt; is a great resource with up to date information on how to make a site similar to this one.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://codeburst.io/r-blogdown-websites-for-academics-8c381b8372ac&#34;&gt;R Blogdown: Websites for Academics&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;inspiration&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Inspiration&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://tinystats.github.io/teacups-giraffes-and-statistics/index.html&#34;&gt;Tiny Stats&lt;/a&gt; is a statistical education website written in R Markdown. Check out &lt;a href=&#34;https://www.youtube.com/watch?v=69IyhzQ_gys&amp;amp;t=895s&#34;&gt;this presentation&lt;/a&gt; on creating the site as well.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
