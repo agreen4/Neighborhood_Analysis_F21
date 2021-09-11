@@ -12,6 +12,9 @@ weight: 8
 
 ## Session Description
 
+In this session, we'll continue working on the lab which you were introduced to in the previous session.
+
+Please come with questions and be prepared to work independently or in small groups on the lab notebook.
 
 ## Before Class
 
