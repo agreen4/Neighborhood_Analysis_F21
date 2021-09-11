@@ -22,8 +22,8 @@ Please find descriptions for our course sessions here - you will also find resou
 | [Session 4](session/04-manipulating_data) | September 2 | Introduction to R: Manipulating Data |
 | [Session 5](session/05-describing_places_1) | September 7 | Introduction to R: Describing Places |
 | [Session 6](session/06-describing_places_2) | September 9 | Introduction to R: Describing Places |
-| [Session 7](session/07-visualizing_Places_1.Rmd) | September 14 | Visualizing Places |
-| [Session 8](session/08-visualizing_places_22) | September 16 | Visualizing Places |
+| [Session 7](session/07-visualizing_places_1.Rmd) | September 14 | Visualizing Places |
+| [Session 8](session/08-visualizing_places_2) | September 16 | Visualizing Places |
 | [Session 9](session/09-data_to_places_1) | September 21 | From Data to Places |
 | [Session 10](session/10-data_to_places_2) | September 23 | From Data to Places |
 | [Session 11](session/11-numbers_and_data) | September 28 | Reasoning With and Writing About Numbers and Data |
