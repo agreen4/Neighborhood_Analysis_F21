@@ -28,11 +28,9 @@ Please [download the lab files](/schedule/session/07-Visualizing_Places_1_files/
 
 ## Slides
 
-[Download Here](/schedule/session/07-Visualizing_Places_1_files/S7_Visualizing_Places.pdf)
+[Download Here](/schedule/session/07-Visualizing_Places_1_files/S7_Data_Visualization.pdf)
 
 ## Other Resources
 
 [W.E.B. Du Bois's Data Portraits](https://papress.com/products/w-e-b-du-boiss-data-portraits-visualizing-black-america)
 [Smithsonian Article on Du Bois](https://www.smithsonianmag.com/history/first-time-together-and-color-book-displays-web-du-bois-visionary-infographics-180970826/)
-
-[NYT Precinct-Level Vote Map](https://www.nytimes.com/interactive/2021/upshot/2020-election-map.html)
