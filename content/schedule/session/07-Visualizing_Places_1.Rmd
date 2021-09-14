@@ -14,6 +14,9 @@ weight: 7
 
 This session marks our first explorations of data visualization in R using the [GGPlot2 package](https://ggplot2-book.org). We will spend time working through structuring our data for visualization, and work to develop several options for visualizing common data types. We will also talk about pre-visualization and thinking about how data fits into our narrative structure.
 
+# You all are so awesome!
+And I appreciate your hard work very much.
+
 ## This Week's Reflection Prompt
 
 - How is working with data via a command line interface different from using a graphical user interface?
