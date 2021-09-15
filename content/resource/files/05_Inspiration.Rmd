@@ -13,6 +13,7 @@ weight: 5
 - BBC: [How the BBC Visual and Data Journalism Team Works with Graphics in R](https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535)
 - Bloomberg: [Visualizing U.S. Immigration History as Tree Rings](https://www.bloomberg.com/news/articles/2018-12-17/visualizing-u-s-immigration-history-as-tree-rings)
 - Craig Dalton and Timm Stallmann: [Counter-mapping data science](https://onlinelibrary.wiley.com/doi/full/10.1111/cag.12398)
+- [Gapminder](https://www.gapminder.org) (check out in particular their [temporal animations](https://www.gapminder.org/tools/#$model$markers$bubble$encoding$frame$value=1800;;;;;&chart-type=bubbles&url=v1))
 - GeoDa Center [U.S. COVID Atlas](https://geodacenter.github.io/covid/)
 - [R at the ACLU: Joining Tables to Reunite Families](https://rstudio.com/resources/rstudioconf-2019/r-at-the-aclu-joining-tables-to-to-reunite-families/)
 - [London: The Information Capital](http://www.oliveruberti.com/the-information-capital): Stunning book featuring 100 visualizations about the city of London. Many visualizations [were created using R](https://www.r-bloggers.com/2014/11/improving-r-data-visualisations-through-design/).

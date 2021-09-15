@@ -14,10 +14,13 @@ weight: 8
 
 In this session, we'll continue working on the lab which you were introduced to in the previous session.
 
+## Before Class
+
 Please come with questions and be prepared to work independently or in small groups on the lab notebook.
 
-## Before Class
+At the end of class, we'll also take time to show off some of your data visualizations. Please come prepared to share your screen during the last 10 minutes of class.
 
 ## Slides
 
 ## Other Resources
+[ggplot2 Cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/data-visualization.pdf)
