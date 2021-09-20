@@ -24,10 +24,10 @@ Please find descriptions for our course sessions here - you will also find resou
 | [Session 6](session/06-describing_places_2) | September 9 | Introduction to R: Describing Places |
 | [Session 7](session/07-visualizing_places_1) | September 14 | Visualizing Places |
 | [Session 8](session/08-visualizing_places_2) | September 16 | Visualizing Places |
-| [Session 9](session/09-data_to_places_1) | September 21 | From Data to Places |
-| [Session 10](session/10-data_to_places_2) | September 23 | From Data to Places |
-| [Session 11](session/11-numbers_and_data) | September 28 | Reasoning With and Writing About Numbers and Data |
-| [Session 12](session/12-finding_the_story) | September 30 | Finding the Story in Data |
+| [Session 9](session/09-numbers_and_data) | September 21 | Reasoning With and Writing About Numbers and Data |
+| [Session 10](session/10-finding_the_story) | September 23 | Finding the Story in Data |
+| [Session 11](session/11-data_to_places_1) | September 28 | From Data to Places |
+| [Session 12](session/12-data_to_places_2) | September 30 | From Data to Places |
 | [Session 13](session/13-population_projection_1) | October 5 | Population Projections and Forecasts |
 | [Session 14](session/14-population_projection_2) | October 7 | Population Projections and Forecasts |
 | [Session 15](session/15-individual_advising_1) | October 12 | Individual Advising and Independent Work |
