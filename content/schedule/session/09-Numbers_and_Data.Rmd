@@ -23,8 +23,19 @@ For the past few weeks, we've focused out time on learning the grammar, structur
 
 ## Before Class
 
-To be determined.
+[Article 1 Section 2](https://constitutioncenter.org/interactive-constitution/article/article-i) of the U.S. Constitution
+[13th Ammendment](https://constitutioncenter.org/interactive-constitution/amendment/amendment-xiii)
+[14th Ammendment](https://constitutioncenter.org/interactive-constitution/amendment/amendment-xiv)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/tB3qhXGlPTI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[2020 Decennial Census Questionnaire](/schedule/session/09-Numbers_and_Data_files/2020-informational-questionnaire-english_DI-Q1.pdf)
+[2020 American Community Survey Questionnaire](/schedule/session/09-Numbers_and_Data_files/quest20.pdf)
 
 ## Slides
 
 ## Other Resources
+
+[Census Questionnaires](https://www.census.gov/programs-surveys/decennial-census/technical-documentation/questionnaires.2020_Census.html) (current and historical)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pT19VwBAqKA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
