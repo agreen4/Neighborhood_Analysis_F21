@@ -39,6 +39,7 @@ At the beginning of class we'll ask a few of you to share draft visualizations. 
 
 ## Slides
 
+[Download Here](/schedule/session/09-Numbers_and_Data_files/S9_Numbers_Data.pdf)
 ## Other Resources
 
 [Census Questionnaires](https://www.census.gov/programs-surveys/decennial-census/technical-documentation/questionnaires.2020_Census.html) (current and historical)
