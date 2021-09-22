@@ -1,0 +1,1184 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Overview | Neighborhood Analysis</title>
+    <link>/schedule/</link>
+      <atom:link href="/schedule/index.xml" rel="self" type="application/rss+xml" />
+    <description>Overview</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>Overview</title>
+      <link>/schedule/</link>
+    </image>
+    
+    <item>
+      <title>Session 1: Course Introduction</title>
+      <link>/schedule/session/01-course_introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/schedule/session/01-course_introduction/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/fitvids/fitvids.min.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&#34;session-description&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Session Description&lt;/h2&gt;
+&lt;p&gt;In our first course session, we will introduce ourselves and discuss some of the basic tenets and expectations of our learning together. We’ll also think through two foundational questions:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;What’s a neighborhood?&lt;/li&gt;
+&lt;li&gt;Why do neighborhoods matter?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id=&#34;this-weeks-reflection-prompt&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;This Week’s Reflection Prompt&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;What is a neighborhood? How should neighborhoods be defined? Why might neighborhoods be important units of analysis for city planners and urbanists?&lt;/li&gt;
+&lt;li&gt;What characteristics make a neighborhood great?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;before-class&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Before Class&lt;/h2&gt;
+&lt;p&gt;Please read the &lt;a href=&#34;/syllabus&#34;&gt;course syllabus&lt;/a&gt; and bring questions with you.&lt;/p&gt;
+&lt;p&gt;If you haven’t already, please complete the &lt;a href=&#34;https://forms.illinois.edu/sec/1174889502&#34;&gt;course introductory survey&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;div class=&#34;shareagain&#34; style=&#34;min-width:300px;margin:1em auto;&#34;&gt;
+&lt;iframe src=&#34;/slides/Session_1/Session-1.html&#34; width=&#34;1600&#34; height=&#34;900&#34; style=&#34;border:2px solid currentColor;&#34; loading=&#34;lazy&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;script&gt;fitvids(&#39;.shareagain&#39;, {players: &#39;iframe&#39;});&lt;/script&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other-resources-and-actions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Other Resources and Actions&lt;/h2&gt;
+&lt;div id=&#34;download-and-install-r-and-rstudio&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Download and Install R and RStudio&lt;/h4&gt;
+&lt;p&gt;We will begin working in R and RStudio starting next week. If you have not already done so, download and install R on the computer you will work on.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;introduction-to-r-for-planners&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Introduction to R for Planners&lt;/h4&gt;
+&lt;p&gt;Register for the optional but highly recommended &lt;a href=&#34;https://urban.illinois.edu/about-us/events/introduction-to-r-for-planners-2-day-workshop/&#34;&gt;Introduction to R for Urban Planners virtual workshop&lt;/a&gt; (January 30th and February 6th) - registration closes on Wednesday 1/28.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://web.faa.illinois.edu/app/uploads/sites/2/2021/01/Intro-to-R-for-Planners-2021-1600x918.51851851852-c-default.jpg&#34; width=&#34;95%&#34; style=&#34;display: block; margin: auto auto auto 0;&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Session 2: What is a Neighborhood?</title>
+      <link>/schedule/session/02-what_is_a_neighborhood/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/schedule/session/02-what_is_a_neighborhood/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/fitvids/fitvids.min.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&#34;session-description&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Session Description&lt;/h2&gt;
+&lt;p&gt;In this session, we’ll explore the many ways in which the concept of neighborhoods are used in various areas of urban planning and governance. We will continue to build upon previous questions regarding the significance of neighborhoods as a unit of analysis, planning, and policymaking, and will explore frameworks for neighborhood analysis.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;before-class&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Before Class&lt;/h2&gt;
+&lt;p&gt;Talen, Emily, Sunny Menozzi, and Chloe Schaefer. (2015). &lt;a href=&#34;https://uofi.box.com/s/b43bwh2x5v12y20u7ewz301phxcfi6tf&#34;&gt;What is a “Great Neighborhood”? An Analysis of APA’s Top-Rated Places&lt;/a&gt;. Journal of the American Planning Association, 81(2): 121-141.&lt;/p&gt;
+&lt;p&gt;Rohe, William. (2009). &lt;a href=&#34;https://uofi.box.com/s/oat3tpk2fxfaq3t0h9faco31rrevsve3&#34;&gt;From Local to Global: One Hundred Years of Neighborhood Planning&lt;/a&gt;. Journal of the American Planning Association 75(2): 209-230&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;div class=&#34;shareagain&#34; style=&#34;min-width:300px;margin:1em auto;&#34;&gt;
+&lt;iframe src=&#34;/slides/Session_2/Session-2.html&#34; width=&#34;1600&#34; height=&#34;900&#34; style=&#34;border:2px solid currentColor;&#34; loading=&#34;lazy&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;script&gt;fitvids(&#39;.shareagain&#39;, {players: &#39;iframe&#39;});&lt;/script&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other-resources-and-actions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Other Resources and Actions&lt;/h2&gt;
+&lt;div id=&#34;download-and-install-r-and-rstudio&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Download and Install R and RStudio&lt;/h4&gt;
+&lt;p&gt;We will begin working in R and RStudio starting next week. If you have not already done so, download and install R on the computer you will work on.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;introduction-to-r-for-planners&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Introduction to R for Planners&lt;/h4&gt;
+&lt;p&gt;Register for the optional but highly recommended &lt;a href=&#34;https://urban.illinois.edu/about-us/events/introduction-to-r-for-planners-2-day-workshop/&#34;&gt;Introduction to R for Urban Planners virtual workshop&lt;/a&gt; (January 30th and February 6th) - registration closes on Wednesday 1/28 (you’re late!).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://web.faa.illinois.edu/app/uploads/sites/2/2021/01/Intro-to-R-for-Planners-2021-1600x918.51851851852-c-default.jpg&#34; width=&#34;95%&#34; style=&#34;display: block; margin: auto auto auto 0;&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;download-and-install-r-and-rstudio-1&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Download and Install R and RStudio&lt;/h4&gt;
+&lt;p&gt;We will begin working in R and RStudio starting next week. If you have not already done so, download and install R on the computer you will work on. See the &lt;a href=&#34;/howto&#34;&gt;How To&lt;/a&gt; for instructions.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Session 3: Starting With Data</title>
+      <link>/schedule/session/03-starting_with_data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/schedule/session/03-starting_with_data/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&#34;session-description&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Session Description&lt;/h2&gt;
+&lt;p&gt;In this session, we’ll take our first foray into the R and RStudio ecosystem. We’ll begin to explore data types, how to describe data, and how R can help us manipulate data.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-image-by-allison-horsthttpsgithubcomallisonhorststats-illustrations&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;/schedule/session/03-Starting_with_Data_files/r_first_then.png&#34; alt=&#34;Image by [Allison Horst](https://github.com/allisonhorst/stats-illustrations)&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Image by &lt;a href=&#34;https://github.com/allisonhorst/stats-illustrations&#34;&gt;Allison Horst&lt;/a&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;this-weeks-reflection-prompt&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;This Week’s Reflection Prompt&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;What are the challenges associated with representing neighborhoods quantitatively?&lt;/li&gt;
+&lt;li&gt;What are the benefits of using quantitative data to represent neighborhoods?&lt;/li&gt;
+&lt;li&gt;What can we learn? What is likely to be missed?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;before-class&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Before Class&lt;/h2&gt;
+&lt;p&gt;Please make sure you have R, RStudio, and GitHub Desktop installed on your computer, and that you have set up and registered the GitHub repository in which you will store your work this semester. Instructions are available in the &lt;a href=&#34;/howto&#34;&gt;How To&lt;/a&gt; section.&lt;/p&gt;
+&lt;p&gt;Healy, Kieran. (2019). Data Visualization: A Practical Introduction. Princeton: Princeton University Press. (&lt;a href=&#34;https://uofi.box.com/s/o2vk802ig5bqggdz3iks21cqo5jv0hsk&#34;&gt;Preface&lt;/a&gt; and &lt;a href=&#34;https://uofi.box.com/s/3ex015jd082iyza1z9su2a6yysnihg8n&#34;&gt;Chapter 2&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Data Carpentry (&lt;a href=&#34;https://datacarpentry.org/R-ecology-lesson/00-before-we-start.html&#34;&gt;Before We Start&lt;/a&gt;, &lt;a href=&#34;https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html&#34;&gt;Intro to R&lt;/a&gt;, &lt;a href=&#34;https://datacarpentry.org/R-ecology-lesson/02-starting-with-data.html&#34;&gt;Starting with Data&lt;/a&gt;)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other-resources&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Other Resources&lt;/h2&gt;
+&lt;p&gt;This lab will serve as your initial introduction to the R programming language and RStudio development environment. There are two lab notebooks for this week - today’s, which introduces a few general principles of the R programming language and interface, and one for Session 4 which introduces more advanced data manipulation tools contained in the &lt;code&gt;dplyr&lt;/code&gt; package. We will adjust the speed at which we work based upon your feedback and how things go this week. After that, most labs will be introduced on Tuesdays and we will continue working in the same lab notebook on Thursday.&lt;/p&gt;
+&lt;div id=&#34;lab-download&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Lab Download&lt;/h3&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Please &lt;a href=&#34;/schedule/session/03-Starting_with_Data_files/Session%203%20Lab.zip&#34;&gt;download the lab files&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Once downloaded and decompressed, click on the “Session 3 Lab.Rproj” file. R will open, but nothing will (seem to) happen.&lt;/li&gt;
+&lt;li&gt;In the R file browser (lower right quadrant), open the “Session 3 Workbook Blank.Rmd” file. You can start following the instructions contained within the file. (To make things easier to read, you may want to hit the &#34;Knit: button, which will produce an html file you can open in any browser.)&lt;/li&gt;
+&lt;li&gt;When you’re done, have a look at the “Session 3 Workbook Solutions.Rmd” file, which shows you my answers to the work in this lab. Note - I encourage you to take a look when you need to, but there is NO good reason to rush to answers as opposed to learning through doing and thinking through the problems you are presented with.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id=&#34;lab-goals&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Lab Goals&lt;/h3&gt;
+&lt;p&gt;By the end of this lab, you should be familiar with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The RStudio console and R language&lt;/li&gt;
+&lt;li&gt;R data types and structures&lt;/li&gt;
+&lt;li&gt;Basic data manipulation and querying&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;lab-description&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Lab Description&lt;/h3&gt;
+&lt;p&gt;For new users, R can be an intimidating programming language to learn, especially compared to other popular data analysis tools:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-learning-curves-for-popular-data-analysis-tools-leah-a-wasserhttpsnceasgithubiooss-lessonsspatial-data-gis-law1-mon-spatial-data-introhtml&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;/schedule/session/03-Starting_with_Data_files/1_LearningCurve.png&#34; alt=&#34;Learning Curves for Popular Data Analysis Tools, [Leah A. Wasser](https://nceas.github.io/oss-lessons/spatial-data-gis-law/1-mon-spatial-data-intro.html)&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Learning Curves for Popular Data Analysis Tools, &lt;a href=&#34;https://nceas.github.io/oss-lessons/spatial-data-gis-law/1-mon-spatial-data-intro.html&#34;&gt;Leah A. Wasser&lt;/a&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;At the same time, there are some really good reasons to gain familiarity with R and RStudio, particularly within the context of urban planning analysis.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;R and RStudio are open source tools, and are therefore available to be downloaded and used without cost (this does not negate questions regarding &lt;em&gt;accessibility&lt;/em&gt; of the language, given its steep learning curve)&lt;/li&gt;
+&lt;li&gt;R and RStudio are supported by a wide range of users who develop packages for specific use cases, including those that are useful for urban planning analysis (we will spend more time learning about packages later in this lab)&lt;/li&gt;
+&lt;li&gt;R and RStudio provide a framework for reproducible data manipulation and analysis - rather than sharing output with others, we can share raw data and code and they can reproduce our output&lt;/li&gt;
+&lt;li&gt;Principles of reproducible analysis make it easy to modify previous code for new data or use cases&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thinking about the type of analysis we will do in this class, there are some additional rationales for learning and working in R and RStudio:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;R has a powerful set of functions for aggregating and manipulating many data records into a smaller number of summary records - we use these types of functions frequently to summarize neighborhood characteristics&lt;/li&gt;
+&lt;li&gt;R can natively read from and write to many types of data sources - this allows us to perform most or all of our analysis within a single applcation rather than passing data between applications for different types of manipulation or analysis&lt;/li&gt;
+&lt;li&gt;R can help us to automate elements of data visualization, which can be useful when we need to reproduce forms of analysis for different places or other data categories&lt;/li&gt;
+&lt;li&gt;Looking beyond the reasons to use R and RStudio as a platform for analysis, these tools represent one of several programming languages frequently used for data science (the other main language being Python) - learning these langugages prepares you for future interface with other data science tools and strategies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With the basic rationale laid out, let’s start exploring the logic behind the R language.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Session 4: Manipulating Data</title>
+      <link>/schedule/session/04-manipulating_data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/schedule/session/04-manipulating_data/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&#34;session-description&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Session Description&lt;/h2&gt;
+&lt;p&gt;In this session, we’ll spend some more time learning how to use more advanced tools for data manipulation. We will talk about principles of &lt;em&gt;tidy&lt;/em&gt; data, and explore the use of the &lt;code&gt;dplyr&lt;/code&gt; package for more efficient data manipulation and summarization.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;before-class&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Before Class&lt;/h2&gt;
+&lt;p&gt;Data Carpentry (&lt;a href=&#34;https://datacarpentry.org/R-ecology-lesson/03-dplyr.html&#34;&gt;Manipulating Data Frames&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Please &lt;a href=&#34;/schedule/session/04-Manipulating_Data_files/Session%204%20Lab.zip&#34;&gt;download the Session 4 workbook&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Optional: Check out Allison Horsts’ &lt;a href=&#34;https://allisonhorst.shinyapps.io/dplyr-learnr/&#34;&gt;interactive dplyr tutorial&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other-resources&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Other Resources&lt;/h2&gt;
+&lt;p&gt;In this lab, you are introduced to the &lt;code&gt;dplyr&lt;/code&gt; package, which is designed to help us manipulate rectangular data frames. &lt;code&gt;dplyr&lt;/code&gt; is an extremely useful replacement for some of the base R commands for querying our data.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The use of pipes (&lt;code&gt;%&amp;gt;%&lt;/code&gt;) greatly helps with the legibility of our commands and allows us to see each of the manipulation steps we are taking our data through before producing a result.&lt;/li&gt;
+&lt;li&gt;Commands like &lt;code&gt;filter()&lt;/code&gt; and &lt;code&gt;select()&lt;/code&gt; allow us to query out rows and columns of our dataset respectively.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;summarise()&lt;/code&gt; command allows us to produce summary tables of our dataset which are very useful for exploring patterns and producing information on small multiples of data.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;group_by()&lt;/code&gt; command allows us to specify grouping variables for our summaries.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Session 5: Visualizing Data (Session 1)</title>
+      <link>/schedule/session/05-visualizing_data_pt1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/schedule/session/05-visualizing_data_pt1/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/fitvids/fitvids.min.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&#34;session-description&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Session Description&lt;/h2&gt;
+&lt;p&gt;This session marks our first explorations of data visualization in R using the &lt;a href=&#34;https://ggplot2-book.org&#34;&gt;GGPlot2 package&lt;/a&gt;. We will spend time working through structuring our data for visualization, and work to develop several options for visualizing common data types. We will also talk about pre-visualization and thinking about how data fits into our narrative structure.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;this-weeks-reflection-prompt&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;This Week’s Reflection Prompt&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;How is working with data via a command line interface different from using a graphical user interface?&lt;/li&gt;
+&lt;li&gt;How do we balance reproducibility of our analysis with accessibility of the analytical tools?&lt;/li&gt;
+&lt;li&gt;What’s challenging for you right now regarding learning and using R? What are the “a-ha” moments that you’re celebrating?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;before-class&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Before Class&lt;/h2&gt;
+&lt;p&gt;Healy, Kieran. (2019). Data Visualization: A Practical Introduction. Princeton: Princeton University Press. (Chapters 3 and 4)&lt;/p&gt;
+&lt;p&gt;Please &lt;a href=&#34;/schedule/session/05-Visualizing_Data_files/Session%205%20Lab.zip&#34;&gt;download the Session 5 workbook&lt;/a&gt;. We will use this same workbook on Thursday as well.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Please ensure that Andrew has both &lt;em&gt;read&lt;/em&gt; and &lt;em&gt;write&lt;/em&gt; access to your GitHub repository so he can push comments to your files. There are currently some repositories that are not accessible.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;div class=&#34;shareagain&#34; style=&#34;min-width:300px;margin:1em auto;&#34;&gt;
+&lt;iframe src=&#34;/slides/Session_5/Session-5.html&#34; width=&#34;1600&#34; height=&#34;900&#34; style=&#34;border:2px solid currentColor;&#34; loading=&#34;lazy&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;script&gt;fitvids(&#39;.shareagain&#39;, {players: &#39;iframe&#39;});&lt;/script&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other-resources&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Other Resources&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://papress.com/products/w-e-b-du-boiss-data-portraits-visualizing-black-america&#34;&gt;W.E.B. Du Bois’s Data Portraits&lt;/a&gt;
+&lt;a href=&#34;https://www.smithsonianmag.com/history/first-time-together-and-color-book-displays-web-du-bois-visionary-infographics-180970826/&#34;&gt;Smithsonian Article on Du Bois&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.nytimes.com/interactive/2021/upshot/2020-election-map.html&#34;&gt;NYT Precinct-Level Vote Map&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/chivaxbot&#34;&gt;ChiVaxBot (Twitter)&lt;/a&gt;
+&lt;a href=&#34;https://data.cityofchicago.org/Health-Human-Services/COVID-19-Cases-Tests-and-Deaths-by-ZIP-Code/yhhz-zm2v&#34;&gt;Chicago COVID Cases, Tests, and Deaths by ZIP Code&lt;/a&gt;
+&lt;a href=&#34;https://data.cityofchicago.org/Health-Human-Services/COVID-19-Vaccinations-by-ZIP-Code/553k-3xzc&#34;&gt;Chicago Vaccinations by ZIP Code&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ggplot2-book.org&#34;&gt;GGPlot2 Book&lt;/a&gt;
+&lt;a href=&#34;https://www.r-graph-gallery.com&#34;&gt;R Graph Gallery&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Session 5: Visualizing Data (Session 2)</title>
+      <link>/schedule/session/06-visualizing_data_pt2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/schedule/session/06-visualizing_data_pt2/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&#34;session-description&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Session Description&lt;/h2&gt;
+&lt;p&gt;We’ll continue to work on the same lab from our last session. We’ll start with unstructured work time. Please bring any questions you have from the last session! Towards the end of the lab (last 15 minutes), we’ll spend some time sharing visualizations we’ve produced. If you want to share, you can either share your screen or can practice using &lt;code&gt;ggsave()&lt;/code&gt; to save your plot outputs to your local computer.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;before-class&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Before Class&lt;/h2&gt;
+&lt;p&gt;Healy, Kieran. (2019). Data Visualization: A Practical Introduction. Princeton: Princeton University Press. (Chapters 5, 6, and 7)&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Please ensure that Andrew has both &lt;em&gt;read&lt;/em&gt; and &lt;em&gt;write&lt;/em&gt; access to your GitHub repository so he can push comments to your files. There are currently some repositories that are not accessible.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other-resources&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Other Resources&lt;/h2&gt;
+&lt;p&gt;Optional Supplement - Data Carpentry (&lt;a href=&#34;https://datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html&#34;&gt;Visualizing Data&lt;/a&gt;)&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Session 7: Modes of Neighborhood Analysis</title>
+      <link>/schedule/session/07-modes_of_analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/schedule/session/07-modes_of_analysis/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&#34;session-description&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Session Description&lt;/h2&gt;
+&lt;p&gt;In this session, we’ll take a step back from the nuts and bolts of our R training and will examine modes of neighborhood analysis.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;this-weeks-reflection-prompt&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;This Week’s Reflection Prompt&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;What types of questions do you have about the structure and function of neighborhoods?&lt;/li&gt;
+&lt;li&gt;What forms of analysis do you see as being useful to your own work?&lt;/li&gt;
+&lt;li&gt;What types of analytic approaches do you see as being useful to your own work?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;before-class&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Before Class&lt;/h2&gt;
+&lt;p&gt;Hopkins &lt;a href=&#34;https://uofi.box.com/s/cdx047l4xxte8xrjhhlp0iv88fe9nz4p&#34;&gt;Chapter 1&lt;/a&gt; and &lt;a href=&#34;https://uofi.box.com/s/9fl1i4z0hmh7m9x9ngbdp2a8irstjtbu&#34;&gt;Chapter 4&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Lynch, Kevin (1960). The Image of the City. &lt;a href=&#34;https://uofi.box.com/s/j26a825opr1hgfi84b7ag27hy83r358p&#34;&gt;Chapter 3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://uofi.box.com/s/2vo0si7jk24kqylkxgmy8vv44fksifl2&#34;&gt;Denver Far Northeast Area Plan&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://uofi.box.com/s/onyvjulnuzarsq8yfha7jjeb9mkh7p7z&#34;&gt;E. 38th Street Urban Design Assessment&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other-resources&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Other Resources&lt;/h2&gt;
+&lt;div id=&#34;activity-prompt&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Activity Prompt&lt;/h3&gt;
+&lt;p&gt;Early in the class, we spent time talking about some ways to describe the essential characteristics of neighborhoods. We now also have some foundational data manipulation skills in hand. It’s time to start thinking about how we might bring together our conceptual understanding of neighborhoods with some of our increased knowledge about data and types of description.&lt;/p&gt;
+&lt;p&gt;For today’s class session, you also read a diverse range of materials designed to help you think through some of the different ways we use information to tell stories about neighborhoods and within planning more generally.&lt;/p&gt;
+&lt;p&gt;Let’s try to bring these things together in a collaborative exercise.&lt;/p&gt;
+&lt;p&gt;As you’ll recall, last week, we took a look at a series of maps for Chicago zip codes that described who is dying from SARS-CoV19 and who is vaccinated:&lt;/p&gt;
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;As of February 15, 2021, Chicago is reporting 91,999 people fully vaccinated: 3.3% of the population.&lt;br&gt;&lt;br&gt;Who is dying:           Who is vaccinated: &lt;a href=&#34;https://t.co/fEM00ZSZir&#34;&gt;pic.twitter.com/fEM00ZSZir&lt;/a&gt;&lt;/p&gt;&amp;mdash; ChiVaxBot (@ChiVaxBot) &lt;a href=&#34;https://twitter.com/ChiVaxBot/status/1361495870416580608?ref_src=twsrc%5Etfw&#34;&gt;February 16, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/p&gt;
+&lt;p&gt;As this information circulates amongst groups throughout the city and region, many groups seek to respond and to produce information that will help their constituents.&lt;/p&gt;
+&lt;p&gt;You will divide into four groups (breakout rooms) who have a vested interest in understanding better the implications of SARS-CoV-19 vaccinations and death rates for their constituents:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Austin Neighbors United&lt;/em&gt; - a (fictitious) Neighborhood Group in Chicago’s Austin neighborhood focused on improving the quality of life for local residents:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;City of Chicago&lt;/em&gt; - a task force assembled by the Mayor to focus on neighborhood health and wellbeing during the SARS-CoV19 Pandemic.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Chicago Council of Small Business Owners&lt;/em&gt; - a (fictitious) advocacy group focused on the needs of home-based businesses and businesses with fewer than 20 employees throughout the city.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Metropolitan Planning Council&lt;/em&gt; - an independent regional organization focused on shaping a more equitable, sustainable, and prosperous Chicago region through research and policy development.&lt;/p&gt;
+&lt;p&gt;Working together, prepare a short (5 minute) presentation that engages with the following prompts:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Interest&lt;/em&gt;: Articulate why your organization or group is interested in the relationship between COVID deaths and vaccinations. Aside from there being potential major equity issues (as we’ve talked about in the past), why specifically would your constituents be concerned? How would this influence the work of your organization?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Questions&lt;/em&gt;: Articulate 2 to 4 specific questions which build upon your knowledge of what these maps show and that help to engage your organization’s interest.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Scale&lt;/em&gt;: What is the geographic and temporal scale at which these questions need to be answered? What are the trade-offs involved with engaging at this scale versus alternatives?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Key Measures&lt;/em&gt;: Describe 2-3 key measures which will be important for your work. Research where the information will come from that constitutes these measures, their availability at the scale you wish to work at, and identify tradeoffs between these measures and alternatives. What’s the precedent for the use of these measures?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Key Analyses&lt;/em&gt;: Describe 2-3 key analyses which you will perform in order to engage with the questions you have identified.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Visual Outputs&lt;/em&gt;: Describe at least one visual output associated with each of your analyses. If you have time, prepare a rough sketch of what each output might look like conceptually, and prepare to share it.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Overall Outputs and Communications Plan&lt;/em&gt;: How will you share the information from your analyses with your constituents? How do you anticipate they will make use of it? How will you ensure that it is accessible and reproducible for others?&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;As a group, spend around 30 minute thinking through these aspects of your analysis. We will then return to plenary, and each group will spend 5 minutes presenting and will also have 5 minutes for discussion and conversation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Session 8: Modes of Analysis (Session 2)</title>
+      <link>/schedule/session/08-modes_of_analysis_pt2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/schedule/session/08-modes_of_analysis_pt2/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&#34;session-description&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Session Description&lt;/h2&gt;
+&lt;p&gt;In this session, you will present your institutional analysis plans which you discussed in class on Tuesday. We’ll start with 10 minutes for your groups to convene and finalize your presentation. Each group will then have 5 minutes to present, and 10 minutes for discussion.&lt;/p&gt;
+&lt;p&gt;We’ll go in this order:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Austin Neighbors United&lt;/li&gt;
+&lt;li&gt;Chicago Council of Small Business Owners&lt;/li&gt;
+&lt;li&gt;City of Chicago&lt;/li&gt;
+&lt;li&gt;Metropolitan Planning Council&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;We will also talk briefly about our lab for next week, which focuses on basic measures of population.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;before-class&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Before Class&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.wbez.org/stories/chicago-targets-15-hard-hit-communities-for-a-vaccination-blitz-to-fight-disparities/86b224d5-21dc-4914-936b-bd64d8c93855?utm_source=twitter&amp;amp;utm_medium=social&amp;amp;utm_campaign=wbez&#34;&gt;WBEZ: Chicago Targets 15 Hard-Hit Communities for A Vaccination Blitz to Fight Disparities&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;(This is a slight change from what was originally posted for this session - the Klosterman reading will move to next week)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other-resources&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Other Resources&lt;/h2&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Session 9: Population and Population Change (Session 1)</title>
+      <link>/schedule/session/09-population_pt1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/schedule/session/09-population_pt1/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/fitvids/fitvids.min.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&#34;session-description&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Session Description&lt;/h2&gt;
+&lt;p&gt;In this session, we will talk about how planners measure basic dimensions of population and change in population at the neighborhood level. We’ll introduce this week’s lab, which focuses on working with basic data on population characteristics.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;before-class&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Before Class&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://uofi.box.com/s/ysc0fi5fn3on0342v758viggd355m04v&#34;&gt;Klosterman 2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you do not have one, please reigster for a &lt;a href=&#34;https://api.census.gov/data/key_signup.html&#34;&gt;U.S. Census Bureau API Key&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Please &lt;a href=&#34;/schedule/session/09-Population_pt1_files/Session%209%20Lab.zip&#34;&gt;download the Session 9 workbook&lt;/a&gt;. We will use this same workbook on Thursday as well.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;this-weeks-reflection-prompt&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;This Week’s Reflection Prompt&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Open reflection&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;div class=&#34;shareagain&#34; style=&#34;min-width:300px;margin:1em auto;&#34;&gt;
+&lt;iframe src=&#34;/slides/Session_9/Session-9.html&#34; width=&#34;1600&#34; height=&#34;900&#34; style=&#34;border:2px solid currentColor;&#34; loading=&#34;lazy&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;script&gt;fitvids(&#39;.shareagain&#39;, {players: &#39;iframe&#39;});&lt;/script&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other-resources&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Other Resources&lt;/h2&gt;
+&lt;div id=&#34;new-functions-this-week&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;New functions this week&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The basic functions and use of the &lt;code&gt;tidycensus&lt;/code&gt; package, including ways to download whole tables, specific variables, and options for shaping how data is downloaded.&lt;/li&gt;
+&lt;li&gt;The use of several elements from the &lt;code&gt;stringr&lt;/code&gt; package that help us to search, find, and replace string values&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;case_when()&lt;/code&gt; To conditionally change values in character vectors&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rename()&lt;/code&gt; and &lt;code&gt;select()&lt;/code&gt; to rename columns&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;bind_rows()&lt;/code&gt; and &lt;code&gt;bind_columns()&lt;/code&gt; to bind together rows or columns&lt;/li&gt;
+&lt;li&gt;The use of &lt;code&gt;arrange()&lt;/code&gt; to sort data&lt;/li&gt;
+&lt;li&gt;More advanced features of the &lt;code&gt;select()&lt;/code&gt; command, including renaming variables&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Session 10: Population and Population Change (Session 2)</title>
+      <link>/schedule/session/10-population_pt2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/schedule/session/10-population_pt2/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&#34;session-description&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Session Description&lt;/h2&gt;
+&lt;p&gt;In this lab session, you will continue working on the Population lab notebook. We’ll start with independent work time, and then reconvene for the final 15 minutes of class to debrief.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;before-class&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Before Class&lt;/h2&gt;
+&lt;p&gt;Natalie P. Voorhees Center. (2014). &lt;a href=&#34;https://uofi.box.com/s/dueb33gc3em48y39ku9twhl5e8ja45pp&#34;&gt;The Socioeconomic Change of Chicago’s Community Areas (1970-2010)&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other-resources&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Other Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The basic functions and use of the &lt;code&gt;tidycensus&lt;/code&gt; package, including ways to download whole tables, specific variables, and options for shaping how data is downloaded.&lt;/li&gt;
+&lt;li&gt;The use of several elements from the &lt;code&gt;stringr&lt;/code&gt; package that help us to search, find, and replace string values&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;case_when()&lt;/code&gt; To conditionally change values in character vectors&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rename()&lt;/code&gt; and &lt;code&gt;select()&lt;/code&gt; to rename columns&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;bind_rows()&lt;/code&gt; and &lt;code&gt;bind_columns()&lt;/code&gt; to bind together rows or columns&lt;/li&gt;
+&lt;li&gt;The use of &lt;code&gt;arrange()&lt;/code&gt; to sort data&lt;/li&gt;
+&lt;li&gt;More advanced features of the &lt;code&gt;select()&lt;/code&gt; command, including renaming variables&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Session 11: Population Projections and Forecasts (Session 1)</title>
+      <link>/schedule/session/11-population_projection_pt1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/schedule/session/11-population_projection_pt1/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&#34;session-description&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Session Description&lt;/h2&gt;
+&lt;p&gt;In this session, we will spend some time discussing your final projects. We’ll also spend time learning more about how planners use population projections and forecasts as part of their work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;before-class&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Before Class&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://uofi.box.com/s/p251aw1783lqevufdh137w8vogouv92q&#34;&gt;Hopkins 9&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Klosterman &lt;a href=&#34;https://uofi.box.com/s/q46d20tpwa5eynoqvcckon1c86yijr1y&#34;&gt;Chapter 3&lt;/a&gt;, &lt;a href=&#34;https://uofi.box.com/s/8iueatbw3l3qebvfu9nesufzpvwntg0q&#34;&gt;Chapter 4&lt;/a&gt;, &lt;a href=&#34;https://uofi.box.com/s/x0orydmrxcxaecmj4vyevwo398dtzeg6&#34;&gt;Chapter 5&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Please &lt;a href=&#34;/schedule/session/11-Population_Projection_pt1_files/Session%2011%20Lab.zip&#34;&gt;download the Session 11 workbook&lt;/a&gt;. We will use this same workbook on Thursday as well.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;this-weeks-reflection-prompt&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;This Week’s Reflection Prompt&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;How do the differences between forecasts and projections matter?&lt;/li&gt;
+&lt;li&gt;What are the implications of these differences for your own areas of focus or study?&lt;/li&gt;
+&lt;li&gt;Based upon your area of study or specialization, what types of information help you to assess the accuracy or certainty of a forecast?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;iframe src=&#34;/slides/Session_11/index.html&#34; width=&#34;672&#34; height=&#34;400px&#34;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other-resources&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Other Resources&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://planningsupport.org&#34;&gt;Planning Support Methods&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Session 12: Population Projections and Forecasts (Session 2)</title>
+      <link>/schedule/session/12-population_projection_pt2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/schedule/session/12-population_projection_pt2/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&#34;session-description&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Session Description&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;before-class&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Before Class&lt;/h2&gt;
+&lt;p&gt;Pendall, Rolf. (2017). &lt;a href=&#34;https://uofi.box.com/s/wtkwe2wyiianeex2d7po2ex2f3vjxig6&#34;&gt;The Cost of Segregation: Population and Household Projections in the Chicago Commuting Zone and Implications for Economic and Racial Segregation&lt;/a&gt;. The Urban Institute.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;this-weeks-reflection-prompt&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;This Week’s Reflection Prompt&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;How do the differences between forecasts and projections matter?&lt;/li&gt;
+&lt;li&gt;What are the implications of these differences for your own areas of focus or study?&lt;/li&gt;
+&lt;li&gt;Based upon your area of study or specialization, what types of information help you to assess the accuracy or certainty of a forecast?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other-resources&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Other Resources&lt;/h2&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Session 13: Population Distribution and Segregation (Session 1)</title>
+      <link>/schedule/session/13-population_segregation_pt1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/schedule/session/13-population_segregation_pt1/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&#34;session-description&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Session Description&lt;/h2&gt;
+&lt;p&gt;In this session, we will continue to debrief on your population projection and forecasting lab. We will also begin a conversation about the nature of residential segregation, and the common ways in which it is measured.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;before-class&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Before Class&lt;/h2&gt;
+&lt;p&gt;Cunningham, Mary K., and Augrey Droesch. &lt;a href=&#34;https://uofi.box.com/s/vwuk8s7ys53bgddv3buio7jhjgg13sgy&#34;&gt;Neighborhood Quality and Racial Segregation&lt;/a&gt;. The Urban Institute&lt;/p&gt;
+&lt;p&gt;U.S. Bureau of the Census: &lt;a href=&#34;https://uofi.box.com/s/lrfcfiod757p8paph9u4w0tq8hrs1tsq&#34;&gt;Measures of Residential Segregation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Please &lt;a href=&#34;/schedule/session/13-Population_Segregation_pt1_files/Session%2013%20Lab.zip&#34;&gt;download the Session 13 workbook&lt;/a&gt;. We will use this same workbook on Thursday as well.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;this-weeks-reflection-prompt&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;This Week’s Reflection Prompt&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Why, in your opinion, does segregation remain an enduring characteristic for most American cities, despite efforts to address it?&lt;/li&gt;
+&lt;li&gt;How can visualization of segregation (and its consequences) make a difference?&lt;/li&gt;
+&lt;li&gt;What can segregation measures capture well? What aspects of segregation are more challenging to measure?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other-resources&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Other Resources&lt;/h2&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Session 14: Population Distribution and Segregation (Session 2)</title>
+      <link>/schedule/session/14-population_segregation_pt2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/schedule/session/14-population_segregation_pt2/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&#34;session-description&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Session Description&lt;/h2&gt;
+&lt;p&gt;In this session, we will begin to work on a lab focused on measures of residential segregation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;before-class&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Before Class&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other-resources&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Other Resources&lt;/h2&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Session 15: Individual Advising and Independent Work</title>
+      <link>/schedule/session/15-individual_advising_pt1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/schedule/session/15-individual_advising_pt1/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&#34;session-description&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Session Description&lt;/h2&gt;
+&lt;p&gt;This week is devoted to individual advising and independent work. There are no course sessions scheduled for today or Thursday. You should use this time to continue working, to take stock of your progress towards your course contract, and to solidify plans for your final project.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;before-class&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Before Class&lt;/h2&gt;
+&lt;p&gt;Professor Greenlee has availability for office hours appointments. If you have not already scheduled an appointment and wish to, please &lt;a href=&#34;https://calendly.com/agreen4/neighborhood-analysis?back=1&amp;amp;month=2021-01&#34;&gt;sign up&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other-resources&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Other Resources&lt;/h2&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Session 16: Individual Advising and Independent Work</title>
+      <link>/schedule/session/16-individual_advising_pt2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/schedule/session/16-individual_advising_pt2/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&#34;session-description&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Session Description&lt;/h2&gt;
+&lt;p&gt;This week is devoted to individual advising and independent work. There are no course sessions scheduled for today. You should use this time to continue working, to take stock of your progress towards your course contract, and to solidify plans for your final project.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;before-class&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Before Class&lt;/h2&gt;
+&lt;p&gt;Professor Greenlee has availability for office hours appointments. If you have not already scheduled an appointment and wish to, please &lt;a href=&#34;https://calendly.com/agreen4/neighborhood-analysis?back=1&amp;amp;month=2021-01&#34;&gt;sign up&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other-resources&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Other Resources&lt;/h2&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Session 17: Measuring Place Opportunity (Session 1)</title>
+      <link>/schedule/session/17-place_opportunity_pt1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/schedule/session/17-place_opportunity_pt1/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&#34;session-description&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Session Description&lt;/h2&gt;
+&lt;p&gt;In this session, we’ll begin to examine opportunity analysis and mapping, which is a strategy used to compare multiple measures of sociodemographic wellbeing to create a single measure of how supportive a place is for economic and social mobility. Opportunity mapping in various forms has been used to craft legal remedies to discrimination and segregation, to design policy interventions, and as a source of information for planning and the allocation of resources.&lt;/p&gt;
+&lt;p&gt;Your readings for today provide a) a contemporary overview of opportunity mapping, and b) a conceptual overview of the application of opportunity mapping by one of it’s originators, john powell.&lt;/p&gt;
+&lt;p&gt;In addition to our discussion of opportunity mapping, we’ll also take a few moments to check in on your final assignment progress, your detailed project description, and more generally about how things are going with the class.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;this-weeks-reflection-questions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;This Week’s Reflection Questions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;What does place opportunity mean to you? What makes a place more (or less) opportune?&lt;/li&gt;
+&lt;li&gt;Are there some universal dimensions of place opportunity? Some that are more specific to certain population groups?&lt;/li&gt;
+&lt;li&gt;What types of practices support opportunity mapping? How can we use the outputs from opportunity mapping excercises for deliberation and policy decision-making?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;before-class&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Before Class&lt;/h2&gt;
+&lt;p&gt;Stromberg, Brian. (2016). &lt;a href=&#34;https://uofi.box.com/s/icccjttbig4mq94nbi123b6x3o33a4zi&#34;&gt;Opportunity Mapping&lt;/a&gt;. National Housing Conference&lt;/p&gt;
+&lt;p&gt;powell, john. (2005). &lt;a href=&#34;https://uofi.box.com/s/59a51ibzzk5sd9b14obvvz7u5l12u07k&#34;&gt;Remedial Phase Expert Report of john powell in Thompson v. HUD&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Please &lt;a href=&#34;/schedule/session/17-Place_Opportunity_pt1_files/Session%2017%20Lab.zip&#34;&gt;download the Session 17 workbook&lt;/a&gt;. We will use this same workbook on Thursday as well.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other-resources&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Other Resources&lt;/h2&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Session 18: Measuring Place Opportunity (Session 2)</title>
+      <link>/schedule/session/18-place_opportunity_pt2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/schedule/session/18-place_opportunity_pt2/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&#34;session-description&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Session Description&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;before-class&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Before Class&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other-resources&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Other Resources&lt;/h2&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Session 19: Crime and Incarceration (Session 1)</title>
+      <link>/schedule/session/19-crime_incarceration_pt1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/schedule/session/19-crime_incarceration_pt1/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&#34;session-description&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Session Description&lt;/h2&gt;
+&lt;p&gt;In this session, we’ll introduce our next theme - crime and incarceration. Crime data are inhrently challenging to effectively analyze. There tends to be a lot of information, but all crimes (and all crime reports) are not created equally. In this session, we’ll explore one strategy used to shift the conversation away from where crimes occur to focus on the neighbothoods where substantial public dollars are being invested in incarcerating residents. We’ll try our hand at performing this analysis in the lab, and will then thtink about some of the implications of what we find, especially as they relate to deliberation and public decision-making.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;before-class&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Before Class&lt;/h2&gt;
+&lt;p&gt;Cooper, Dan. And Ryan Lugalia-Hollan. &lt;a href=&#34;https://chicagosmilliondollarblocks.com&#34;&gt;Chicago’s Million Dollar Blocks&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Please &lt;a href=&#34;/schedule/session/19-Crime_Incarceration_pt1_files/Session%2019%20Lab.zip&#34;&gt;download the Session 19 and 20 workbooks&lt;/a&gt;. We will use the Session 19 notebook on Tuesday and the Session 20 notebook on Thursday.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;this-weeks-reflection-questions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;This Week’s Reflection Questions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The Million Dollar Blocks analytic framework shifts the conversation about crime from one about where crimes occur to one about where public dollars are being spent on incarceration? What are the implications of shifting towards a conversation focused on the public impact and cost of incarceration versus one focused on where offenses occur?&lt;/li&gt;
+&lt;li&gt;In general, neighborhood crime data can be tricky to accurately represent - why might this be the case? What questions do we need to ask about crime reporting in order to effectively analyze and facilitate deliberation using data on were crimes occur?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other-resources&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Other Resources&lt;/h2&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Session 20: Crime and Incarceration (Session 2)</title>
+      <link>/schedule/session/20-crime_incarceration_pt2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/schedule/session/20-crime_incarceration_pt2/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&#34;session-description&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Session Description&lt;/h2&gt;
+&lt;p&gt;In this session, we’ll continue to work with data on crime and incarceration. You’ll spend time interpreting visual representations of where crime is occurring, and will think about how to use spatial joins to summarize this information to census tracts.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;before-class&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Before Class&lt;/h2&gt;
+&lt;p&gt;Please &lt;a href=&#34;/schedule/session/19-Crime_Incarceration_pt1_files/Session%2019%20Lab.zip&#34;&gt;download the Session 19 and 20 workbooks&lt;/a&gt;. We will use the Session 19 notebook on Tuesday and the Session 20 notebook on Thursday.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other-resources&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Other Resources&lt;/h2&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Session 21: The Geography of Eviction (Session 1)</title>
+      <link>/schedule/session/21-covid_cases_pt1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/schedule/session/21-covid_cases_pt1/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&#34;session-description&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Session Description&lt;/h2&gt;
+&lt;p&gt;This week opens up the opportunity to discuss residential evictions within the context of policy analysis, particularly policy that is currently relevant to the question of ongoing impacts of the COVID-19 pandemic and to questions of what recovery looks like.&lt;/p&gt;
+&lt;p&gt;The lab associated with this module focuses on eviction, but is designed to call upon you to act with more autonomy regarding how you pursue the lab content. We’ll break this up over two weeks and three sessions so that you have more time to excercise that autonomy:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tuesday 4/6/2021:&lt;/strong&gt; Data setup and Descriptives&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Thursday 4/8/2021:&lt;/strong&gt; Exploratory Spatial Data Analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tuesday 4/13/2021:&lt;/strong&gt; Independent Work Day&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Thursday 4/15/2021:&lt;/strong&gt; Communicating Results&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For today’s class, we’ll start off by introducing the lab, and also by spending some time thinking about policy questions to ask from a mix of data on eviction rates and covid infection rates.&lt;/p&gt;
+&lt;p&gt;Come prepared with ideas for policy-relevant questions.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;this-weeks-reflection-prompts&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;This Week’s Reflection Prompts&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;What are our ethical responsibilities when analyzing information that is running in near real time? Are there different considerations for how we tell stories?&lt;/li&gt;
+&lt;li&gt;What is the burden of proof for neighborhood level analyses of two disparate kinds of information (for instance, covid infection rates and eviction rates)? What do we need to show to establish validity of our argument or mixing of data? How might we validate our analysis with “on the ground” examples?&lt;/li&gt;
+&lt;li&gt;How do we communicate effectively with non-technical audiences about near real time relationships in our data? What are some effective narrative vehicles or ways of storytelling that connect people to abstract concepts or information?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;before-class&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Before Class&lt;/h2&gt;
+&lt;p&gt;Cunningham, Mary, Ananya Hariharan, and Olivia Fiol. 2021. &lt;a href=&#34;https://www.urban.org/sites/default/files/publication/103453/the-looming-eviction-cliff_0.pdf&#34;&gt;The Looming Eviction Cliff&lt;/a&gt;. Urban Institute.&lt;/p&gt;
+&lt;p&gt;Hepburn, Peter, Renee Louis, and Matthew Desmond. 2020. &lt;a href=&#34;https://sociologicalscience.com/download/vol-7/december/SocSci_v7_649to662.pdf&#34;&gt;Racial and Gender Disparities among Evicted Americans&lt;/a&gt;. &lt;em&gt;Sociological Science 7&lt;/em&gt;: 649-662.&lt;/p&gt;
+&lt;p&gt;Please &lt;a href=&#34;/schedule/session/21-COVID_Cases_pt1_files/Session%2021%20Lab.zip&#34;&gt;download the Session 21 lab notebook&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other-resources&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Other Resources&lt;/h2&gt;
+&lt;p&gt;Layser, Michelle D., Andrew J. Greenlee, Edward W. De Barbieri, Tracy A. Kaye, and Blain G. Saito, &lt;a href=&#34;https://igpa.uillinois.edu/report/policy-spotlight-mitigating-housing-instability-during-covid-19-pandemic&#34;&gt;IGPA Policy Spotlight: Mitigating Housing Instability During the Covid-19 Pandemic&lt;/a&gt; (March 30, 2021).&lt;/p&gt;
+&lt;p&gt;Layser, Michelle D. and De Barbieri, Edward and Greenlee, Andrew and Kaye, Tracy and Saito, Blaine G., &lt;a href=&#34;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3613789&#34;&gt;Mitigating Housing Instability During a Pandemic&lt;/a&gt; (June 15, 2020).&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Session 22: The Geography of Eviction (Session 2)</title>
+      <link>/schedule/session/22-covid_cases_pt2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/schedule/session/22-covid_cases_pt2/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&#34;session-description&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Session Description&lt;/h2&gt;
+&lt;p&gt;We will be taking a pause today.&lt;/p&gt;
+&lt;p&gt;Our zoom class session is cancelled. Instead of working on your lab, use the 80 minutes to go for a walk, take a nap, listen to music, go see the blossoming cherry trees, or call a friend. I am going to adjust the planned lab for tomorrow to refocus some of the content so that you can be prepared for our session next week.&lt;/p&gt;
+&lt;p&gt;I will send further information so that you can be prepared for next Thursday’s session shortly. Please let me know if you have any questions about this adjustment. Please also keep those R and class questions coming on Slack.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;before-class&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Before Class&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other-resources&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Other Resources&lt;/h2&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Session 23: Independent Work Day</title>
+      <link>/schedule/session/23-independent_work/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/schedule/session/23-independent_work/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&#34;session-description&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Session Description&lt;/h2&gt;
+&lt;p&gt;Today is an independent work day - there are no course sessions scheduled for today. You should use this time to continue working, and to take stock of your progress.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;before-class&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Before Class&lt;/h2&gt;
+&lt;p&gt;Professor Greenlee has extended availability for office hours appointments. If you have not already scheduled an appointment and wish to, please &lt;a href=&#34;https://calendly.com/agreen4/neighborhood-analysis?back=1&amp;amp;month=2021-01&#34;&gt;sign up&lt;/a&gt; for an advising appointment.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other-resources&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Other Resources&lt;/h2&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Session 24: The Geography of Eviction (Session 3)</title>
+      <link>/schedule/session/24-covid_cases_pt3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/schedule/session/24-covid_cases_pt3/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&#34;session-description&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Session Description&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;before-class&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Before Class&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other-resources&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Other Resources&lt;/h2&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Session 25: Individual Advising and Independent Work</title>
+      <link>/schedule/session/25-individual_advising_pt1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/schedule/session/25-individual_advising_pt1/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&#34;session-description&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Session Description&lt;/h2&gt;
+&lt;p&gt;This week is devoted to individual advising and independent work. There are no course sessions scheduled for today. You should use this time to continue working on your final project.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;before-class&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Before Class&lt;/h2&gt;
+&lt;p&gt;Professor Greenlee has extended availability for office hours appointments. If you have not already scheduled an appointment and wish to, please &lt;a href=&#34;https://calendly.com/agreen4/neighborhood-analysis?back=1&amp;amp;month=2021-01&#34;&gt;sign up&lt;/a&gt; for an advising appointment.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other-resources&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Other Resources&lt;/h2&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Session 26: Individual Advising and Independent Work</title>
+      <link>/schedule/session/26-individual_advising_pt2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/schedule/session/26-individual_advising_pt2/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&#34;session-description&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Session Description&lt;/h2&gt;
+&lt;p&gt;This week is devoted to individual advising and independent work. There are no course sessions scheduled for today. You should use this time to continue working on your final project.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;before-class&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Before Class&lt;/h2&gt;
+&lt;p&gt;Professor Greenlee has extended availability for office hours appointments. If you have not already scheduled an appointment and wish to, please &lt;a href=&#34;https://calendly.com/agreen4/neighborhood-analysis?back=1&amp;amp;month=2021-01&#34;&gt;sign up&lt;/a&gt; for an advising appointment.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other-resources&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Other Resources&lt;/h2&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Session 27: Final Presentations (Session 1)</title>
+      <link>/schedule/session/27-final_presentations_pt1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/schedule/session/27-final_presentations_pt1/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&#34;session-description&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Session Description&lt;/h2&gt;
+&lt;p&gt;This session is reserved for final presentations. We will talk more about final presentations in class, and eventually the order for today’s presentations will be posted here.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;todays-presenters&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Today’s Presenters&lt;/h2&gt;
+&lt;p&gt;C. Ackerman
+A. Barnes
+T. Dunne
+W. Jeong
+L. Kim
+S. Patel&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Session 28: Final Presentations (Session 2)</title>
+      <link>/schedule/session/28-final_presentations_pt2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/schedule/session/28-final_presentations_pt2/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&#34;session-description&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Session Description&lt;/h2&gt;
+&lt;p&gt;This session is reserved for final presentations. We will talk more about final presentations in class, and eventually the order for today’s presentations will be posted here.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;todays-presenters&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Today’s Presenters&lt;/h2&gt;
+&lt;p&gt;L. Torres Beltran
+A. Banerjee
+R. Barrera
+G. Harrison
+K.H. Lee
+D. Takov&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Session 29: Final Presentations (Session 3) and Course Wrap-Up</title>
+      <link>/schedule/session/29-final_presentations_pt3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/schedule/session/29-final_presentations_pt3/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;div id=&#34;session-description&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Session Description&lt;/h2&gt;
+&lt;p&gt;You made it! This is the final session for Neighborhood Analysis. A portion of this session is reserved for remaining final presentations. In addition, we will discuss what we have covered over the course of the semester, as well as some next steps in your journey as neighborhood analysts.&lt;/p&gt;
+&lt;p&gt;Some questions to seed our discussion:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Are there things that you wish we covered over the course of the semester that we didn’t?&lt;/li&gt;
+&lt;li&gt;Are there ways that Professor Greenlee could have better supported learning (individually and collectively) over the course of the semester?&lt;/li&gt;
+&lt;li&gt;Was there sufficient balance between technical and non-technical content?&lt;/li&gt;
+&lt;li&gt;Were labs and other supporting materials clear? Were there resources or content you wish you had to support your independent learning using this format?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id=&#34;todays-presenters&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Today’s Presenters&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;M. Tullis&lt;/li&gt;
+&lt;li&gt;S. Banerjee&lt;/li&gt;
+&lt;li&gt;E. Dastrup&lt;/li&gt;
+&lt;li&gt;W. Finkelstein&lt;/li&gt;
+&lt;li&gt;F. Hu&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
