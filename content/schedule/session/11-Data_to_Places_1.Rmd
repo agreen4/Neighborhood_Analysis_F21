@@ -31,8 +31,6 @@ Come prepared to spend the course session exploring the neighborhood. We will us
 
 ## During Class
 
-During Class
-
 We will split up into small groups in order to observe elements of the West Urbana Neighborhood (group assignments are below). Working in groups of four or five, you will each be responsible for focusing on one element of observation (you may double up in an area of your choice if you have five in your group):
 
 1. Infrastructure and Environment
@@ -40,12 +38,13 @@ We will split up into small groups in order to observe elements of the West Urba
 3. Health and Wellbeing
 4. Sense of Place
 
-1. In your group, spend 20 minutes walking around the neighborhood, taking in and observing your specific element. Then take 5-10 minutes to write down your overall impressions and any questions you have after this brief exploration.
-2. As a group, pick a block to systematically analyze. Spend 20 minutes observing your specific element as it is reflected on your block. You may want to take pictures, sketch a map, or use other methods to record what you observe.
-3. Spend the remaining 30 minutes comparing notes with your other group members. Record a list of shared questions you have about the block and portions of the neighborhood that you explored. Reflect as a group upon what you were able to observe.
+**Observation 1:** In your group, spend 20 minutes walking around the neighborhood, taking in and observing your specific element. Then take 5-10 minutes to write down your overall impressions and any questions you have after this brief exploration.
+
+**Observation 2:** As a group, pick a block to systematically analyze. Spend 20 minutes observing your specific element as it is reflected on your block. You may want to take pictures, sketch a map, or use other methods to record what you observe.
+
+**Observation 3:** Spend the remaining 30 minutes comparing notes with your other group members. Record a list of shared questions you have about the block and portions of the neighborhood that you explored. Reflect as a group upon what you were able to observe.
 
 At the end of our class time you can leave. Please bring your individual and shared reflections and observational materials to Thursday’s lab session.
-
 
 ## Group Assignments
 
@@ -121,5 +120,7 @@ At the end of our class time you can leave. Please bring your individual and sha
 4. Sharanya V.
 
 ## Other Resources
+
 [Urban Institute: Observation](https://www.urban.org/research/data-methods/data-collection/observation)
+
 [Participant Observation and the Development of Urban Neighborhood Policy](https://files.eric.ed.gov/fulltext/ED068597.pdf)
