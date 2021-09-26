@@ -1,13 +1,13 @@
 ---
-linktitle: "10 From Data to Places (Part 2)"
+linktitle: "12 From Data to Places (Part 2)"
 menu:
   session:
     parent: Course Sessions
-    weight: 10
-title: 'Session 10 From Data to Places (Part 2)'
+    weight: 12
+title: 'Session 12 From Data to Places (Part 2)'
 toc: true
 type: docs
-weight: 10
+weight: 12
 ---
 
 ## Session Description
