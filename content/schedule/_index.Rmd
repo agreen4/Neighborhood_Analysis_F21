@@ -28,8 +28,8 @@ Please find descriptions for our course sessions here - you will also find resou
 | [Session 10](session/10-finding_the_story) | September 23 | Finding the Story in Data |
 | [Session 11](session/11-data_to_places_1) | September 28 | From Data to Places |
 | [Session 12](session/12-data_to_places_2) | September 30 | From Data to Places |
-| [Session 13](session/13-population_projection_1) | October 5 | Population Projections and Forecasts |
-| [Session 14](session/14-population_projection_2) | October 7 | Population Projections and Forecasts |
+| [Session 13](session/13-population_projection_1) | October 5 | Population and Census Data |
+| [Session 14](session/14-population_projection_2) | October 7 | Population and Census Data |
 | [Session 15](session/15-individual_advising_1) | October 12 | Individual Advising and Independent Work |
 | [Session 16](session/16-individual_advising_2) | October 14 | Individual Advising and Independent Work |
 | [Session 17](session/17-population_segregation_1) | October 19 | Population Distributions and Segregation |
