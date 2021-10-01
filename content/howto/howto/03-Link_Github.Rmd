@@ -29,7 +29,7 @@ All three of these rationales are important motivations within the context of ou
 
 RStudio has GitHub functionality built right in, which is very handy for integrating version control into your R workflow. Getting RStudio set up to work with GitHub can be a bit tedious, but once it is set up, it is straightforward to use. An outstanding resource to help you get GitHub integrated with R is [Happy Git and GitHub for the useR](https://happygitwithr.com). As the authors mention in a section titled appropriately [*Is It Going to Hurt?*](https://happygitwithr.com/big-picture.html#is-it-going-to-hurt), integrating Git changes your workflow. However, since many of you are just starting to learn R, making this part of your typical workflow early on will be challenging, but less of a change from other ways of doing things. 
 
-Assuming you've already got R and RStudio installed on your system and have already set up a GitHub account, you can start here:
+Assuming you've already got R and RStudio installed on your system and have already set up a GitHub account, start here:
 
 1. [Check](https://happygitwithr.com/install-git.html#git-already-installed) to see if Git is installed on your computer, and if it isnt, [Install Git](https://happygitwithr.com/install-git.html#install-git).
 2. [Associate](https://happygitwithr.com/hello-git.html) git on your computer with your GitHub account.
