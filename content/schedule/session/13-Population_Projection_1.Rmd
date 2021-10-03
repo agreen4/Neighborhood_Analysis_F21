@@ -24,7 +24,7 @@ Please note that your Place Background Memorandum is now due on Monday the 4th b
 
 Please register for a [U.S. Census Bureau API Key](https://api.census.gov/data/key_signup.html)
 
-Please [download the lab files](/schedule/session/13-Population_Projection_1/13_Population.zip). We will be working in the same lab notebook on Thursday.
+Please [download the lab files](/schedule/session/13-Population_Projection_1_files/13_Population_Census.zip). We will be working in the same lab notebook on Thursday.
 
 ## This Week's Reflection Prompt
 
