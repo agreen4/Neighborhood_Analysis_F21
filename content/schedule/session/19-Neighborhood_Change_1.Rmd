@@ -11,10 +11,17 @@ weight: 19
 ---
 
 ## Session Description
+In this session, we'll begin exploring the measurement of neighborhood change as well as underlying theories of transition.
 
 ## This Week's Reflection Prompt
 
+- What role should planners take in managing neighborhood change? 
+- How do planners balance changes across multiple neighborhoods?
+
 ## Before Class
+[WBEZ: There Goes the Neighborhood](https://interactive.wbez.org/gentrification/)
+
+[The Socioeconomic Change of Chicago's Community Areas (1970-2010)](https://voorheescenter.red.uic.edu/wp-content/uploads/sites/122/2017/10/Voorhees-Center-Gentrification-Index-Oct-14.pdf)
 
 ## Slides
 
