@@ -11,6 +11,7 @@ weight: 19
 ---
 
 ## Session Description
+
 In this session, we'll begin exploring the measurement of neighborhood change as well as underlying theories of transition.
 
 ## This Week's Reflection Prompt
