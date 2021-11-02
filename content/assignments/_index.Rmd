@@ -23,5 +23,5 @@ knitr::opts_chunk$set(echo = TRUE)
 | [Place Selection Memorandum](assignments/02_place_selection/) |September 10, 2021 | Upload to Github |
 | [Place Background Memorandum](assignments/03_place_background/) |October 1, 2021 | Upload to Github |
 | [Population Memorandum](assignments/04_population/) |October 22, 2021| Upload to Github |
-| [Policy Analysis Memorandum](assignments/05_policy/) |November 12, 2021| Upload to Github |
+| [Policy Analysis Memorandum](assignments/05_policy/) |November 19, 2021| Upload to Github |
 | [Final Analysis](assignments/06_term_assignment/) |December 10, 2021| Upload to Github |

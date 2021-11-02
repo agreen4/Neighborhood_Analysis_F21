@@ -36,12 +36,12 @@ Please find descriptions for our course sessions here - you will also find resou
 | [Session 18](session/18-population_segregation_2) | October 21 | Population Distributions and Segregation |
 | [Session 19](session/19-neighborhood_change_1) | October 26 | Neighborhood Change |
 | [Session 20](session/20-neighborhood_change_2) | October 28 | Neighborhood Change |
-| [Session 21](session/21-place_opportunity_1) | November 2 | Measuring Place Opportunity |
-| [Session 22](session/22-place_opportunity_2) | November 4 | Measuring Place Opportunity |
-| [Session 23](session/23-crime_incarceration_1) | November 9 | Crime and Incarceration |
-| [Session 24](session/24-crime_incarceration_2) | November 11 | Crime and Incarceration |
-| [Session 25](session/25-eviction_1) | November 16 | The Geography of Eviction |
-| [Session 26](session/26-eviction_2) | November 18 | The Geography of Eviction |
+| [Session 21](session/21-neighborhood_change_2) | November 2 | Neighborhood Change |
+| [Session 22](session/22-neighborhood_change_2) | November 4 | Neighborhood Change |
+| [Session 23](session/21-place_opportunity_1) | November 2 | Measuring Place Opportunity |
+| [Session 24](session/22-place_opportunity_2) | November 4 | Measuring Place Opportunity |
+| [Session 25](session/23-crime_incarceration_1) | November 9 | Crime and Incarceration |
+| [Session 26](session/24-crime_incarceration_2) | November 11 | Crime and Incarceration |
 ||November 23|Fall Break|
 ||November 25|Fall Break|
 | [Session 27](session/27-peer_review_1) | November 30 | Peer Review and Reflection |

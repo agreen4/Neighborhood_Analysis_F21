@@ -10,7 +10,7 @@ type: docs
 weight: 5
 ---
 
-**Due Date:** November 12, 2021 | **Submit Via:** Upload to Github
+**Due Date:** November 19, 2021 | **Submit Via:** Upload to Github
 
 ## Introduction
 
