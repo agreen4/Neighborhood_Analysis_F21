@@ -40,8 +40,8 @@ Please find descriptions for our course sessions here - you will also find resou
 | [Session 22](session/22-neighborhood_change_2) | November 4 | Neighborhood Change |
 | [Session 23](session/21-place_opportunity_1) | November 2 | Measuring Place Opportunity |
 | [Session 24](session/22-place_opportunity_2) | November 4 | Measuring Place Opportunity |
-| [Session 25](session/23-crime_incarceration_1) | November 9 | Crime and Incarceration |
-| [Session 26](session/24-crime_incarceration_2) | November 11 | Crime and Incarceration |
+| [Session 25](session/23-crime_incarceration_1) | November 16 | Crime and Incarceration |
+| [Session 26](session/24-crime_incarceration_2) | November 18 | Crime and Incarceration |
 ||November 23|Fall Break|
 ||November 25|Fall Break|
 | [Session 27](session/27-peer_review_1) | November 30 | Peer Review and Reflection |
