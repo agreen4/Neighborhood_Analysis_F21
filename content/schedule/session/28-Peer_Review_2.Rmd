@@ -12,8 +12,32 @@ weight: 28
 
 ## Session Description
 
+In this session, we'll continue building upon the peer review work which you started in our last course session.
+
 ## Before Class
 
+You should come with written feedback to share on your peer review team members' work, and should be prepared to receive feedback on your own work. Please also come prepared to start incorporating that feedback into your work products.
+
+Your feedback for each of your teammates should build upon the following prompts:
+
+- Based upon what you heard in Tuesday's class, what's the main message or point of their final project?
+
+- Who do you see as the target audience for their report?
+
+- What insights will this work provide?
+
+Thinking about the work component they shared with you...
+
+- What works well about this component?
+
+- What do you think could be improved about this component?
+
+- What questions do you have after reviewing this component?
+
+Please bring in written feedback to share and come prepared to discuss your feedback in your groups.
+
 ## Slides
+
+There are no slides for today's class.
 
 ## Other Resources
